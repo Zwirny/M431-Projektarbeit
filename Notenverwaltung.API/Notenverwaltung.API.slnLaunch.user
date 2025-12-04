@@ -1,0 +1,15 @@
+[
+  {
+    "Name": "StartAll",
+    "Projects": [
+      {
+        "Path": "Notenverwaltung.API\\Notenverwaltung.API.csproj",
+        "Action": "Start"
+      },
+      {
+        "Path": "Notenverwaltung.Web\\Notenverwaltung.Web.csproj",
+        "Action": "Start"
+      }
+    ]
+  }
+]

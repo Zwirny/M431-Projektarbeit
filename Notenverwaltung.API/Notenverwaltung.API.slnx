@@ -1,0 +1,5 @@
+<Solution>
+  <Project Path="Notenverwaltung.API/Notenverwaltung.API.csproj" />
+  <Project Path="Notenverwaltung.Shared/Notenverwaltung.Shared.csproj" />
+  <Project Path="Notenverwaltung.Web/Notenverwaltung.Web.csproj" />
+</Solution>
