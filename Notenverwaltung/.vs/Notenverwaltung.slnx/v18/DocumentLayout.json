@@ -1,7 +1,52 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\SandroZwyer\\OneDrive - bits ag\\Dokumente\\.Schule\\GIBZ\\Informatik\\M431\\M431-Projektarbeit\\Notenverwaltung\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{74747F1D-1057-C601-F1A6-E9A44B060DFD}|Notenverwaltung.Web\\Notenverwaltung.Web.csproj|c:\\users\\sandrozwyer\\onedrive - bits ag\\dokumente\\.schule\\gibz\\informatik\\m431\\m431-projektarbeit\\notenverwaltung\\notenverwaltung.web\\pages\\verwaltung.razor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{74747F1D-1057-C601-F1A6-E9A44B060DFD}|Notenverwaltung.Web\\Notenverwaltung.Web.csproj|solutionrelative:notenverwaltung.web\\pages\\verwaltung.razor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{74747F1D-1057-C601-F1A6-E9A44B060DFD}|Notenverwaltung.Web\\Notenverwaltung.Web.csproj|c:\\users\\sandrozwyer\\onedrive - bits ag\\dokumente\\.schule\\gibz\\informatik\\m431\\m431-projektarbeit\\notenverwaltung\\notenverwaltung.web\\pages\\verwaltung.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{74747F1D-1057-C601-F1A6-E9A44B060DFD}|Notenverwaltung.Web\\Notenverwaltung.Web.csproj|solutionrelative:notenverwaltung.web\\pages\\verwaltung.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{74747F1D-1057-C601-F1A6-E9A44B060DFD}|Notenverwaltung.Web\\Notenverwaltung.Web.csproj|c:\\users\\sandrozwyer\\onedrive - bits ag\\dokumente\\.schule\\gibz\\informatik\\m431\\m431-projektarbeit\\notenverwaltung\\notenverwaltung.web\\pages\\login.razor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{74747F1D-1057-C601-F1A6-E9A44B060DFD}|Notenverwaltung.Web\\Notenverwaltung.Web.csproj|solutionrelative:notenverwaltung.web\\pages\\login.razor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D2CF5828-1C22-A53F-4FD5-C96C878DD541}|Notenverwaltung.Shared\\Notenverwaltung.Shared.csproj|c:\\users\\sandrozwyer\\onedrive - bits ag\\dokumente\\.schule\\gibz\\informatik\\m431\\m431-projektarbeit\\notenverwaltung\\notenverwaltung.shared\\notenverwaltung.shared.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{D2CF5828-1C22-A53F-4FD5-C96C878DD541}|Notenverwaltung.Shared\\Notenverwaltung.Shared.csproj|solutionrelative:notenverwaltung.shared\\notenverwaltung.shared.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{74747F1D-1057-C601-F1A6-E9A44B060DFD}|Notenverwaltung.Web\\Notenverwaltung.Web.csproj|c:\\users\\sandrozwyer\\onedrive - bits ag\\dokumente\\.schule\\gibz\\informatik\\m431\\m431-projektarbeit\\notenverwaltung\\notenverwaltung.web\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{74747F1D-1057-C601-F1A6-E9A44B060DFD}|Notenverwaltung.Web\\Notenverwaltung.Web.csproj|solutionrelative:notenverwaltung.web\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{74747F1D-1057-C601-F1A6-E9A44B060DFD}|Notenverwaltung.Web\\Notenverwaltung.Web.csproj|c:\\users\\sandrozwyer\\onedrive - bits ag\\dokumente\\.schule\\gibz\\informatik\\m431\\m431-projektarbeit\\notenverwaltung\\notenverwaltung.web\\services\\customhttphandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{74747F1D-1057-C601-F1A6-E9A44B060DFD}|Notenverwaltung.Web\\Notenverwaltung.Web.csproj|solutionrelative:notenverwaltung.web\\services\\customhttphandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{74747F1D-1057-C601-F1A6-E9A44B060DFD}|Notenverwaltung.Web\\Notenverwaltung.Web.csproj|c:\\users\\sandrozwyer\\onedrive - bits ag\\dokumente\\.schule\\gibz\\informatik\\m431\\m431-projektarbeit\\notenverwaltung\\notenverwaltung.web\\services\\authresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{74747F1D-1057-C601-F1A6-E9A44B060DFD}|Notenverwaltung.Web\\Notenverwaltung.Web.csproj|solutionrelative:notenverwaltung.web\\services\\authresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{74747F1D-1057-C601-F1A6-E9A44B060DFD}|Notenverwaltung.Web\\Notenverwaltung.Web.csproj|c:\\users\\sandrozwyer\\onedrive - bits ag\\dokumente\\.schule\\gibz\\informatik\\m431\\m431-projektarbeit\\notenverwaltung\\notenverwaltung.web\\services\\abstract\\iauthservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{74747F1D-1057-C601-F1A6-E9A44B060DFD}|Notenverwaltung.Web\\Notenverwaltung.Web.csproj|solutionrelative:notenverwaltung.web\\services\\abstract\\iauthservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{74747F1D-1057-C601-F1A6-E9A44B060DFD}|Notenverwaltung.Web\\Notenverwaltung.Web.csproj|c:\\users\\sandrozwyer\\onedrive - bits ag\\dokumente\\.schule\\gibz\\informatik\\m431\\m431-projektarbeit\\notenverwaltung\\notenverwaltung.web\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{74747F1D-1057-C601-F1A6-E9A44B060DFD}|Notenverwaltung.Web\\Notenverwaltung.Web.csproj|solutionrelative:notenverwaltung.web\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{74747F1D-1057-C601-F1A6-E9A44B060DFD}|Notenverwaltung.Web\\Notenverwaltung.Web.csproj|c:\\users\\sandrozwyer\\onedrive - bits ag\\dokumente\\.schule\\gibz\\informatik\\m431\\m431-projektarbeit\\notenverwaltung\\notenverwaltung.web\\layout\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{74747F1D-1057-C601-F1A6-E9A44B060DFD}|Notenverwaltung.Web\\Notenverwaltung.Web.csproj|solutionrelative:notenverwaltung.web\\layout\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{74747F1D-1057-C601-F1A6-E9A44B060DFD}|Notenverwaltung.Web\\Notenverwaltung.Web.csproj|c:\\users\\sandrozwyer\\onedrive - bits ag\\dokumente\\.schule\\gibz\\informatik\\m431\\m431-projektarbeit\\notenverwaltung\\notenverwaltung.web\\layout\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{74747F1D-1057-C601-F1A6-E9A44B060DFD}|Notenverwaltung.Web\\Notenverwaltung.Web.csproj|solutionrelative:notenverwaltung.web\\layout\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,11 +54,128 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Verwaltung.razor.cs",
+              "DocumentMoniker": "C:\\Users\\SandroZwyer\\OneDrive - bits ag\\Dokumente\\.Schule\\GIBZ\\Informatik\\M431\\M431-Projektarbeit\\Notenverwaltung\\Notenverwaltung.Web\\Pages\\Verwaltung.razor.cs",
+              "RelativeDocumentMoniker": "Notenverwaltung.Web\\Pages\\Verwaltung.razor.cs",
+              "ToolTip": "C:\\Users\\SandroZwyer\\OneDrive - bits ag\\Dokumente\\.Schule\\GIBZ\\Informatik\\M431\\M431-Projektarbeit\\Notenverwaltung\\Notenverwaltung.Web\\Pages\\Verwaltung.razor.cs",
+              "RelativeToolTip": "Notenverwaltung.Web\\Pages\\Verwaltung.razor.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-04T09:26:08.794Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Verwaltung.razor",
+              "DocumentMoniker": "C:\\Users\\SandroZwyer\\OneDrive - bits ag\\Dokumente\\.Schule\\GIBZ\\Informatik\\M431\\M431-Projektarbeit\\Notenverwaltung\\Notenverwaltung.Web\\Pages\\Verwaltung.razor",
+              "RelativeDocumentMoniker": "Notenverwaltung.Web\\Pages\\Verwaltung.razor",
+              "ToolTip": "C:\\Users\\SandroZwyer\\OneDrive - bits ag\\Dokumente\\.Schule\\GIBZ\\Informatik\\M431\\M431-Projektarbeit\\Notenverwaltung\\Notenverwaltung.Web\\Pages\\Verwaltung.razor",
+              "RelativeToolTip": "Notenverwaltung.Web\\Pages\\Verwaltung.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-04T09:24:37.312Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Notenverwaltung.Shared",
+              "DocumentMoniker": "C:\\Users\\SandroZwyer\\OneDrive - bits ag\\Dokumente\\.Schule\\GIBZ\\Informatik\\M431\\M431-Projektarbeit\\Notenverwaltung\\Notenverwaltung.Shared\\Notenverwaltung.Shared.csproj",
+              "RelativeDocumentMoniker": "Notenverwaltung.Shared\\Notenverwaltung.Shared.csproj",
+              "ToolTip": "C:\\Users\\SandroZwyer\\OneDrive - bits ag\\Dokumente\\.Schule\\GIBZ\\Informatik\\M431\\M431-Projektarbeit\\Notenverwaltung\\Notenverwaltung.Shared\\Notenverwaltung.Shared.csproj",
+              "RelativeToolTip": "Notenverwaltung.Shared\\Notenverwaltung.Shared.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-12-04T09:20:52.527Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "CustomHttpHandler.cs",
+              "DocumentMoniker": "C:\\Users\\SandroZwyer\\OneDrive - bits ag\\Dokumente\\.Schule\\GIBZ\\Informatik\\M431\\M431-Projektarbeit\\Notenverwaltung\\Notenverwaltung.Web\\Services\\CustomHttpHandler.cs",
+              "RelativeDocumentMoniker": "Notenverwaltung.Web\\Services\\CustomHttpHandler.cs",
+              "ToolTip": "C:\\Users\\SandroZwyer\\OneDrive - bits ag\\Dokumente\\.Schule\\GIBZ\\Informatik\\M431\\M431-Projektarbeit\\Notenverwaltung\\Notenverwaltung.Web\\Services\\CustomHttpHandler.cs",
+              "RelativeToolTip": "Notenverwaltung.Web\\Services\\CustomHttpHandler.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAQwB0AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-04T09:14:03.803Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\SandroZwyer\\OneDrive - bits ag\\Dokumente\\.Schule\\GIBZ\\Informatik\\M431\\M431-Projektarbeit\\Notenverwaltung\\Notenverwaltung.Web\\Program.cs",
+              "RelativeDocumentMoniker": "Notenverwaltung.Web\\Program.cs",
+              "ToolTip": "C:\\Users\\SandroZwyer\\OneDrive - bits ag\\Dokumente\\.Schule\\GIBZ\\Informatik\\M431\\M431-Projektarbeit\\Notenverwaltung\\Notenverwaltung.Web\\Program.cs",
+              "RelativeToolTip": "Notenverwaltung.Web\\Program.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAowBsAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-04T09:11:51.753Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "AuthResponse.cs",
+              "DocumentMoniker": "C:\\Users\\SandroZwyer\\OneDrive - bits ag\\Dokumente\\.Schule\\GIBZ\\Informatik\\M431\\M431-Projektarbeit\\Notenverwaltung\\Notenverwaltung.Web\\Services\\AuthResponse.cs",
+              "RelativeDocumentMoniker": "Notenverwaltung.Web\\Services\\AuthResponse.cs",
+              "ToolTip": "C:\\Users\\SandroZwyer\\OneDrive - bits ag\\Dokumente\\.Schule\\GIBZ\\Informatik\\M431\\M431-Projektarbeit\\Notenverwaltung\\Notenverwaltung.Web\\Services\\AuthResponse.cs",
+              "RelativeToolTip": "Notenverwaltung.Web\\Services\\AuthResponse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-04T09:11:13.619Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "IAuthService.cs",
+              "DocumentMoniker": "C:\\Users\\SandroZwyer\\OneDrive - bits ag\\Dokumente\\.Schule\\GIBZ\\Informatik\\M431\\M431-Projektarbeit\\Notenverwaltung\\Notenverwaltung.Web\\Services\\Abstract\\IAuthService.cs",
+              "RelativeDocumentMoniker": "Notenverwaltung.Web\\Services\\Abstract\\IAuthService.cs",
+              "ToolTip": "C:\\Users\\SandroZwyer\\OneDrive - bits ag\\Dokumente\\.Schule\\GIBZ\\Informatik\\M431\\M431-Projektarbeit\\Notenverwaltung\\Notenverwaltung.Web\\Services\\Abstract\\IAuthService.cs",
+              "RelativeToolTip": "Notenverwaltung.Web\\Services\\Abstract\\IAuthService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-04T09:01:40.18Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Login.razor.cs",
+              "DocumentMoniker": "C:\\Users\\SandroZwyer\\OneDrive - bits ag\\Dokumente\\.Schule\\GIBZ\\Informatik\\M431\\M431-Projektarbeit\\Notenverwaltung\\Notenverwaltung.Web\\Pages\\Login.razor.cs",
+              "RelativeDocumentMoniker": "Notenverwaltung.Web\\Pages\\Login.razor.cs",
+              "ToolTip": "C:\\Users\\SandroZwyer\\OneDrive - bits ag\\Dokumente\\.Schule\\GIBZ\\Informatik\\M431\\M431-Projektarbeit\\Notenverwaltung\\Notenverwaltung.Web\\Pages\\Login.razor.cs",
+              "RelativeToolTip": "Notenverwaltung.Web\\Pages\\Login.razor.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-04T08:58:14.885Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "AuthService.cs",
+              "DocumentMoniker": "C:\\Users\\SandroZwyer\\OneDrive - bits ag\\Dokumente\\.Schule\\GIBZ\\Informatik\\M431\\M431-Projektarbeit\\Notenverwaltung\\Notenverwaltung.Web\\Services\\AuthService.cs",
+              "RelativeDocumentMoniker": "Notenverwaltung.Web\\Services\\AuthService.cs",
+              "ToolTip": "C:\\Users\\SandroZwyer\\OneDrive - bits ag\\Dokumente\\.Schule\\GIBZ\\Informatik\\M431\\M431-Projektarbeit\\Notenverwaltung\\Notenverwaltung.Web\\Services\\AuthService.cs",
+              "RelativeToolTip": "Notenverwaltung.Web\\Services\\AuthService.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAYwCEAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-04T09:00:55.164Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Bookmark",
@@ -42,6 +204,32 @@
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{40ea2e6b-2121-4bb8-a43e-c83c04b51041}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "MainLayout.razor",
+              "DocumentMoniker": "C:\\Users\\SandroZwyer\\OneDrive - bits ag\\Dokumente\\.Schule\\GIBZ\\Informatik\\M431\\M431-Projektarbeit\\Notenverwaltung\\Notenverwaltung.Web\\Layout\\MainLayout.razor",
+              "RelativeDocumentMoniker": "Notenverwaltung.Web\\Layout\\MainLayout.razor",
+              "ToolTip": "C:\\Users\\SandroZwyer\\OneDrive - bits ag\\Dokumente\\.Schule\\GIBZ\\Informatik\\M431\\M431-Projektarbeit\\Notenverwaltung\\Notenverwaltung.Web\\Layout\\MainLayout.razor",
+              "RelativeToolTip": "Notenverwaltung.Web\\Layout\\MainLayout.razor",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAACAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-04T07:24:10.12Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "NavMenu.razor",
+              "DocumentMoniker": "C:\\Users\\SandroZwyer\\OneDrive - bits ag\\Dokumente\\.Schule\\GIBZ\\Informatik\\M431\\M431-Projektarbeit\\Notenverwaltung\\Notenverwaltung.Web\\Layout\\NavMenu.razor",
+              "RelativeDocumentMoniker": "Notenverwaltung.Web\\Layout\\NavMenu.razor",
+              "ToolTip": "C:\\Users\\SandroZwyer\\OneDrive - bits ag\\Dokumente\\.Schule\\GIBZ\\Informatik\\M431\\M431-Projektarbeit\\Notenverwaltung\\Notenverwaltung.Web\\Layout\\NavMenu.razor",
+              "RelativeToolTip": "Notenverwaltung.Web\\Layout\\NavMenu.razor",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABAAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-04T07:22:29.093Z",
+              "EditorCaption": ""
             }
           ]
         }
