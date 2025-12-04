@@ -1,6 +1,10 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\Notenverwaltung",
+    "\\Notenverwaltung\\Notenverwaltung.Shared",
+    "\\Notenverwaltung\\Notenverwaltung.Web"
   ],
+  "SelectedNode": "\\Notenverwaltung\\Notenverwaltung.slnx",
   "PreviewInSolutionExplorer": false
 }

@@ -14,4 +14,10 @@
     <ProjectReference Include="..\Notenverwaltung.Shared\Notenverwaltung.Shared.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Controllers\" />
+    <Folder Include="DataAccess\abstract\" />
+    <Folder Include="Service\abstract\" />
+  </ItemGroup>
+
 </Project>
