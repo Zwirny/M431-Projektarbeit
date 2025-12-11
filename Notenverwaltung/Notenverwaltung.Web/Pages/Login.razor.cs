@@ -1,5 +1,6 @@
 ﻿using Microsoft.AspNetCore.Components;
 using Microsoft.JSInterop;
+using Notenverwaltung.Web.Services.Abstract;
 
 namespace Notenverwaltung.Web.Pages
 {
@@ -16,6 +17,7 @@ namespace Notenverwaltung.Web.Pages
 
         private async Task HandleLogin()
         {
+            
             var response = await _authService.LoginAsync(loginModel);
 
             if (response != null)

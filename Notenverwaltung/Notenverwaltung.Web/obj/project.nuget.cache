@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "XUPlQ2v0a5M=",
+  "dgSpecHash": "tspAxUo4ANU=",
   "success": true,
   "projectFilePath": "C:\\Users\\SandroZwyer\\OneDrive - bits ag\\Dokumente\\.Schule\\GIBZ\\Informatik\\M431\\M431-Projektarbeit\\Notenverwaltung\\Notenverwaltung.Web\\Notenverwaltung.Web.csproj",
   "expectedPackageFiles": [
@@ -29,7 +29,7 @@
     "C:\\Users\\SandroZwyer\\.nuget\\packages\\microsoft.jsinterop\\8.0.20\\microsoft.jsinterop.8.0.20.nupkg.sha512",
     "C:\\Users\\SandroZwyer\\.nuget\\packages\\microsoft.jsinterop.webassembly\\8.0.20\\microsoft.jsinterop.webassembly.8.0.20.nupkg.sha512",
     "C:\\Users\\SandroZwyer\\.nuget\\packages\\microsoft.net.illink.tasks\\8.0.22\\microsoft.net.illink.tasks.8.0.22.nupkg.sha512",
-    "C:\\Users\\SandroZwyer\\.nuget\\packages\\microsoft.net.sdk.webassembly.pack\\10.0.0\\microsoft.net.sdk.webassembly.pack.10.0.0.nupkg.sha512",
+    "C:\\Users\\SandroZwyer\\.nuget\\packages\\microsoft.net.sdk.webassembly.pack\\10.0.1\\microsoft.net.sdk.webassembly.pack.10.0.1.nupkg.sha512",
     "C:\\Users\\SandroZwyer\\.nuget\\packages\\system.io.pipelines\\8.0.0\\system.io.pipelines.8.0.0.nupkg.sha512",
     "C:\\Users\\SandroZwyer\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\8.0.22\\microsoft.windowsdesktop.app.ref.8.0.22.nupkg.sha512",
     "C:\\Users\\SandroZwyer\\.nuget\\packages\\microsoft.netcore.app.ref\\8.0.22\\microsoft.netcore.app.ref.8.0.22.nupkg.sha512",
