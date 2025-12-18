@@ -13,6 +13,16 @@ namespace Notenverwaltung.API
         {
             var builder = WebApplication.CreateBuilder(args);
 
+            builder.Services.AddCors(options =>
+            {
+                options.AddPolicy("AllowSpecificOrigin", policy =>
+                {
+                    policy.WithOrigins("https://localhost:7233") // URL Blazor Client
+                          .AllowAnyMethod()                    // Allows all HTTP-Methods
+                          .AllowAnyHeader();                   // Allows all custom Headers
+                });
+            });
+
             // Add services to the container.
 
             builder.Services.AddControllers();
@@ -94,6 +104,8 @@ namespace Notenverwaltung.API
             }
 
             app.UseHttpsRedirection();
+
+            app.UseCors("AllowSpecificOrigin"); // Activates the CORS-Policy
 
             app.UseAuthentication();
 

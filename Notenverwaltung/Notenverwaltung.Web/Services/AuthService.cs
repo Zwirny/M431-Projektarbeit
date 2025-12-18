@@ -1,4 +1,5 @@
-﻿using Notenverwaltung.Web.Services.Abstract;
+﻿using Notenverwaltung.Shared.Dtos.UserDtos;
+using Notenverwaltung.Web.Services.Abstract;
 using System.Net.Http.Json;
 
 namespace Notenverwaltung.Web.Services
@@ -11,9 +12,9 @@ namespace Notenverwaltung.Web.Services
             _httpClient = httpClient;
         }
 
-        public async Task<AuthResponse?> RegisterAsync(LoginRequestDTO registerModel)
+        public async Task<AuthResponse?> RegisterAsync(RegisterDto registerModel)
         {
-            var response = await _httpClient.PostAsJsonAsync("api/Authentication/register", registerModel);
+            var response = await _httpClient.PostAsJsonAsync("api/Auth/register", registerModel);
 
             if (response.IsSuccessStatusCode)
             {
@@ -22,9 +23,9 @@ namespace Notenverwaltung.Web.Services
             }
             return null;
         }
-        public async Task<AuthResponse?> LoginAsync(LoginRequestDTO loginModel)
+        public async Task<AuthResponse?> LoginAsync(LoginDto loginModel)
         {
-            var response = await _httpClient.PostAsJsonAsync("api/Authentication/login", loginModel);
+            var response = await _httpClient.PostAsJsonAsync("api/Auth/login", loginModel);
 
             if (response.IsSuccessStatusCode)
             {

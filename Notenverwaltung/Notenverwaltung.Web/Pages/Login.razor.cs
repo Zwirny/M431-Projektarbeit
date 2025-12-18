@@ -1,12 +1,13 @@
 ﻿using Microsoft.AspNetCore.Components;
 using Microsoft.JSInterop;
+using Notenverwaltung.Shared.Dtos.UserDtos;
 using Notenverwaltung.Web.Services.Abstract;
 
 namespace Notenverwaltung.Web.Pages
 {
     public partial class Login
     {
-        private LoginRequestDTO loginModel = new();
+        private LoginDto loginModel = new();
         private string? errorMessage;
 
         [Inject]
