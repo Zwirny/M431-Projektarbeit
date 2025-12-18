@@ -1,15 +1,21 @@
 [
   {
-    "ContainingType": "Notenverwaltung.API.Controllers.WeatherForecastController",
-    "Method": "Get",
-    "RelativePath": "WeatherForecast",
-    "HttpMethod": "GET",
+    "ContainingType": "Notenverwaltung.API.Controllers.AuthController",
+    "Method": "login",
+    "RelativePath": "api/Auth/login",
+    "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,
-    "Parameters": [],
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "Notenverwaltung.Shared.Dtos.UserDtos.LoginDto",
+        "IsRequired": true
+      }
+    ],
     "ReturnTypes": [
       {
-        "Type": "System.Collections.Generic.IEnumerable\u00601[[Notenverwaltung.API.WeatherForecast, Notenverwaltung.API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "Type": "Notenverwaltung.Shared.Dtos.UserDtos.AuthReciveDto",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -17,7 +23,32 @@
         ],
         "StatusCode": 200
       }
+    ]
+  },
+  {
+    "ContainingType": "Notenverwaltung.API.Controllers.AuthController",
+    "Method": "register",
+    "RelativePath": "api/Auth/register",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "Notenverwaltung.Shared.Dtos.UserDtos.RegisterDto",
+        "IsRequired": true
+      }
     ],
-    "EndpointName": "GetWeatherForecast"
+    "ReturnTypes": [
+      {
+        "Type": "Notenverwaltung.Shared.Dtos.UserDtos.AuthReciveDto",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
   }
 ]
