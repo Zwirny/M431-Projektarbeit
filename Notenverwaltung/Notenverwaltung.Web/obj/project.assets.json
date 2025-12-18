@@ -427,7 +427,11 @@
           "build/Microsoft.NET.ILLink.Tasks.props": {}
         }
       },
+<<<<<<< HEAD
       "Microsoft.NET.Sdk.WebAssembly.Pack/9.0.9": {
+=======
+      "Microsoft.NET.Sdk.WebAssembly.Pack/10.0.1": {
+>>>>>>> 4206f333ea13815c311453edd46ea5ba096965e0
         "type": "package",
         "build": {
           "build/Microsoft.NET.Sdk.WebAssembly.Pack.props": {},
@@ -887,7 +891,11 @@
           "build/Microsoft.NET.ILLink.Tasks.props": {}
         }
       },
+<<<<<<< HEAD
       "Microsoft.NET.Sdk.WebAssembly.Pack/9.0.9": {
+=======
+      "Microsoft.NET.Sdk.WebAssembly.Pack/10.0.1": {
+>>>>>>> 4206f333ea13815c311453edd46ea5ba096965e0
         "type": "package",
         "build": {
           "build/Microsoft.NET.Sdk.WebAssembly.Pack.props": {},
@@ -1784,10 +1792,17 @@
         "useSharedDesignerContext.txt"
       ]
     },
+<<<<<<< HEAD
     "Microsoft.NET.Sdk.WebAssembly.Pack/9.0.9": {
       "sha512": "Nx4yF/l8YyzwHM+xBRFOSGv77mjBZP0XkImzLMdrSBGYPB32nEZNXTSwhH9viDhxMhGij+fVUjJj5iAtUdMBww==",
       "type": "package",
       "path": "microsoft.net.sdk.webassembly.pack/9.0.9",
+=======
+    "Microsoft.NET.Sdk.WebAssembly.Pack/10.0.1": {
+      "sha512": "8XSP0Wu0xpj3xr88WwW43GiklXXiM27n6V8CXk35wT1MjxCfmudQJYmLbirWiPiqU1vCIWTIczPpI40ivC3ruQ==",
+      "type": "package",
+      "path": "microsoft.net.sdk.webassembly.pack/10.0.1",
+>>>>>>> 4206f333ea13815c311453edd46ea5ba096965e0
       "hasTools": true,
       "files": [
         ".nupkg.metadata",
@@ -1818,7 +1833,11 @@
         "build/Microsoft.NET.Sdk.WebAssembly.Pack.targets",
         "build/Wasm.web.config",
         "build/browser.runtimeconfig.template.json",
+<<<<<<< HEAD
         "microsoft.net.sdk.webassembly.pack.9.0.9.nupkg.sha512",
+=======
+        "microsoft.net.sdk.webassembly.pack.10.0.1.nupkg.sha512",
+>>>>>>> 4206f333ea13815c311453edd46ea5ba096965e0
         "microsoft.net.sdk.webassembly.pack.nuspec",
         "tools/net472/Microsoft.NET.Sdk.WebAssembly.Pack.Tasks.dll",
         "tools/net472/Microsoft.NET.WebAssembly.Webcil.dll",
@@ -1865,8 +1884,13 @@
     "net8.0": [
       "Microsoft.AspNetCore.Components.WebAssembly >= 8.0.20",
       "Microsoft.AspNetCore.Components.WebAssembly.DevServer >= 8.0.20",
+<<<<<<< HEAD
       "Microsoft.NET.ILLink.Tasks >= 8.0.20",
       "Microsoft.NET.Sdk.WebAssembly.Pack >= 9.0.9",
+=======
+      "Microsoft.NET.ILLink.Tasks >= 8.0.22",
+      "Microsoft.NET.Sdk.WebAssembly.Pack >= 10.0.1",
+>>>>>>> 4206f333ea13815c311453edd46ea5ba096965e0
       "Notenverwaltung.Shared >= 1.0.0"
     ]
   },
@@ -1943,7 +1967,11 @@
           "Microsoft.NET.Sdk.WebAssembly.Pack": {
             "suppressParent": "All",
             "target": "Package",
+<<<<<<< HEAD
             "version": "[9.0.9, )",
+=======
+            "version": "[10.0.1, )",
+>>>>>>> 4206f333ea13815c311453edd46ea5ba096965e0
             "autoReferenced": true
           }
         },
@@ -1969,7 +1997,11 @@
             "privateAssets": "all"
           }
         },
+<<<<<<< HEAD
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.305/PortableRuntimeIdentifierGraph.json"
+=======
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.101/PortableRuntimeIdentifierGraph.json"
+>>>>>>> 4206f333ea13815c311453edd46ea5ba096965e0
       }
     },
     "runtimes": {

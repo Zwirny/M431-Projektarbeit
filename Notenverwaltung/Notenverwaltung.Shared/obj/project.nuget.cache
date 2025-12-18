@@ -1,6 +1,10 @@
 {
   "version": 2,
+<<<<<<< HEAD
   "dgSpecHash": "OswB+GY6pl0=",
+=======
+  "dgSpecHash": "r66JhrRSwsg=",
+>>>>>>> 4206f333ea13815c311453edd46ea5ba096965e0
   "success": true,
   "projectFilePath": "C:\\Users\\Simon\\Documents\\M431\\Projekt\\M431-Projektarbeit\\Notenverwaltung\\Notenverwaltung.Shared\\Notenverwaltung.Shared.csproj",
   "expectedPackageFiles": [],

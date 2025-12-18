@@ -1,6 +1,10 @@
 {
   "version": 2,
+<<<<<<< HEAD
   "dgSpecHash": "nXkLZwT4P3o=",
+=======
+  "dgSpecHash": "7fX2/iGmycU=",
+>>>>>>> 4206f333ea13815c311453edd46ea5ba096965e0
   "success": true,
   "projectFilePath": "C:\\Users\\Simon\\Documents\\M431\\Projekt\\M431-Projektarbeit\\Notenverwaltung\\Notenverwaltung.API\\Notenverwaltung.API.csproj",
   "expectedPackageFiles": [
