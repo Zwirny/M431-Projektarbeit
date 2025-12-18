@@ -28,17 +28,12 @@ build_property.EnableCodeStyleSeverity =
 build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-<<<<<<< HEAD
-[C:/Users/Simon/Documents/M431/Projekt/M431-Projektarbeit/Notenverwaltung/Notenverwaltung.Web/Pages/Home.razor]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSG9tZS5yYXpvcg==
-=======
-[C:/Users/SandroZwyer/OneDrive - bits ag/Dokumente/.Schule/GIBZ/Informatik/M431/M431-Projektarbeit/Notenverwaltung/Notenverwaltung.Web/Pages/Login.razor]
+[C:/Users/Simon/Documents/M431/Projekt/M431-Projektarbeit/Notenverwaltung/Notenverwaltung.Web/Pages/Login.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTG9naW4ucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/SandroZwyer/OneDrive - bits ag/Dokumente/.Schule/GIBZ/Informatik/M431/M431-Projektarbeit/Notenverwaltung/Notenverwaltung.Web/Pages/Verwaltung.razor]
+[C:/Users/Simon/Documents/M431/Projekt/M431-Projektarbeit/Notenverwaltung/Notenverwaltung.Web/Pages/Verwaltung.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVmVyd2FsdHVuZy5yYXpvcg==
->>>>>>> 4206f333ea13815c311453edd46ea5ba096965e0
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/Simon/Documents/M431/Projekt/M431-Projektarbeit/Notenverwaltung/Notenverwaltung.Web/_Imports.razor]

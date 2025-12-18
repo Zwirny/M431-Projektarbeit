@@ -66,11 +66,7 @@
               "privateAssets": "all"
             }
           },
-<<<<<<< HEAD
           "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.305/PortableRuntimeIdentifierGraph.json"
-=======
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.101/PortableRuntimeIdentifierGraph.json"
->>>>>>> 4206f333ea13815c311453edd46ea5ba096965e0
         }
       }
     },
@@ -143,11 +139,7 @@
             "Microsoft.NET.Sdk.WebAssembly.Pack": {
               "suppressParent": "All",
               "target": "Package",
-<<<<<<< HEAD
               "version": "[9.0.9, )",
-=======
-              "version": "[10.0.1, )",
->>>>>>> 4206f333ea13815c311453edd46ea5ba096965e0
               "autoReferenced": true
             }
           },
@@ -173,11 +165,7 @@
               "privateAssets": "all"
             }
           },
-<<<<<<< HEAD
           "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.305/PortableRuntimeIdentifierGraph.json"
-=======
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.101/PortableRuntimeIdentifierGraph.json"
->>>>>>> 4206f333ea13815c311453edd46ea5ba096965e0
         }
       },
       "runtimes": {
