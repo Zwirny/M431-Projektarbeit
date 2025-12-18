@@ -1,8 +1,10 @@
 {
   "ExpandedNodes": [
     "",
-    "\\Notenverwaltung"
+    "\\Notenverwaltung",
+    "\\Notenverwaltung\\Notenverwaltung.Web",
+    "\\Notenverwaltung\\Notenverwaltung.Web\\Pages"
   ],
-  "SelectedNode": "\\Notenverwaltung\\Notenverwaltung.slnx",
+  "SelectedNode": "\\Notenverwaltung\\Notenverwaltung.Web\\Pages\\Verwaltung.razor.cs",
   "PreviewInSolutionExplorer": false
 }
