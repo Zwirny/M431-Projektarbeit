@@ -3,8 +3,9 @@
     "",
     "\\Notenverwaltung",
     "\\Notenverwaltung\\Notenverwaltung.Web",
+    "\\Notenverwaltung\\Notenverwaltung.Web\\Layout",
     "\\Notenverwaltung\\Notenverwaltung.Web\\Pages"
   ],
-  "SelectedNode": "\\Notenverwaltung\\Notenverwaltung.Web\\Pages\\Verwaltung.razor.cs",
+  "SelectedNode": "\\Notenverwaltung\\Notenverwaltung.Web\\Layout\\NavMenu.razor",
   "PreviewInSolutionExplorer": false
 }
