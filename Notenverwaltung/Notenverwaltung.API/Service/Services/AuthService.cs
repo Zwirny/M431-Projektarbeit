@@ -31,8 +31,8 @@ namespace Notenverwaltung.API.Service.Services
         }
         public AuthReciveDto Register(RegisterDto dto)
         {
-            if (dto.FirstName == null || dto.LastName == null ||
-                dto.Email == null || dto.Password == null)
+            if (dto.Vorname == null || dto.Nachname == null ||
+                dto.Email == null || dto.Passwort == null)
             {
                 return null;
             }
@@ -40,10 +40,10 @@ namespace Notenverwaltung.API.Service.Services
             User user = new User
             {
                 Email = dto.Email,
-                FirstName = dto.FirstName,
-                LastName = dto.LastName,
-                Password = dto.Password,
-                StatusId = 0
+                Vorname = dto.Vorname,
+                Nachname = dto.Nachname,
+                Passwort = dto.Passwort,
+                StatusId = 2
             };
             string token = GenerateJwtToken(user);
             _userRepository.Register(user);
@@ -65,7 +65,7 @@ namespace Notenverwaltung.API.Service.Services
             user.Id.ToString()),
         new Claim("StatusId", user.StatusId.ToString()),
         new Claim(JwtRegisteredClaimNames.Email, user.Email),
-        new Claim(JwtRegisteredClaimNames.GivenName, user.FirstName),
+        new Claim(JwtRegisteredClaimNames.GivenName, user.Vorname),
     };
 
             SecurityTokenDescriptor tokenDescriptor = new
