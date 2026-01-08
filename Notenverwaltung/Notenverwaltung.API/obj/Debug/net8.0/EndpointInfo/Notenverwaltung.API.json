@@ -121,7 +121,7 @@
             "type": "string",
             "nullable": true
           },
-          "password": {
+          "passwort": {
             "type": "string",
             "nullable": true
           }
@@ -131,11 +131,11 @@
       "RegisterDto": {
         "type": "object",
         "properties": {
-          "firstName": {
+          "vorname": {
             "type": "string",
             "nullable": true
           },
-          "lastName": {
+          "nachname": {
             "type": "string",
             "nullable": true
           },
@@ -143,7 +143,7 @@
             "type": "string",
             "nullable": true
           },
-          "password": {
+          "passwort": {
             "type": "string",
             "nullable": true
           }
