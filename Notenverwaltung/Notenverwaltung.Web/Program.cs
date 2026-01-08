@@ -27,7 +27,7 @@ public class Program
 
             var httpClient = new HttpClient(customHandler)
             {
-                BaseAddress = new Uri("https://localhost:7043/")
+                BaseAddress = new Uri("https://localhost:7008/")
             };
             return httpClient;
         });

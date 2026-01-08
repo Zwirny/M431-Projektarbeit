@@ -2,16 +2,10 @@
   "ExpandedNodes": [
     "",
     "\\Notenverwaltung",
-<<<<<<< HEAD
-    "\\Notenverwaltung\\Notenverwaltung.Shared",
-    "\\Notenverwaltung\\Notenverwaltung.Web"
-  ],
-  "SelectedNode": "\\Notenverwaltung\\Notenverwaltung.slnx",
-=======
     "\\Notenverwaltung\\Notenverwaltung.Web",
+    "\\Notenverwaltung\\Notenverwaltung.Web\\Layout",
     "\\Notenverwaltung\\Notenverwaltung.Web\\Pages"
   ],
-  "SelectedNode": "\\Notenverwaltung\\Notenverwaltung.Web\\Pages\\Verwaltung.razor.cs",
->>>>>>> 4206f333ea13815c311453edd46ea5ba096965e0
+  "SelectedNode": "\\Notenverwaltung\\Notenverwaltung.Web\\Program.cs",
   "PreviewInSolutionExplorer": false
 }
