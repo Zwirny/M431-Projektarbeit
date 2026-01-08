@@ -1,7 +1,9 @@
-﻿namespace Notenverwaltung.Web.Services.Abstract;
+﻿using Notenverwaltung.Shared.Dtos.UserDtos;
+
+namespace Notenverwaltung.Web.Services.Abstract;
 
 public interface IAuthService
 {
-    Task<AuthResponse?> RegisterAsync(LoginRequestDTO registerModel);
-    Task<AuthResponse?> LoginAsync(LoginRequestDTO registerModel);
+    Task<AuthResponse?> RegisterAsync(RegisterDto registerModel);
+    Task<AuthResponse?> LoginAsync(LoginDto registerModel);
 }
