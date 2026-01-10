@@ -5,7 +5,7 @@
 
         <!-- Dropdown for the class -->
         <div class="form-floating mb-4">
-            <select class="form-select" id="floatingSelect" aria-label="Floating label select example">
+            <select class="form-select" id="ClassDropdown" aria-label="Floating label select example">
                 <option selected>Wählen Sie eine Klasse</option>
                 <option value="1">Infa1a</option>
                 <option value="2">Infa1b</option>
@@ -16,7 +16,7 @@
 
         <!-- Dropdown for the student -->
         <div class="form-floating mb-4">
-            <select class="form-select" id="floatingSelect" aria-label="Floating label select example">
+            <select class="form-select" id="StudentDropDown" aria-label="Floating label select example">
                 <option selected>Wählen Sie einen Schüler</option>
                 <option value="1">Sandro</option>
                 <option value="2">Simon</option>
@@ -27,19 +27,19 @@
 
         <!-- Input for the examgrade -->
         <div class="form-floating mb-4">
-            <input type="text" class="form-control" id="floatingInput" placeholder="1 - 6">
-            <label for="floatingInput">Aktualisierte Prüfungsnote</label>
+            <input type="number" class="form-control" id="ExamInput" placeholder="1 - 6" @bind-value="examGrade">
+            <label for="floatingInput">Neue Prüfungsnote</label>
         </div>
 
 
         <!-- Input for the Zeugnisnote -->
         <div class="form-floating mb-4">
-            <input type="text" class="form-control" id="floatingInput" placeholder="1 - 6">
+            <input type="number" class="form-control" id="ReportInput" placeholder="1 - 6" @bind-value="reportGrade" @bind-value:event="onchange" @bind-value:after="RoundReportGrade">
             <label for="floatingInput">Aktualisierte Zeugnisnote</label>
         </div>
 
         <!-- Submit-Button -->
-        <button class="btn btn-dark w-50 mx-auto d-block">Submit</button>
+        <button class="btn btn-dark w-50 mx-auto d-block">Mail senden</button>
     </div>
 
 </div>

@@ -1,7 +1,7 @@
 {
   "mainAssemblyName": "Notenverwaltung.Web",
   "resources": {
-    "hash": "sha256-wUtlXMsboPQl5jDRfubS5aQUxBVV3QjEx1SlSYz/Mvs=",
+    "hash": "sha256-+TDkIEJi7uo7vtGmlg/U2EtwqIzbc2ocuNAAmk1YA7A=",
     "jsModuleNative": {
       "dotnet.native.js": "sha256-vtotCeXt2UD6oc459laJT32vBgigZ+eLoUmdeFkvYDk="
     },
@@ -210,11 +210,11 @@
       "netstandard.wasm": "sha256-4emjlXLM9qW3t2tlII20SDylBgG4ueI0wy9nh5FMd8g=",
       "System.Private.CoreLib.wasm": "sha256-2DN4v7I/tabltDEPdIO8sDBB0tY8zOm+0CvHbMssXW4=",
       "Notenverwaltung.Shared.wasm": "sha256-Kt1Ry1pOgeL8sCQoPMtLglAAkPcTlj1Duld42YswuPc=",
-      "Notenverwaltung.Web.wasm": "sha256-wFLgOhHPSrkFiEpNEZpol73PsnDN//AzAOBMBmEg09I="
+      "Notenverwaltung.Web.wasm": "sha256-WFg1SCe46S27Pbp74pP3oFb8ZtUrOoSLtyKmPmHdfWo="
     },
     "pdb": {
       "Notenverwaltung.Shared.pdb": "sha256-05buLJEoBUyIIlrqEuX7cziPQoeaQGmuASALGKup5D0=",
-      "Notenverwaltung.Web.pdb": "sha256-ivuaJy9gJtCj5IyYGwH5nB7qaS3n6SfqiKvliJnEup4="
+      "Notenverwaltung.Web.pdb": "sha256-qzuldjSoaMOhYQdyKhftIzPisPnPo2J9v1lG47KCZ9E="
     }
   },
   "cacheBootResources": true,
