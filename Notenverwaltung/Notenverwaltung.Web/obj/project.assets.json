@@ -427,11 +427,7 @@
           "build/Microsoft.NET.ILLink.Tasks.props": {}
         }
       },
-<<<<<<< HEAD
       "Microsoft.NET.Sdk.WebAssembly.Pack/9.0.9": {
-=======
-      "Microsoft.NET.Sdk.WebAssembly.Pack/10.0.1": {
->>>>>>> 0d0f6eb13d5cf38c51bf27d08d2ff0ac22015906
         "type": "package",
         "build": {
           "build/Microsoft.NET.Sdk.WebAssembly.Pack.props": {},
@@ -891,11 +887,7 @@
           "build/Microsoft.NET.ILLink.Tasks.props": {}
         }
       },
-<<<<<<< HEAD
       "Microsoft.NET.Sdk.WebAssembly.Pack/9.0.9": {
-=======
-      "Microsoft.NET.Sdk.WebAssembly.Pack/10.0.1": {
->>>>>>> 0d0f6eb13d5cf38c51bf27d08d2ff0ac22015906
         "type": "package",
         "build": {
           "build/Microsoft.NET.Sdk.WebAssembly.Pack.props": {},
@@ -1792,17 +1784,10 @@
         "useSharedDesignerContext.txt"
       ]
     },
-<<<<<<< HEAD
     "Microsoft.NET.Sdk.WebAssembly.Pack/9.0.9": {
       "sha512": "Nx4yF/l8YyzwHM+xBRFOSGv77mjBZP0XkImzLMdrSBGYPB32nEZNXTSwhH9viDhxMhGij+fVUjJj5iAtUdMBww==",
       "type": "package",
       "path": "microsoft.net.sdk.webassembly.pack/9.0.9",
-=======
-    "Microsoft.NET.Sdk.WebAssembly.Pack/10.0.1": {
-      "sha512": "8XSP0Wu0xpj3xr88WwW43GiklXXiM27n6V8CXk35wT1MjxCfmudQJYmLbirWiPiqU1vCIWTIczPpI40ivC3ruQ==",
-      "type": "package",
-      "path": "microsoft.net.sdk.webassembly.pack/10.0.1",
->>>>>>> 0d0f6eb13d5cf38c51bf27d08d2ff0ac22015906
       "hasTools": true,
       "files": [
         ".nupkg.metadata",
@@ -1833,11 +1818,7 @@
         "build/Microsoft.NET.Sdk.WebAssembly.Pack.targets",
         "build/Wasm.web.config",
         "build/browser.runtimeconfig.template.json",
-<<<<<<< HEAD
         "microsoft.net.sdk.webassembly.pack.9.0.9.nupkg.sha512",
-=======
-        "microsoft.net.sdk.webassembly.pack.10.0.1.nupkg.sha512",
->>>>>>> 0d0f6eb13d5cf38c51bf27d08d2ff0ac22015906
         "microsoft.net.sdk.webassembly.pack.nuspec",
         "tools/net472/Microsoft.NET.Sdk.WebAssembly.Pack.Tasks.dll",
         "tools/net472/Microsoft.NET.WebAssembly.Webcil.dll",
@@ -1884,34 +1865,29 @@
     "net8.0": [
       "Microsoft.AspNetCore.Components.WebAssembly >= 8.0.20",
       "Microsoft.AspNetCore.Components.WebAssembly.DevServer >= 8.0.20",
-<<<<<<< HEAD
       "Microsoft.NET.ILLink.Tasks >= 8.0.20",
       "Microsoft.NET.Sdk.WebAssembly.Pack >= 9.0.9",
-=======
-      "Microsoft.NET.ILLink.Tasks >= 8.0.22",
-      "Microsoft.NET.Sdk.WebAssembly.Pack >= 10.0.1",
->>>>>>> 0d0f6eb13d5cf38c51bf27d08d2ff0ac22015906
       "Notenverwaltung.Shared >= 1.0.0"
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Simon\\.nuget\\packages\\": {},
+    "C:\\Users\\abbasl\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Simon\\Documents\\M431\\Projekt\\M431-Projektarbeit\\Notenverwaltung\\Notenverwaltung.Web\\Notenverwaltung.Web.csproj",
+      "projectUniqueName": "C:\\GIBZ\\Informatik\\M431\\Projektarbeit\\M431-Projektarbeit\\Notenverwaltung\\Notenverwaltung.Web\\Notenverwaltung.Web.csproj",
       "projectName": "Notenverwaltung.Web",
-      "projectPath": "C:\\Users\\Simon\\Documents\\M431\\Projekt\\M431-Projektarbeit\\Notenverwaltung\\Notenverwaltung.Web\\Notenverwaltung.Web.csproj",
-      "packagesPath": "C:\\Users\\Simon\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Simon\\Documents\\M431\\Projekt\\M431-Projektarbeit\\Notenverwaltung\\Notenverwaltung.Web\\obj\\",
+      "projectPath": "C:\\GIBZ\\Informatik\\M431\\Projektarbeit\\M431-Projektarbeit\\Notenverwaltung\\Notenverwaltung.Web\\Notenverwaltung.Web.csproj",
+      "packagesPath": "C:\\Users\\abbasl\\.nuget\\packages\\",
+      "outputPath": "C:\\GIBZ\\Informatik\\M431\\Projektarbeit\\M431-Projektarbeit\\Notenverwaltung\\Notenverwaltung.Web\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\Simon\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\abbasl\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -1927,8 +1903,8 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Users\\Simon\\Documents\\M431\\Projekt\\M431-Projektarbeit\\Notenverwaltung\\Notenverwaltung.Shared\\Notenverwaltung.Shared.csproj": {
-              "projectPath": "C:\\Users\\Simon\\Documents\\M431\\Projekt\\M431-Projektarbeit\\Notenverwaltung\\Notenverwaltung.Shared\\Notenverwaltung.Shared.csproj"
+            "C:\\GIBZ\\Informatik\\M431\\Projektarbeit\\M431-Projektarbeit\\Notenverwaltung\\Notenverwaltung.Shared\\Notenverwaltung.Shared.csproj": {
+              "projectPath": "C:\\GIBZ\\Informatik\\M431\\Projektarbeit\\M431-Projektarbeit\\Notenverwaltung\\Notenverwaltung.Shared\\Notenverwaltung.Shared.csproj"
             }
           }
         }
@@ -1967,11 +1943,7 @@
           "Microsoft.NET.Sdk.WebAssembly.Pack": {
             "suppressParent": "All",
             "target": "Package",
-<<<<<<< HEAD
             "version": "[9.0.9, )",
-=======
-            "version": "[10.0.1, )",
->>>>>>> 0d0f6eb13d5cf38c51bf27d08d2ff0ac22015906
             "autoReferenced": true
           }
         },
@@ -1986,22 +1958,12 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
-        "downloadDependencies": [
-          {
-            "name": "Microsoft.NETCore.App.Runtime.Mono.browser-wasm",
-            "version": "[8.0.20, 8.0.20]"
-          }
-        ],
         "frameworkReferences": {
           "Microsoft.NETCore.App": {
             "privateAssets": "all"
           }
         },
-<<<<<<< HEAD
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.305/PortableRuntimeIdentifierGraph.json"
-=======
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.101/PortableRuntimeIdentifierGraph.json"
->>>>>>> 0d0f6eb13d5cf38c51bf27d08d2ff0ac22015906
       }
     },
     "runtimes": {
@@ -2009,5 +1971,13 @@
         "#import": []
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "Undefined",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Problem reading the cache file C:\\GIBZ\\Informatik\\M431\\Projektarbeit\\M431-Projektarbeit\\Notenverwaltung\\Notenverwaltung.Web\\obj\\project.nuget.cache : '<' is an invalid start of a property name. Expected a '\"'. Path: $ | LineNumber: 2 | BytePositionInLine: 0."
+    }
+  ]
 }
