@@ -1021,12 +1021,6 @@ C:\Users\SandroZwyer\OneDrive - bits ag\Dokumente\.Schule\GIBZ\Informatik\M431\M
 C:\Users\SandroZwyer\OneDrive - bits ag\Dokumente\.Schule\GIBZ\Informatik\M431\M431-Projektarbeit\Notenverwaltung\Notenverwaltung.Web\obj\Debug\net8.0\compressed\j8tre4qev5-{0}-h9kh7gkvp2-h9kh7gkvp2.gz
 C:\Users\SandroZwyer\OneDrive - bits ag\Dokumente\.Schule\GIBZ\Informatik\M431\M431-Projektarbeit\Notenverwaltung\Notenverwaltung.Web\obj\Debug\net8.0\compressed\3r5hov7y6e-{0}-zfu4z8wu9j-zfu4z8wu9j.gz
 C:\Users\SandroZwyer\OneDrive - bits ag\Dokumente\.Schule\GIBZ\Informatik\M431\M431-Projektarbeit\Notenverwaltung\Notenverwaltung.Web\obj\Debug\net8.0\compressed\4dxs2qb3wp-{0}-gqfe5o4f4y-gqfe5o4f4y.gz
-C:\Users\SandroZwyer\OneDrive - bits ag\Dokumente\.Schule\GIBZ\Informatik\M431\M431-Projektarbeit\Notenverwaltung\Notenverwaltung.Web\obj\Debug\net8.0\compressed\5jbz3t9s7l-{0}-ukeqxardv5-ukeqxardv5.gz
-C:\Users\SandroZwyer\OneDrive - bits ag\Dokumente\.Schule\GIBZ\Informatik\M431\M431-Projektarbeit\Notenverwaltung\Notenverwaltung.Web\obj\Debug\net8.0\compressed\k5ghpodpad-{0}-ej5n7f16ji-ej5n7f16ji.gz
-C:\Users\SandroZwyer\OneDrive - bits ag\Dokumente\.Schule\GIBZ\Informatik\M431\M431-Projektarbeit\Notenverwaltung\Notenverwaltung.Web\obj\Debug\net8.0\compressed\me9tcgssu5-{0}-ikeyz1g4o7-ikeyz1g4o7.gz
-C:\Users\SandroZwyer\OneDrive - bits ag\Dokumente\.Schule\GIBZ\Informatik\M431\M431-Projektarbeit\Notenverwaltung\Notenverwaltung.Web\obj\Debug\net8.0\compressed\r3o0njo15t-{0}-5uqwjdtvsx-5uqwjdtvsx.gz
-C:\Users\SandroZwyer\OneDrive - bits ag\Dokumente\.Schule\GIBZ\Informatik\M431\M431-Projektarbeit\Notenverwaltung\Notenverwaltung.Web\obj\Debug\net8.0\compressed\hvwgtisu8d-{0}-bjixqh7jlv-bjixqh7jlv.gz
-C:\Users\SandroZwyer\OneDrive - bits ag\Dokumente\.Schule\GIBZ\Informatik\M431\M431-Projektarbeit\Notenverwaltung\Notenverwaltung.Web\obj\Debug\net8.0\compressed\rk4uio2tiy-{0}-elc6hkxrhr-elc6hkxrhr.gz
 C:\Users\SandroZwyer\OneDrive - bits ag\Dokumente\.Schule\GIBZ\Informatik\M431\M431-Projektarbeit\Notenverwaltung\Notenverwaltung.Web\obj\Debug\net8.0\compressed\mcrx6oc4by-{0}-tjcz0u77k5-tjcz0u77k5.gz
 C:\Users\SandroZwyer\OneDrive - bits ag\Dokumente\.Schule\GIBZ\Informatik\M431\M431-Projektarbeit\Notenverwaltung\Notenverwaltung.Web\obj\Debug\net8.0\compressed\uippsoxy9r-{0}-tptq2av103-tptq2av103.gz
 C:\Users\SandroZwyer\OneDrive - bits ag\Dokumente\.Schule\GIBZ\Informatik\M431\M431-Projektarbeit\Notenverwaltung\Notenverwaltung.Web\obj\Debug\net8.0\compressed\k15cqn666k-{0}-lfu7j35m59-lfu7j35m59.gz
@@ -1045,6 +1039,21 @@ C:\Users\SandroZwyer\OneDrive - bits ag\Dokumente\.Schule\GIBZ\Informatik\M431\M
 C:\Users\SandroZwyer\OneDrive - bits ag\Dokumente\.Schule\GIBZ\Informatik\M431\M431-Projektarbeit\Notenverwaltung\Notenverwaltung.Web\obj\Debug\net8.0\Notenverwaltung.Web.pdb
 C:\Users\SandroZwyer\OneDrive - bits ag\Dokumente\.Schule\GIBZ\Informatik\M431\M431-Projektarbeit\Notenverwaltung\Notenverwaltung.Web\obj\Debug\net8.0\ref\Notenverwaltung.Web.dll
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+C:\Users\SandroZwyer\OneDrive - bits ag\Dokumente\.Schule\GIBZ\Informatik\M431\M431-Projektarbeit\Notenverwaltung\Notenverwaltung.Web\obj\Debug\net8.0\compressed\5jbz3t9s7l-{0}-dpm9sk5r4t-dpm9sk5r4t.gz
+C:\Users\SandroZwyer\OneDrive - bits ag\Dokumente\.Schule\GIBZ\Informatik\M431\M431-Projektarbeit\Notenverwaltung\Notenverwaltung.Web\obj\Debug\net8.0\compressed\k5ghpodpad-{0}-if7qy9enn4-if7qy9enn4.gz
+C:\Users\SandroZwyer\OneDrive - bits ag\Dokumente\.Schule\GIBZ\Informatik\M431\M431-Projektarbeit\Notenverwaltung\Notenverwaltung.Web\obj\Debug\net8.0\compressed\me9tcgssu5-{0}-ufp42n58rh-ufp42n58rh.gz
+C:\Users\SandroZwyer\OneDrive - bits ag\Dokumente\.Schule\GIBZ\Informatik\M431\M431-Projektarbeit\Notenverwaltung\Notenverwaltung.Web\obj\Debug\net8.0\compressed\r3o0njo15t-{0}-er8avzl4gu-er8avzl4gu.gz
+C:\Users\SandroZwyer\OneDrive - bits ag\Dokumente\.Schule\GIBZ\Informatik\M431\M431-Projektarbeit\Notenverwaltung\Notenverwaltung.Web\obj\Debug\net8.0\compressed\hvwgtisu8d-{0}-05k3ehe6n2-05k3ehe6n2.gz
+C:\Users\SandroZwyer\OneDrive - bits ag\Dokumente\.Schule\GIBZ\Informatik\M431\M431-Projektarbeit\Notenverwaltung\Notenverwaltung.Web\obj\Debug\net8.0\compressed\rk4uio2tiy-{0}-tyf228z45b-tyf228z45b.gz
+C:\Users\SandroZwyer\OneDrive - bits ag\Dokumente\.Schule\GIBZ\Informatik\M431\M431-Projektarbeit\Notenverwaltung\Notenverwaltung.Web\obj\Debug\net8.0\compressed\uw883miayv-{0}-ny4fx4mmzh-ny4fx4mmzh.gz
+C:\Users\SandroZwyer\OneDrive - bits ag\Dokumente\.Schule\GIBZ\Informatik\M431\M431-Projektarbeit\Notenverwaltung\Notenverwaltung.Web\obj\Debug\net8.0\compressed\ia81yp1hz6-{0}-cg9we204dm-cg9we204dm.gz
+C:\Users\SandroZwyer\OneDrive - bits ag\Dokumente\.Schule\GIBZ\Informatik\M431\M431-Projektarbeit\Notenverwaltung\Notenverwaltung.Web\obj\Debug\net8.0\compressed\nrwcugzp0b-{0}-i6e0fmjow0-i6e0fmjow0.gz
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 1e9d9a7e36b454c2e5308924361978714b7bc55b
 C:\Users\SandroZwyer\OneDrive - bits ag\Dokumente\.Schule\GIBZ\Informatik\M431\M431-Projektarbeit\Notenverwaltung\Notenverwaltung.Web\obj\Debug\net8.0\compressed\uw883miayv-{0}-ri3erb8s8a-ri3erb8s8a.gz
 C:\Users\SandroZwyer\OneDrive - bits ag\Dokumente\.Schule\GIBZ\Informatik\M431\M431-Projektarbeit\Notenverwaltung\Notenverwaltung.Web\obj\Debug\net8.0\compressed\ia81yp1hz6-{0}-fmzlatub1r-fmzlatub1r.gz
 C:\Users\SandroZwyer\OneDrive - bits ag\Dokumente\.Schule\GIBZ\Informatik\M431\M431-Projektarbeit\Notenverwaltung\Notenverwaltung.Web\obj\Debug\net8.0\compressed\nrwcugzp0b-{0}-3ufniddu3t-3ufniddu3t.gz
@@ -1068,3 +1077,4 @@ C:\Users\SandroZwyer\OneDrive - bits ag\Dokumente\.Schule\GIBZ\Informatik\M431\M
 C:\Users\SandroZwyer\OneDrive - bits ag\Dokumente\.Schule\GIBZ\Informatik\M431\M431-Projektarbeit\Notenverwaltung\Notenverwaltung.Web\obj\Debug\net8.0\compressed\ia81yp1hz6-{0}-tqpgeg52ms-tqpgeg52ms.gz
 C:\Users\SandroZwyer\OneDrive - bits ag\Dokumente\.Schule\GIBZ\Informatik\M431\M431-Projektarbeit\Notenverwaltung\Notenverwaltung.Web\obj\Debug\net8.0\compressed\nrwcugzp0b-{0}-rlhmusa45a-rlhmusa45a.gz
 >>>>>>> 0d0f6eb13d5cf38c51bf27d08d2ff0ac22015906
+>>>>>>> 4086e164ebc7f0e84e5f721d5a91cd47ebf3d63b
