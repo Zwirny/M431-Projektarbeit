@@ -1,7 +1,15 @@
 ﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
 <Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ImportGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+<<<<<<< HEAD
     <Import Project="$(NuGetPackageRoot)microsoft.net.sdk.webassembly.pack\10.0.2\build\Microsoft.NET.Sdk.WebAssembly.Pack.targets" Condition="Exists('$(NuGetPackageRoot)microsoft.net.sdk.webassembly.pack\10.0.2\build\Microsoft.NET.Sdk.WebAssembly.Pack.targets')" />
+=======
+<<<<<<< HEAD
+    <Import Project="$(NuGetPackageRoot)microsoft.net.sdk.webassembly.pack\9.0.9\build\Microsoft.NET.Sdk.WebAssembly.Pack.targets" Condition="Exists('$(NuGetPackageRoot)microsoft.net.sdk.webassembly.pack\9.0.9\build\Microsoft.NET.Sdk.WebAssembly.Pack.targets')" />
+=======
+    <Import Project="$(NuGetPackageRoot)microsoft.net.sdk.webassembly.pack\10.0.1\build\Microsoft.NET.Sdk.WebAssembly.Pack.targets" Condition="Exists('$(NuGetPackageRoot)microsoft.net.sdk.webassembly.pack\10.0.1\build\Microsoft.NET.Sdk.WebAssembly.Pack.targets')" />
+>>>>>>> 0d0f6eb13d5cf38c51bf27d08d2ff0ac22015906
+>>>>>>> 4086e164ebc7f0e84e5f721d5a91cd47ebf3d63b
     <Import Project="$(NuGetPackageRoot)microsoft.extensions.options\8.0.2\buildTransitive\net6.0\Microsoft.Extensions.Options.targets" Condition="Exists('$(NuGetPackageRoot)microsoft.extensions.options\8.0.2\buildTransitive\net6.0\Microsoft.Extensions.Options.targets')" />
     <Import Project="$(NuGetPackageRoot)microsoft.extensions.logging.abstractions\8.0.3\buildTransitive\net6.0\Microsoft.Extensions.Logging.Abstractions.targets" Condition="Exists('$(NuGetPackageRoot)microsoft.extensions.logging.abstractions\8.0.3\buildTransitive\net6.0\Microsoft.Extensions.Logging.Abstractions.targets')" />
     <Import Project="$(NuGetPackageRoot)microsoft.extensions.configuration.binder\8.0.2\buildTransitive\netstandard2.0\Microsoft.Extensions.Configuration.Binder.targets" Condition="Exists('$(NuGetPackageRoot)microsoft.extensions.configuration.binder\8.0.2\buildTransitive\netstandard2.0\Microsoft.Extensions.Configuration.Binder.targets')" />

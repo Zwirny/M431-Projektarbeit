@@ -15,6 +15,7 @@ public static class DataDependency
             options.UseMySql(connectionString, ServerVersion.AutoDetect(connectionString)));
 
         services.AddScoped<IUserRepository, UserRepository>();
+        services.AddScoped<IGradeRepository, GradeRepository>();
 
     }
 }

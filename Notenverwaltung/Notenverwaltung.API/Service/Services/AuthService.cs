@@ -61,8 +61,7 @@ namespace Notenverwaltung.API.Service.Services
 
             Claim[] claims = new[]
             {
-        new Claim(JwtRegisteredClaimNames.Sub,
-            user.Id.ToString()),
+        new Claim("UserId", user.Id.ToString()),
         new Claim("StatusId", user.StatusId.ToString()),
         new Claim(JwtRegisteredClaimNames.Email, user.Email),
         new Claim(JwtRegisteredClaimNames.GivenName, user.Vorname),

@@ -1,6 +1,17 @@
 {
   "version": 2,
+<<<<<<< HEAD
   "dgSpecHash": "3qDp5PSmUxw=",
+=======
+<<<<<<< HEAD
+  "dgSpecHash": "OswB+GY6pl0=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Simon\\Documents\\M431\\Projekt\\M431-Projektarbeit\\Notenverwaltung\\Notenverwaltung.Shared\\Notenverwaltung.Shared.csproj",
+  "expectedPackageFiles": [],
+  "logs": []
+=======
+  "dgSpecHash": "r66JhrRSwsg=",
+>>>>>>> 4086e164ebc7f0e84e5f721d5a91cd47ebf3d63b
   "success": true,
   "projectFilePath": "C:\\Users\\SandroZwyer\\OneDrive - bits ag\\Dokumente\\.Schule\\GIBZ\\Informatik\\M431\\M431-Projektarbeit\\Notenverwaltung\\Notenverwaltung.Shared\\Notenverwaltung.Shared.csproj",
   "expectedPackageFiles": [
@@ -8,5 +19,20 @@
     "C:\\Users\\SandroZwyer\\.nuget\\packages\\microsoft.netcore.app.ref\\8.0.23\\microsoft.netcore.app.ref.8.0.23.nupkg.sha512",
     "C:\\Users\\SandroZwyer\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\8.0.23\\microsoft.aspnetcore.app.ref.8.0.23.nupkg.sha512"
   ],
+<<<<<<< HEAD
   "logs": []
+=======
+  "logs": [
+    {
+      "code": "Undefined",
+      "level": "Warning",
+      "message": "Problem reading the cache file C:\\Users\\SandroZwyer\\OneDrive - bits ag\\Dokumente\\.Schule\\GIBZ\\Informatik\\M431\\M431-Projektarbeit\\Notenverwaltung\\Notenverwaltung.Shared\\obj\\project.nuget.cache : '<' is an invalid start of a property name. Expected a '\"'. Path: $ | LineNumber: 2 | BytePositionInLine: 0.",
+      "projectPath": "C:\\Users\\SandroZwyer\\OneDrive - bits ag\\Dokumente\\.Schule\\GIBZ\\Informatik\\M431\\M431-Projektarbeit\\Notenverwaltung\\Notenverwaltung.Shared\\Notenverwaltung.Shared.csproj",
+      "warningLevel": 1,
+      "filePath": "C:\\Users\\SandroZwyer\\OneDrive - bits ag\\Dokumente\\.Schule\\GIBZ\\Informatik\\M431\\M431-Projektarbeit\\Notenverwaltung\\Notenverwaltung.Shared\\Notenverwaltung.Shared.csproj",
+      "targetGraphs": []
+    }
+  ]
+>>>>>>> 0d0f6eb13d5cf38c51bf27d08d2ff0ac22015906
+>>>>>>> 4086e164ebc7f0e84e5f721d5a91cd47ebf3d63b
 }

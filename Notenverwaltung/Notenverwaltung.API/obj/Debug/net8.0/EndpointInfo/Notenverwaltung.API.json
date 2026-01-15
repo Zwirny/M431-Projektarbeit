@@ -100,6 +100,37 @@
           }
         }
       }
+    },
+    "/api/GradeControllers/postGrade": {
+      "post": {
+        "tags": [
+          "GradeControllers"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/PostGradeDto"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/PostGradeDto"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/PostGradeDto"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
     }
   },
   "components": {
@@ -122,6 +153,40 @@
             "nullable": true
           },
           "passwort": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "PostGradeDto": {
+        "required": [
+          "courseId",
+          "grade",
+          "studentFirstName",
+          "studentLastName"
+        ],
+        "type": "object",
+        "properties": {
+          "studentFirstName": {
+            "minLength": 1,
+            "type": "string"
+          },
+          "studentLastName": {
+            "minLength": 1,
+            "type": "string"
+          },
+          "courseId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "grade": {
+            "maximum": 6,
+            "minimum": 1,
+            "type": "number",
+            "format": "float"
+          },
+          "notice": {
             "type": "string",
             "nullable": true
           }
