@@ -7,5 +7,14 @@ namespace Notenverwaltung.API.Service.Services.Abstract
     public interface IGradeService
     {
         void PostGrade(PostGradeDto dto, int UserId);
+
+        int PutGradeById(int id, PutGradeDto dto);
+
+        Grade GetGradeById(int id);
+
+        int DeleteGradeById(int id);
+
+        List<Grade> GetGrades();
+
     }
 }

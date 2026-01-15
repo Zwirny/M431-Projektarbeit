@@ -53,6 +53,48 @@
   },
   {
     "ContainingType": "Notenverwaltung.API.Controllers.GradeControllers",
+    "Method": "DeleteById",
+    "RelativePath": "api/GradeControllers/deleteById",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Notenverwaltung.API.Controllers.GradeControllers",
+    "Method": "GetById",
+    "RelativePath": "api/GradeControllers/getById",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Notenverwaltung.API.Controllers.GradeControllers",
+    "Method": "GetGrades",
+    "RelativePath": "api/GradeControllers/getGrades",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Notenverwaltung.API.Controllers.GradeControllers",
     "Method": "PostGrade",
     "RelativePath": "api/GradeControllers/postGrade",
     "HttpMethod": "POST",
@@ -62,6 +104,27 @@
       {
         "Name": "dto",
         "Type": "Notenverwaltung.Shared.Dtos.GradeDtos.PostGradeDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Notenverwaltung.API.Controllers.GradeControllers",
+    "Method": "PutGrade",
+    "RelativePath": "api/GradeControllers/putGrade",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "dto",
+        "Type": "Notenverwaltung.Shared.Dtos.GradeDtos.PutGradeDto",
         "IsRequired": true
       }
     ],

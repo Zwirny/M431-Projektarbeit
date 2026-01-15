@@ -131,6 +131,103 @@
           }
         }
       }
+    },
+    "/api/GradeControllers/putGrade": {
+      "put": {
+        "tags": [
+          "GradeControllers"
+        ],
+        "parameters": [
+          {
+            "name": "Id",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/PutGradeDto"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/PutGradeDto"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/PutGradeDto"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/GradeControllers/getById": {
+      "get": {
+        "tags": [
+          "GradeControllers"
+        ],
+        "parameters": [
+          {
+            "name": "Id",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/GradeControllers/deleteById": {
+      "delete": {
+        "tags": [
+          "GradeControllers"
+        ],
+        "parameters": [
+          {
+            "name": "Id",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/GradeControllers/getGrades": {
+      "get": {
+        "tags": [
+          "GradeControllers"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
     }
   },
   "components": {
@@ -189,6 +286,40 @@
           "notice": {
             "type": "string",
             "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "PutGradeDto": {
+        "required": [
+          "courseId",
+          "grade",
+          "studentFirstName",
+          "studentLastName"
+        ],
+        "type": "object",
+        "properties": {
+          "studentFirstName": {
+            "minLength": 1,
+            "type": "string"
+          },
+          "studentLastName": {
+            "minLength": 1,
+            "type": "string"
+          },
+          "grade": {
+            "maximum": 6,
+            "minimum": 1,
+            "type": "number",
+            "format": "float"
+          },
+          "notice": {
+            "type": "string",
+            "nullable": true
+          },
+          "courseId": {
+            "type": "integer",
+            "format": "int32"
           }
         },
         "additionalProperties": false
