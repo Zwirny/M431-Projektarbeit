@@ -2,11 +2,20 @@
 
 <PageTitle>Login</PageTitle>
 
-<h1>Login</h1>
+<div class="d-flex flex-column align-items-center">
+    <h1 class="mb-4">Login</h1>
 
-<!-- Email and password input -->
-<EditForm Model="@loginModel" OnValidSubmit="HandleLogin">
-    <InputText @bind-Value="loginModel.Email" />
-    <InputText @bind-Value="loginModel.Password" type="password" />
-    <button type="submit">Login</button>
-</EditForm>
+    <!-- Email and password input -->
+    <EditForm Model="@loginModel" OnValidSubmit="HandleLogin" class="d-flex flex-column">
+        <div class="mb-3">
+            <label for="emailInput" class="form-label">Email</label>
+            <InputText id="emailInput" class="form-control" @bind-Value="loginModel.Email" />
+        </div>
+
+        <div class="mb-4">
+            <label for="passwordInput" class="form-label">Passwort</label>
+            <InputText id="passwordInput" type="password" class="form-control" @bind-Value="loginModel.Passwort" />
+        </div>
+        <button type="submit" class="btn btn-dark ms-3">Login</button>
+    </EditForm>
+</div>
