@@ -11,5 +11,7 @@ namespace Notenverwaltung.API.DataAccess
         base(options)
         { }
         public DbSet<User> Users { get; set; }
+
+        public DbSet<Grade> Grades { get; set; }
     }
 }

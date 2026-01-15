@@ -50,5 +50,21 @@
         "StatusCode": 200
       }
     ]
+  },
+  {
+    "ContainingType": "Notenverwaltung.API.Controllers.GradeControllers",
+    "Method": "PostGrade",
+    "RelativePath": "api/GradeControllers/postGrade",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "Notenverwaltung.Shared.Dtos.GradeDtos.PostGradeDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
   }
 ]
