@@ -30,4 +30,52 @@ public class GradeControllers : ControllerBase
         _gradeService.PostGrade(dto, userIdClaim);
         return Ok();
     }
+
+    [HttpPut("putGrade")]
+    [Authorize]
+    public IActionResult PutGrade(int Id, PutGradeDto dto)
+    {
+        var result = _gradeService.PutGradeById(Id, dto);
+        if (result == 1)
+        {
+            return NotFound();
+        }
+        return Ok();
+    }
+
+    [HttpGet("getById")]
+    [Authorize]
+    public IActionResult GetById(int Id)
+    {
+        var result = _gradeService.GetGradeById(Id);
+        if (result == null)
+        {
+            return NotFound();
+        }
+        return Ok(result);
+    }
+
+    [HttpDelete("deleteById")]
+    [Authorize]
+    public IActionResult DeleteById(int Id)
+    {
+        var result = _gradeService.DeleteGradeById(Id);
+        if (result == 1)
+        {
+            return NotFound();
+        }
+        return Ok(result);
+    }
+
+    [HttpGet("getGrades")]
+    [Authorize]
+    public IActionResult GetGrades()
+    {
+        var result = _gradeService.GetGrades();
+        if (result == null)
+        {
+            return NotFound();
+        }
+        return Ok(result);
+    }
 }

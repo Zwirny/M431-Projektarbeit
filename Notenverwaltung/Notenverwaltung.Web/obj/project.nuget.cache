@@ -1,7 +1,11 @@
 {
   "version": 2,
 <<<<<<< HEAD
+<<<<<<< HEAD
   "dgSpecHash": "70trWg/QjuY=",
+=======
+  "dgSpecHash": "Uw505/Fna3c=",
+>>>>>>> 277face92566d152dfb0d9f8e54ad8e513784e4a
 =======
 <<<<<<< HEAD
   "dgSpecHash": "HsLb5slIU6Y=",
@@ -16,6 +20,7 @@
   "success": true,
   "projectFilePath": "C:\\GIBZ\\Informatik\\M431\\Projektarbeit\\M431-Projektarbeit\\Notenverwaltung\\Notenverwaltung.Web\\Notenverwaltung.Web.csproj",
   "expectedPackageFiles": [
+<<<<<<< HEAD
 <<<<<<< HEAD
     "C:\\Users\\abbasl\\.nuget\\packages\\microsoft.aspnetcore.authorization\\8.0.20\\microsoft.aspnetcore.authorization.8.0.20.nupkg.sha512",
     "C:\\Users\\abbasl\\.nuget\\packages\\microsoft.aspnetcore.components\\8.0.20\\microsoft.aspnetcore.components.8.0.20.nupkg.sha512",
@@ -46,6 +51,8 @@
     "C:\\Users\\abbasl\\.nuget\\packages\\system.io.pipelines\\8.0.0\\system.io.pipelines.8.0.0.nupkg.sha512"
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> 277face92566d152dfb0d9f8e54ad8e513784e4a
     "C:\\Users\\Simon\\.nuget\\packages\\microsoft.aspnetcore.authorization\\8.0.20\\microsoft.aspnetcore.authorization.8.0.20.nupkg.sha512",
     "C:\\Users\\Simon\\.nuget\\packages\\microsoft.aspnetcore.components\\8.0.20\\microsoft.aspnetcore.components.8.0.20.nupkg.sha512",
     "C:\\Users\\Simon\\.nuget\\packages\\microsoft.aspnetcore.components.analyzers\\8.0.20\\microsoft.aspnetcore.components.analyzers.8.0.20.nupkg.sha512",
@@ -74,6 +81,8 @@
     "C:\\Users\\Simon\\.nuget\\packages\\microsoft.net.sdk.webassembly.pack\\9.0.9\\microsoft.net.sdk.webassembly.pack.9.0.9.nupkg.sha512",
     "C:\\Users\\Simon\\.nuget\\packages\\system.io.pipelines\\8.0.0\\system.io.pipelines.8.0.0.nupkg.sha512",
     "C:\\Users\\Simon\\.nuget\\packages\\microsoft.netcore.app.runtime.mono.browser-wasm\\8.0.20\\microsoft.netcore.app.runtime.mono.browser-wasm.8.0.20.nupkg.sha512"
+<<<<<<< HEAD
+=======
 =======
     "C:\\Users\\SandroZwyer\\.nuget\\packages\\microsoft.aspnetcore.authorization\\8.0.20\\microsoft.aspnetcore.authorization.8.0.20.nupkg.sha512",
     "C:\\Users\\SandroZwyer\\.nuget\\packages\\microsoft.aspnetcore.components\\8.0.20\\microsoft.aspnetcore.components.8.0.20.nupkg.sha512",
