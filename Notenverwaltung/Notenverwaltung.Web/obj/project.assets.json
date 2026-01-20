@@ -421,29 +421,13 @@
           }
         }
       },
-<<<<<<< HEAD
       "Microsoft.NET.ILLink.Tasks/8.0.23": {
-=======
-      "Microsoft.NET.ILLink.Tasks/8.0.20": {
->>>>>>> 4086e164ebc7f0e84e5f721d5a91cd47ebf3d63b
         "type": "package",
         "build": {
           "build/Microsoft.NET.ILLink.Tasks.props": {}
         }
       },
-<<<<<<< HEAD
-      "Microsoft.NET.Sdk.WebAssembly.Pack/9.0.9": {
-=======
-<<<<<<< HEAD
       "Microsoft.NET.Sdk.WebAssembly.Pack/10.0.2": {
-=======
-<<<<<<< HEAD
-      "Microsoft.NET.Sdk.WebAssembly.Pack/9.0.9": {
-=======
-      "Microsoft.NET.Sdk.WebAssembly.Pack/10.0.1": {
->>>>>>> 0d0f6eb13d5cf38c51bf27d08d2ff0ac22015906
->>>>>>> 4086e164ebc7f0e84e5f721d5a91cd47ebf3d63b
->>>>>>> 1e9d9a7e36b454c2e5308924361978714b7bc55b
         "type": "package",
         "build": {
           "build/Microsoft.NET.Sdk.WebAssembly.Pack.props": {},
@@ -897,29 +881,13 @@
           }
         }
       },
-<<<<<<< HEAD
       "Microsoft.NET.ILLink.Tasks/8.0.23": {
-=======
-      "Microsoft.NET.ILLink.Tasks/8.0.20": {
->>>>>>> 4086e164ebc7f0e84e5f721d5a91cd47ebf3d63b
         "type": "package",
         "build": {
           "build/Microsoft.NET.ILLink.Tasks.props": {}
         }
       },
-<<<<<<< HEAD
-      "Microsoft.NET.Sdk.WebAssembly.Pack/9.0.9": {
-=======
-<<<<<<< HEAD
       "Microsoft.NET.Sdk.WebAssembly.Pack/10.0.2": {
-=======
-<<<<<<< HEAD
-      "Microsoft.NET.Sdk.WebAssembly.Pack/9.0.9": {
-=======
-      "Microsoft.NET.Sdk.WebAssembly.Pack/10.0.1": {
->>>>>>> 0d0f6eb13d5cf38c51bf27d08d2ff0ac22015906
->>>>>>> 4086e164ebc7f0e84e5f721d5a91cd47ebf3d63b
->>>>>>> 1e9d9a7e36b454c2e5308924361978714b7bc55b
         "type": "package",
         "build": {
           "build/Microsoft.NET.Sdk.WebAssembly.Pack.props": {},
@@ -1765,17 +1733,10 @@
         "microsoft.jsinterop.webassembly.nuspec"
       ]
     },
-<<<<<<< HEAD
     "Microsoft.NET.ILLink.Tasks/8.0.23": {
       "sha512": "GqHiB1HbbODWPbY/lc5xLQH8siEEhNA0ptpJCC6X6adtAYNEzu5ZlqV3YHA3Gh7fuEwgA8XqVwMtH2KNtuQM1Q==",
       "type": "package",
       "path": "microsoft.net.illink.tasks/8.0.23",
-=======
-    "Microsoft.NET.ILLink.Tasks/8.0.20": {
-      "sha512": "Rhcto2AjGvTO62+/VTmBpumBOmqIGp7nYEbTbmEXkCq4yPGxV8whju3/HsIA/bKyo2+DggaYk5+/8sxb1AbPTw==",
-      "type": "package",
-      "path": "microsoft.net.illink.tasks/8.0.20",
->>>>>>> 4086e164ebc7f0e84e5f721d5a91cd47ebf3d63b
       "hasTools": true,
       "files": [
         ".nupkg.metadata",
@@ -1789,11 +1750,7 @@
         "build/Microsoft.NET.ILLink.Analyzers.props",
         "build/Microsoft.NET.ILLink.Tasks.props",
         "build/Microsoft.NET.ILLink.targets",
-<<<<<<< HEAD
         "microsoft.net.illink.tasks.8.0.23.nupkg.sha512",
-=======
-        "microsoft.net.illink.tasks.8.0.20.nupkg.sha512",
->>>>>>> 4086e164ebc7f0e84e5f721d5a91cd47ebf3d63b
         "microsoft.net.illink.tasks.nuspec",
         "tools/net472/ILLink.Tasks.dll",
         "tools/net472/ILLink.Tasks.dll.config",
@@ -1827,36 +1784,15 @@
         "useSharedDesignerContext.txt"
       ]
     },
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
     "Microsoft.NET.Sdk.WebAssembly.Pack/10.0.2": {
       "sha512": "ZDAtI9V2EQajyccTZ67JtJWMCIpK3ZFgwqNHyfMieossRdB90WJ+IbYVKObLOLIv9Vkc3eJcrJD2CeffsF/nUA==",
       "type": "package",
       "path": "microsoft.net.sdk.webassembly.pack/10.0.2",
-=======
-<<<<<<< HEAD
->>>>>>> 1e9d9a7e36b454c2e5308924361978714b7bc55b
-    "Microsoft.NET.Sdk.WebAssembly.Pack/9.0.9": {
-      "sha512": "Nx4yF/l8YyzwHM+xBRFOSGv77mjBZP0XkImzLMdrSBGYPB32nEZNXTSwhH9viDhxMhGij+fVUjJj5iAtUdMBww==",
-      "type": "package",
-      "path": "microsoft.net.sdk.webassembly.pack/9.0.9",
-<<<<<<< HEAD
-=======
-=======
-    "Microsoft.NET.Sdk.WebAssembly.Pack/10.0.1": {
-      "sha512": "8XSP0Wu0xpj3xr88WwW43GiklXXiM27n6V8CXk35wT1MjxCfmudQJYmLbirWiPiqU1vCIWTIczPpI40ivC3ruQ==",
-      "type": "package",
-      "path": "microsoft.net.sdk.webassembly.pack/10.0.1",
->>>>>>> 0d0f6eb13d5cf38c51bf27d08d2ff0ac22015906
->>>>>>> 4086e164ebc7f0e84e5f721d5a91cd47ebf3d63b
->>>>>>> 1e9d9a7e36b454c2e5308924361978714b7bc55b
       "hasTools": true,
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "Icon.png",
-        "LICENSE.TXT",
         "THIRD-PARTY-NOTICES.TXT",
         "WasmAppHost/BrowserDebugHost.deps.json",
         "WasmAppHost/BrowserDebugHost.dll",
@@ -1881,24 +1817,12 @@
         "build/Microsoft.NET.Sdk.WebAssembly.Pack.targets",
         "build/Wasm.web.config",
         "build/browser.runtimeconfig.template.json",
-<<<<<<< HEAD
-        "microsoft.net.sdk.webassembly.pack.9.0.9.nupkg.sha512",
-=======
-<<<<<<< HEAD
         "microsoft.net.sdk.webassembly.pack.10.0.2.nupkg.sha512",
-=======
-<<<<<<< HEAD
-        "microsoft.net.sdk.webassembly.pack.9.0.9.nupkg.sha512",
-=======
-        "microsoft.net.sdk.webassembly.pack.10.0.1.nupkg.sha512",
->>>>>>> 0d0f6eb13d5cf38c51bf27d08d2ff0ac22015906
->>>>>>> 4086e164ebc7f0e84e5f721d5a91cd47ebf3d63b
->>>>>>> 1e9d9a7e36b454c2e5308924361978714b7bc55b
         "microsoft.net.sdk.webassembly.pack.nuspec",
+        "tools/net10.0/Microsoft.NET.Sdk.WebAssembly.Pack.Tasks.dll",
+        "tools/net10.0/Microsoft.NET.WebAssembly.Webcil.dll",
         "tools/net472/Microsoft.NET.Sdk.WebAssembly.Pack.Tasks.dll",
-        "tools/net472/Microsoft.NET.WebAssembly.Webcil.dll",
-        "tools/net9.0/Microsoft.NET.Sdk.WebAssembly.Pack.Tasks.dll",
-        "tools/net9.0/Microsoft.NET.WebAssembly.Webcil.dll"
+        "tools/net472/Microsoft.NET.WebAssembly.Webcil.dll"
       ]
     },
     "System.IO.Pipelines/8.0.0": {
@@ -1940,44 +1864,29 @@
     "net8.0": [
       "Microsoft.AspNetCore.Components.WebAssembly >= 8.0.20",
       "Microsoft.AspNetCore.Components.WebAssembly.DevServer >= 8.0.20",
-<<<<<<< HEAD
-      "Microsoft.NET.ILLink.Tasks >= 8.0.20",
-      "Microsoft.NET.Sdk.WebAssembly.Pack >= 9.0.9",
-=======
-<<<<<<< HEAD
       "Microsoft.NET.ILLink.Tasks >= 8.0.23",
       "Microsoft.NET.Sdk.WebAssembly.Pack >= 10.0.2",
-=======
-<<<<<<< HEAD
-      "Microsoft.NET.ILLink.Tasks >= 8.0.20",
-      "Microsoft.NET.Sdk.WebAssembly.Pack >= 9.0.9",
-=======
-      "Microsoft.NET.ILLink.Tasks >= 8.0.22",
-      "Microsoft.NET.Sdk.WebAssembly.Pack >= 10.0.1",
->>>>>>> 0d0f6eb13d5cf38c51bf27d08d2ff0ac22015906
->>>>>>> 4086e164ebc7f0e84e5f721d5a91cd47ebf3d63b
->>>>>>> 1e9d9a7e36b454c2e5308924361978714b7bc55b
       "Notenverwaltung.Shared >= 1.0.0"
     ]
   },
   "packageFolders": {
-    "C:\\Users\\abbasl\\.nuget\\packages\\": {},
+    "C:\\Users\\SandroZwyer\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\GIBZ\\Informatik\\M431\\Projektarbeit\\M431-Projektarbeit\\Notenverwaltung\\Notenverwaltung.Web\\Notenverwaltung.Web.csproj",
+      "projectUniqueName": "C:\\Users\\SandroZwyer\\OneDrive - bits ag\\Dokumente\\.Schule\\GIBZ\\Informatik\\M431\\M431-Projektarbeit\\Notenverwaltung\\Notenverwaltung.Web\\Notenverwaltung.Web.csproj",
       "projectName": "Notenverwaltung.Web",
-      "projectPath": "C:\\GIBZ\\Informatik\\M431\\Projektarbeit\\M431-Projektarbeit\\Notenverwaltung\\Notenverwaltung.Web\\Notenverwaltung.Web.csproj",
-      "packagesPath": "C:\\Users\\abbasl\\.nuget\\packages\\",
-      "outputPath": "C:\\GIBZ\\Informatik\\M431\\Projektarbeit\\M431-Projektarbeit\\Notenverwaltung\\Notenverwaltung.Web\\obj\\",
+      "projectPath": "C:\\Users\\SandroZwyer\\OneDrive - bits ag\\Dokumente\\.Schule\\GIBZ\\Informatik\\M431\\M431-Projektarbeit\\Notenverwaltung\\Notenverwaltung.Web\\Notenverwaltung.Web.csproj",
+      "packagesPath": "C:\\Users\\SandroZwyer\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\SandroZwyer\\OneDrive - bits ag\\Dokumente\\.Schule\\GIBZ\\Informatik\\M431\\M431-Projektarbeit\\Notenverwaltung\\Notenverwaltung.Web\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\abbasl\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\SandroZwyer\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -1993,8 +1902,8 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\GIBZ\\Informatik\\M431\\Projektarbeit\\M431-Projektarbeit\\Notenverwaltung\\Notenverwaltung.Shared\\Notenverwaltung.Shared.csproj": {
-              "projectPath": "C:\\GIBZ\\Informatik\\M431\\Projektarbeit\\M431-Projektarbeit\\Notenverwaltung\\Notenverwaltung.Shared\\Notenverwaltung.Shared.csproj"
+            "C:\\Users\\SandroZwyer\\OneDrive - bits ag\\Dokumente\\.Schule\\GIBZ\\Informatik\\M431\\M431-Projektarbeit\\Notenverwaltung\\Notenverwaltung.Shared\\Notenverwaltung.Shared.csproj": {
+              "projectPath": "C:\\Users\\SandroZwyer\\OneDrive - bits ag\\Dokumente\\.Schule\\GIBZ\\Informatik\\M431\\M431-Projektarbeit\\Notenverwaltung\\Notenverwaltung.Shared\\Notenverwaltung.Shared.csproj"
             }
           }
         }
@@ -2009,7 +1918,7 @@
         "auditLevel": "low",
         "auditMode": "direct"
       },
-      "SdkAnalysisLevel": "9.0.300"
+      "SdkAnalysisLevel": "10.0.100"
     },
     "frameworks": {
       "net8.0": {
@@ -2027,29 +1936,13 @@
           "Microsoft.NET.ILLink.Tasks": {
             "suppressParent": "All",
             "target": "Package",
-<<<<<<< HEAD
             "version": "[8.0.23, )",
-=======
-            "version": "[8.0.20, )",
->>>>>>> 4086e164ebc7f0e84e5f721d5a91cd47ebf3d63b
             "autoReferenced": true
           },
           "Microsoft.NET.Sdk.WebAssembly.Pack": {
             "suppressParent": "All",
             "target": "Package",
-<<<<<<< HEAD
-            "version": "[9.0.9, )",
-=======
-<<<<<<< HEAD
             "version": "[10.0.2, )",
-=======
-<<<<<<< HEAD
-            "version": "[9.0.9, )",
-=======
-            "version": "[10.0.1, )",
->>>>>>> 0d0f6eb13d5cf38c51bf27d08d2ff0ac22015906
->>>>>>> 4086e164ebc7f0e84e5f721d5a91cd47ebf3d63b
->>>>>>> 1e9d9a7e36b454c2e5308924361978714b7bc55b
             "autoReferenced": true
           }
         },
@@ -2064,11 +1957,8 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
-<<<<<<< HEAD
-=======
         "downloadDependencies": [
           {
-<<<<<<< HEAD
             "name": "Microsoft.AspNetCore.App.Ref",
             "version": "[8.0.23, 8.0.23]"
           },
@@ -2083,31 +1973,14 @@
           {
             "name": "Microsoft.WindowsDesktop.App.Ref",
             "version": "[8.0.23, 8.0.23]"
-=======
-            "name": "Microsoft.NETCore.App.Runtime.Mono.browser-wasm",
-            "version": "[8.0.20, 8.0.20]"
->>>>>>> 4086e164ebc7f0e84e5f721d5a91cd47ebf3d63b
           }
         ],
->>>>>>> 1e9d9a7e36b454c2e5308924361978714b7bc55b
         "frameworkReferences": {
           "Microsoft.NETCore.App": {
             "privateAssets": "all"
           }
         },
-<<<<<<< HEAD
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.305/PortableRuntimeIdentifierGraph.json"
-=======
-<<<<<<< HEAD
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.102/PortableRuntimeIdentifierGraph.json"
-=======
-<<<<<<< HEAD
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.305/PortableRuntimeIdentifierGraph.json"
-=======
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.101/PortableRuntimeIdentifierGraph.json"
->>>>>>> 0d0f6eb13d5cf38c51bf27d08d2ff0ac22015906
->>>>>>> 4086e164ebc7f0e84e5f721d5a91cd47ebf3d63b
->>>>>>> 1e9d9a7e36b454c2e5308924361978714b7bc55b
       }
     },
     "runtimes": {
@@ -2115,13 +1988,5 @@
         "#import": []
       }
     }
-  },
-  "logs": [
-    {
-      "code": "Undefined",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Problem reading the cache file C:\\GIBZ\\Informatik\\M431\\Projektarbeit\\M431-Projektarbeit\\Notenverwaltung\\Notenverwaltung.Web\\obj\\project.nuget.cache : '<' is an invalid start of a property name. Expected a '\"'. Path: $ | LineNumber: 2 | BytePositionInLine: 0."
-    }
-  ]
+  }
 }

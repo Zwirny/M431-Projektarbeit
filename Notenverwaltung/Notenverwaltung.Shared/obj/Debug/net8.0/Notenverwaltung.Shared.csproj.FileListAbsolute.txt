@@ -10,27 +10,3 @@ C:\Users\SandroZwyer\OneDrive - bits ag\Dokumente\.Schule\GIBZ\Informatik\M431\M
 C:\Users\SandroZwyer\OneDrive - bits ag\Dokumente\.Schule\GIBZ\Informatik\M431\M431-Projektarbeit\Notenverwaltung\Notenverwaltung.Shared\obj\Debug\net8.0\refint\Notenverwaltung.Shared.dll
 C:\Users\SandroZwyer\OneDrive - bits ag\Dokumente\.Schule\GIBZ\Informatik\M431\M431-Projektarbeit\Notenverwaltung\Notenverwaltung.Shared\obj\Debug\net8.0\Notenverwaltung.Shared.pdb
 C:\Users\SandroZwyer\OneDrive - bits ag\Dokumente\.Schule\GIBZ\Informatik\M431\M431-Projektarbeit\Notenverwaltung\Notenverwaltung.Shared\obj\Debug\net8.0\ref\Notenverwaltung.Shared.dll
-C:\Users\Simon\Documents\M431\Projekt\M431-Projektarbeit\Notenverwaltung\Notenverwaltung.Shared\bin\Debug\net8.0\Notenverwaltung.Shared.deps.json
-C:\Users\Simon\Documents\M431\Projekt\M431-Projektarbeit\Notenverwaltung\Notenverwaltung.Shared\bin\Debug\net8.0\Notenverwaltung.Shared.dll
-C:\Users\Simon\Documents\M431\Projekt\M431-Projektarbeit\Notenverwaltung\Notenverwaltung.Shared\bin\Debug\net8.0\Notenverwaltung.Shared.pdb
-C:\Users\Simon\Documents\M431\Projekt\M431-Projektarbeit\Notenverwaltung\Notenverwaltung.Shared\obj\Debug\net8.0\Notenverwaltung.Shared.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\Simon\Documents\M431\Projekt\M431-Projektarbeit\Notenverwaltung\Notenverwaltung.Shared\obj\Debug\net8.0\Notenverwaltung.Shared.AssemblyInfoInputs.cache
-C:\Users\Simon\Documents\M431\Projekt\M431-Projektarbeit\Notenverwaltung\Notenverwaltung.Shared\obj\Debug\net8.0\Notenverwaltung.Shared.AssemblyInfo.cs
-C:\Users\Simon\Documents\M431\Projekt\M431-Projektarbeit\Notenverwaltung\Notenverwaltung.Shared\obj\Debug\net8.0\Notenverwaltung.Shared.csproj.CoreCompileInputs.cache
-C:\Users\Simon\Documents\M431\Projekt\M431-Projektarbeit\Notenverwaltung\Notenverwaltung.Shared\obj\Debug\net8.0\Notenverwaltung.Shared.sourcelink.json
-C:\Users\Simon\Documents\M431\Projekt\M431-Projektarbeit\Notenverwaltung\Notenverwaltung.Shared\obj\Debug\net8.0\Notenverwaltung.Shared.dll
-C:\Users\Simon\Documents\M431\Projekt\M431-Projektarbeit\Notenverwaltung\Notenverwaltung.Shared\obj\Debug\net8.0\refint\Notenverwaltung.Shared.dll
-C:\Users\Simon\Documents\M431\Projekt\M431-Projektarbeit\Notenverwaltung\Notenverwaltung.Shared\obj\Debug\net8.0\Notenverwaltung.Shared.pdb
-C:\Users\Simon\Documents\M431\Projekt\M431-Projektarbeit\Notenverwaltung\Notenverwaltung.Shared\obj\Debug\net8.0\ref\Notenverwaltung.Shared.dll
-C:\GIBZ\Informatik\M431\Projektarbeit\M431-Projektarbeit\Notenverwaltung\Notenverwaltung.Shared\bin\Debug\net8.0\Notenverwaltung.Shared.deps.json
-C:\GIBZ\Informatik\M431\Projektarbeit\M431-Projektarbeit\Notenverwaltung\Notenverwaltung.Shared\bin\Debug\net8.0\Notenverwaltung.Shared.dll
-C:\GIBZ\Informatik\M431\Projektarbeit\M431-Projektarbeit\Notenverwaltung\Notenverwaltung.Shared\bin\Debug\net8.0\Notenverwaltung.Shared.pdb
-C:\GIBZ\Informatik\M431\Projektarbeit\M431-Projektarbeit\Notenverwaltung\Notenverwaltung.Shared\obj\Debug\net8.0\Notenverwaltung.Shared.GeneratedMSBuildEditorConfig.editorconfig
-C:\GIBZ\Informatik\M431\Projektarbeit\M431-Projektarbeit\Notenverwaltung\Notenverwaltung.Shared\obj\Debug\net8.0\Notenverwaltung.Shared.AssemblyInfoInputs.cache
-C:\GIBZ\Informatik\M431\Projektarbeit\M431-Projektarbeit\Notenverwaltung\Notenverwaltung.Shared\obj\Debug\net8.0\Notenverwaltung.Shared.AssemblyInfo.cs
-C:\GIBZ\Informatik\M431\Projektarbeit\M431-Projektarbeit\Notenverwaltung\Notenverwaltung.Shared\obj\Debug\net8.0\Notenverwaltung.Shared.csproj.CoreCompileInputs.cache
-C:\GIBZ\Informatik\M431\Projektarbeit\M431-Projektarbeit\Notenverwaltung\Notenverwaltung.Shared\obj\Debug\net8.0\Notenverwaltung.Shared.sourcelink.json
-C:\GIBZ\Informatik\M431\Projektarbeit\M431-Projektarbeit\Notenverwaltung\Notenverwaltung.Shared\obj\Debug\net8.0\Notenverwaltung.Shared.dll
-C:\GIBZ\Informatik\M431\Projektarbeit\M431-Projektarbeit\Notenverwaltung\Notenverwaltung.Shared\obj\Debug\net8.0\refint\Notenverwaltung.Shared.dll
-C:\GIBZ\Informatik\M431\Projektarbeit\M431-Projektarbeit\Notenverwaltung\Notenverwaltung.Shared\obj\Debug\net8.0\Notenverwaltung.Shared.pdb
-C:\GIBZ\Informatik\M431\Projektarbeit\M431-Projektarbeit\Notenverwaltung\Notenverwaltung.Shared\obj\Debug\net8.0\ref\Notenverwaltung.Shared.dll
