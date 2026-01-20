@@ -4,9 +4,12 @@
     <Import Project="$(NuGetPackageRoot)microsoft.net.sdk.webassembly.pack\9.0.9\build\Microsoft.NET.Sdk.WebAssembly.Pack.targets" Condition="Exists('$(NuGetPackageRoot)microsoft.net.sdk.webassembly.pack\9.0.9\build\Microsoft.NET.Sdk.WebAssembly.Pack.targets')" />
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 =======
     <Import Project="$(NuGetPackageRoot)microsoft.net.sdk.webassembly.pack\10.0.2\build\Microsoft.NET.Sdk.WebAssembly.Pack.targets" Condition="Exists('$(NuGetPackageRoot)microsoft.net.sdk.webassembly.pack\10.0.2\build\Microsoft.NET.Sdk.WebAssembly.Pack.targets')" />
 >>>>>>> 2b5b7a1efc658163b38a7dfc79fab3f58eba9dd8
+=======
+>>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
 =======

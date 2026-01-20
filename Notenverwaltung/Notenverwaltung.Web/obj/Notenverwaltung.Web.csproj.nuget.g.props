@@ -16,7 +16,10 @@
   <ImportGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 <<<<<<< HEAD
+=======
+>>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
 =======
@@ -31,6 +34,7 @@
     <PkgMicrosoft_AspNetCore_Components_WebAssembly_DevServer Condition=" '$(PkgMicrosoft_AspNetCore_Components_WebAssembly_DevServer)' == '' ">C:\Users\Simon\.nuget\packages\microsoft.aspnetcore.components.webassembly.devserver\8.0.20</PkgMicrosoft_AspNetCore_Components_WebAssembly_DevServer>
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 =======
     <Import Project="$(NuGetPackageRoot)microsoft.net.sdk.webassembly.pack\10.0.2\build\Microsoft.NET.Sdk.WebAssembly.Pack.props" Condition="Exists('$(NuGetPackageRoot)microsoft.net.sdk.webassembly.pack\10.0.2\build\Microsoft.NET.Sdk.WebAssembly.Pack.props')" />
     <Import Project="$(NuGetPackageRoot)microsoft.net.illink.tasks\8.0.23\build\Microsoft.NET.ILLink.Tasks.props" Condition="Exists('$(NuGetPackageRoot)microsoft.net.illink.tasks\8.0.23\build\Microsoft.NET.ILLink.Tasks.props')" />
@@ -41,6 +45,8 @@
     <PkgMicrosoft_NET_ILLink_Tasks Condition=" '$(PkgMicrosoft_NET_ILLink_Tasks)' == '' ">C:\Users\SandroZwyer\.nuget\packages\microsoft.net.illink.tasks\8.0.23</PkgMicrosoft_NET_ILLink_Tasks>
     <PkgMicrosoft_AspNetCore_Components_WebAssembly_DevServer Condition=" '$(PkgMicrosoft_AspNetCore_Components_WebAssembly_DevServer)' == '' ">C:\Users\SandroZwyer\.nuget\packages\microsoft.aspnetcore.components.webassembly.devserver\8.0.20</PkgMicrosoft_AspNetCore_Components_WebAssembly_DevServer>
 >>>>>>> 2b5b7a1efc658163b38a7dfc79fab3f58eba9dd8
+=======
+>>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
 =======

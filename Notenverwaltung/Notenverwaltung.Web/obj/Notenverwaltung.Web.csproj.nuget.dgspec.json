@@ -63,6 +63,7 @@
           "warn": true,
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 <<<<<<< HEAD
 =======
           "downloadDependencies": [
@@ -84,6 +85,8 @@
 >>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
+=======
+>>>>>>> Stashed changes
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
@@ -92,9 +95,12 @@
           "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.305/PortableRuntimeIdentifierGraph.json"
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 =======
           "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.102/PortableRuntimeIdentifierGraph.json"
 >>>>>>> 2b5b7a1efc658163b38a7dfc79fab3f58eba9dd8
+=======
+>>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
 =======
@@ -167,11 +173,15 @@
               "target": "Package",
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 <<<<<<< HEAD
               "version": "[8.0.20, )",
 =======
               "version": "[8.0.23, )",
 >>>>>>> 2b5b7a1efc658163b38a7dfc79fab3f58eba9dd8
+=======
+              "version": "[8.0.20, )",
+>>>>>>> Stashed changes
 =======
               "version": "[8.0.20, )",
 >>>>>>> Stashed changes
@@ -186,9 +196,12 @@
               "version": "[9.0.9, )",
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 =======
               "version": "[10.0.2, )",
 >>>>>>> 2b5b7a1efc658163b38a7dfc79fab3f58eba9dd8
+=======
+>>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
 =======
@@ -209,6 +222,7 @@
           "warn": true,
           "downloadDependencies": [
             {
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
 <<<<<<< HEAD
@@ -238,6 +252,10 @@
               "name": "Microsoft.NETCore.App.Runtime.Mono.browser-wasm",
               "version": "[8.0.20, 8.0.20]"
 >>>>>>> Stashed changes
+=======
+              "name": "Microsoft.NETCore.App.Runtime.Mono.browser-wasm",
+              "version": "[8.0.20, 8.0.20]"
+>>>>>>> Stashed changes
             }
           ],
           "frameworkReferences": {
@@ -248,9 +266,12 @@
           "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.305/PortableRuntimeIdentifierGraph.json"
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 =======
           "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.102/PortableRuntimeIdentifierGraph.json"
 >>>>>>> 2b5b7a1efc658163b38a7dfc79fab3f58eba9dd8
+=======
+>>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
 =======
