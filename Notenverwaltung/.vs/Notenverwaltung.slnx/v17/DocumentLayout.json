@@ -12,6 +12,7 @@
     },
     {
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
       "AbsoluteMoniker": "D:0:0:{557F8DE5-8110-580F-9F00-FCD553C70E50}|Notenverwaltung.API\\Notenverwaltung.API.csproj|c:\\users\\simon\\documents\\m431\\projekt\\m431-projektarbeit\\notenverwaltung\\notenverwaltung.api\\service\\dependencyinjektion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{557F8DE5-8110-580F-9F00-FCD553C70E50}|Notenverwaltung.API\\Notenverwaltung.API.csproj|solutionrelative:notenverwaltung.api\\service\\dependencyinjektion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -19,6 +20,8 @@
       "AbsoluteMoniker": "D:0:0:{557F8DE5-8110-580F-9F00-FCD553C70E50}|Notenverwaltung.API\\Notenverwaltung.API.csproj|c:\\users\\simon\\documents\\m431\\projekt\\m431-projektarbeit\\notenverwaltung\\notenverwaltung.api\\service\\services\\gradeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{557F8DE5-8110-580F-9F00-FCD553C70E50}|Notenverwaltung.API\\Notenverwaltung.API.csproj|solutionrelative:notenverwaltung.api\\service\\services\\gradeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
 =======
+=======
+>>>>>>> Stashed changes
       "AbsoluteMoniker": "D:0:0:{D2CF5828-1C22-A53F-4FD5-C96C878DD541}|Notenverwaltung.Shared\\Notenverwaltung.Shared.csproj|c:\\users\\simon\\documents\\m431\\projekt\\m431-projektarbeit\\notenverwaltung\\notenverwaltung.shared\\dtos\\coursedtos\\coursedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D2CF5828-1C22-A53F-4FD5-C96C878DD541}|Notenverwaltung.Shared\\Notenverwaltung.Shared.csproj|solutionrelative:notenverwaltung.shared\\dtos\\coursedtos\\coursedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -41,6 +44,9 @@
     {
       "AbsoluteMoniker": "D:0:0:{557F8DE5-8110-580F-9F00-FCD553C70E50}|Notenverwaltung.API\\Notenverwaltung.API.csproj|c:\\users\\simon\\documents\\m431\\projekt\\m431-projektarbeit\\notenverwaltung\\notenverwaltung.api\\dataaccess\\repositories\\courserepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{557F8DE5-8110-580F-9F00-FCD553C70E50}|Notenverwaltung.API\\Notenverwaltung.API.csproj|solutionrelative:notenverwaltung.api\\dataaccess\\repositories\\courserepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
     },
     {
@@ -73,11 +79,17 @@
     },
     {
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 =======
+=======
+>>>>>>> Stashed changes
       "AbsoluteMoniker": "D:0:0:{557F8DE5-8110-580F-9F00-FCD553C70E50}|Notenverwaltung.API\\Notenverwaltung.API.csproj|c:\\users\\simon\\documents\\m431\\projekt\\m431-projektarbeit\\notenverwaltung\\notenverwaltung.api\\dataaccess\\models\\course.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{557F8DE5-8110-580F-9F00-FCD553C70E50}|Notenverwaltung.API\\Notenverwaltung.API.csproj|solutionrelative:notenverwaltung.api\\dataaccess\\models\\course.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
       "AbsoluteMoniker": "D:0:0:{557F8DE5-8110-580F-9F00-FCD553C70E50}|Notenverwaltung.API\\Notenverwaltung.API.csproj|c:\\users\\simon\\documents\\m431\\projekt\\m431-projektarbeit\\notenverwaltung\\notenverwaltung.api\\dataaccess\\models\\grade.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{557F8DE5-8110-580F-9F00-FCD553C70E50}|Notenverwaltung.API\\Notenverwaltung.API.csproj|solutionrelative:notenverwaltung.api\\dataaccess\\models\\grade.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
@@ -111,7 +123,11 @@
         {
           "DockedWidth": 200,
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
           "SelectedChildIndex": 2,
+=======
+          "SelectedChildIndex": 1,
+>>>>>>> Stashed changes
 =======
           "SelectedChildIndex": 1,
 >>>>>>> Stashed changes
@@ -123,8 +139,11 @@
             {
               "$type": "Document",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
               "DocumentIndex": 2,
 =======
+=======
+>>>>>>> Stashed changes
               "DocumentIndex": 0,
               "Title": "CourseController.cs",
               "DocumentMoniker": "C:\\Users\\Simon\\Documents\\M431\\Projekt\\M431-Projektarbeit\\Notenverwaltung\\Notenverwaltung.API\\Controllers\\CourseController.cs",
@@ -151,6 +170,9 @@
             {
               "$type": "Document",
               "DocumentIndex": 6,
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
               "Title": "GradeService.cs",
               "DocumentMoniker": "C:\\Users\\Simon\\Documents\\M431\\Projekt\\M431-Projektarbeit\\Notenverwaltung\\Notenverwaltung.API\\Service\\Services\\GradeService.cs",
@@ -188,8 +210,11 @@
             {
               "$type": "Document",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
               "DocumentIndex": 1,
 =======
+=======
+>>>>>>> Stashed changes
               "DocumentIndex": 7,
               "Title": "CourseRepository.cs",
               "DocumentMoniker": "C:\\Users\\Simon\\Documents\\M431\\Projekt\\M431-Projektarbeit\\Notenverwaltung\\Notenverwaltung.API\\DataAccess\\Repositories\\CourseRepository.cs",
@@ -215,6 +240,9 @@
             {
               "$type": "Document",
               "DocumentIndex": 3,
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
               "Title": "DependencyInjektion.cs",
               "DocumentMoniker": "C:\\Users\\Simon\\Documents\\M431\\Projekt\\M431-Projektarbeit\\Notenverwaltung\\Notenverwaltung.API\\Service\\DependencyInjektion.cs",
@@ -228,7 +256,11 @@
             {
               "$type": "Document",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
               "DocumentIndex": 3,
+=======
+              "DocumentIndex": 8,
+>>>>>>> Stashed changes
 =======
               "DocumentIndex": 8,
 >>>>>>> Stashed changes
@@ -244,8 +276,11 @@
             {
               "$type": "Document",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
               "DocumentIndex": 4,
 =======
+=======
+>>>>>>> Stashed changes
               "DocumentIndex": 9,
               "Title": "ICourseRepository.cs",
               "DocumentMoniker": "C:\\Users\\Simon\\Documents\\M431\\Projekt\\M431-Projektarbeit\\Notenverwaltung\\Notenverwaltung.API\\DataAccess\\Repositories\\Abstract\\ICourseRepository.cs",
@@ -259,6 +294,9 @@
             {
               "$type": "Document",
               "DocumentIndex": 10,
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
               "Title": "IGradeRepository.cs",
               "DocumentMoniker": "C:\\Users\\Simon\\Documents\\M431\\Projekt\\M431-Projektarbeit\\Notenverwaltung\\Notenverwaltung.API\\DataAccess\\Repositories\\Abstract\\IGradeRepository.cs",
@@ -268,6 +306,7 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-01-15T07:22:59.386Z"
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
             },
             {
@@ -303,6 +342,24 @@
               "$type": "Document",
               "DocumentIndex": 12,
 >>>>>>> Stashed changes
+=======
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "IGradeService.cs",
+              "DocumentMoniker": "C:\\Users\\Simon\\Documents\\M431\\Projekt\\M431-Projektarbeit\\Notenverwaltung\\Notenverwaltung.API\\Service\\Services\\Abstract\\IGradeService.cs",
+              "RelativeDocumentMoniker": "Notenverwaltung.API\\Service\\Services\\Abstract\\IGradeService.cs",
+              "ToolTip": "C:\\Users\\Simon\\Documents\\M431\\Projekt\\M431-Projektarbeit\\Notenverwaltung\\Notenverwaltung.API\\Service\\Services\\Abstract\\IGradeService.cs",
+              "RelativeToolTip": "Notenverwaltung.API\\Service\\Services\\Abstract\\IGradeService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-15T07:25:46.9Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+>>>>>>> Stashed changes
               "Title": "AuthService.cs",
               "DocumentMoniker": "C:\\Users\\Simon\\Documents\\M431\\Projekt\\M431-Projektarbeit\\Notenverwaltung\\Notenverwaltung.API\\Service\\Services\\AuthService.cs",
               "RelativeDocumentMoniker": "Notenverwaltung.API\\Service\\Services\\AuthService.cs",
@@ -318,6 +375,9 @@
               "DocumentIndex": 7,
 =======
               "DocumentIndex": 13,
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
               "Title": "DataDependency.cs",
               "DocumentMoniker": "C:\\Users\\Simon\\Documents\\M431\\Projekt\\M431-Projektarbeit\\Notenverwaltung\\Notenverwaltung.API\\DataAccess\\DataDependency.cs",
@@ -331,7 +391,11 @@
             {
               "$type": "Document",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
               "DocumentIndex": 8,
+=======
+              "DocumentIndex": 14,
+>>>>>>> Stashed changes
 =======
               "DocumentIndex": 14,
 >>>>>>> Stashed changes
@@ -347,8 +411,11 @@
             {
               "$type": "Document",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
               "DocumentIndex": 9,
 =======
+=======
+>>>>>>> Stashed changes
               "DocumentIndex": 15,
               "Title": "Course.cs",
               "DocumentMoniker": "C:\\Users\\Simon\\Documents\\M431\\Projekt\\M431-Projektarbeit\\Notenverwaltung\\Notenverwaltung.API\\DataAccess\\Models\\Course.cs",
@@ -362,6 +429,9 @@
             {
               "$type": "Document",
               "DocumentIndex": 16,
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
               "Title": "Grade.cs",
               "DocumentMoniker": "C:\\Users\\Simon\\Documents\\M431\\Projekt\\M431-Projektarbeit\\Notenverwaltung\\Notenverwaltung.API\\DataAccess\\Models\\Grade.cs",
@@ -375,7 +445,11 @@
             {
               "$type": "Document",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
               "DocumentIndex": 11,
+=======
+              "DocumentIndex": 18,
+>>>>>>> Stashed changes
 =======
               "DocumentIndex": 18,
 >>>>>>> Stashed changes
@@ -391,7 +465,11 @@
             {
               "$type": "Document",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
               "DocumentIndex": 12,
+=======
+              "DocumentIndex": 19,
+>>>>>>> Stashed changes
 =======
               "DocumentIndex": 19,
 >>>>>>> Stashed changes
@@ -403,6 +481,7 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAASAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-01-15T07:15:59.002Z"
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
             },
             {
@@ -451,6 +530,19 @@
               "RelativeToolTip": "Notenverwaltung.API\\DataAccess\\Repositories\\Abstract\\IUserRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+=======
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "IUserRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Simon\\Documents\\M431\\Projekt\\M431-Projektarbeit\\Notenverwaltung\\Notenverwaltung.API\\DataAccess\\Repositories\\Abstract\\IUserRepository.cs",
+              "RelativeDocumentMoniker": "Notenverwaltung.API\\DataAccess\\Repositories\\Abstract\\IUserRepository.cs",
+              "ToolTip": "C:\\Users\\Simon\\Documents\\M431\\Projekt\\M431-Projektarbeit\\Notenverwaltung\\Notenverwaltung.API\\DataAccess\\Repositories\\Abstract\\IUserRepository.cs",
+              "RelativeToolTip": "Notenverwaltung.API\\DataAccess\\Repositories\\Abstract\\IUserRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+>>>>>>> Stashed changes
               "WhenOpened": "2026-01-15T08:29:47.395Z"
             },
             {
@@ -475,6 +567,9 @@
               "RelativeToolTip": "Notenverwaltung.Shared\\Dtos\\GradeDtos\\PutGradeDto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
               "WhenOpened": "2026-01-15T08:28:18.588Z"
             }

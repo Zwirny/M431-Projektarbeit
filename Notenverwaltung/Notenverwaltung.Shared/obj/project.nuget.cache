@@ -1,6 +1,9 @@
 {
   "version": 2,
+<<<<<<< Updated upstream
 <<<<<<< HEAD
+=======
+>>>>>>> Stashed changes
   "dgSpecHash": "OswB+GY6pl0=",
   "success": true,
   "projectFilePath": "C:\\Users\\Simon\\Documents\\M431\\Projekt\\M431-Projektarbeit\\Notenverwaltung\\Notenverwaltung.Shared\\Notenverwaltung.Shared.csproj",
@@ -16,6 +19,7 @@
       "targetGraphs": []
     }
   ]
+<<<<<<< Updated upstream
 =======
   "dgSpecHash": "3qDp5PSmUxw=",
   "success": true,
@@ -27,4 +31,6 @@
   ],
   "logs": []
 >>>>>>> 2b5b7a1efc658163b38a7dfc79fab3f58eba9dd8
+=======
+>>>>>>> Stashed changes
 }
