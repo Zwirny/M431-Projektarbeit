@@ -3,20 +3,53 @@
   "WorkspaceRootPath": "C:\\Users\\Simon\\Documents\\M431\\Projekt\\M431-Projektarbeit\\Notenverwaltung\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{557F8DE5-8110-580F-9F00-FCD553C70E50}|Notenverwaltung.API\\Notenverwaltung.API.csproj|c:\\users\\simon\\documents\\m431\\projekt\\m431-projektarbeit\\notenverwaltung\\notenverwaltung.api\\controllers\\coursecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{557F8DE5-8110-580F-9F00-FCD553C70E50}|Notenverwaltung.API\\Notenverwaltung.API.csproj|solutionrelative:notenverwaltung.api\\controllers\\coursecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{557F8DE5-8110-580F-9F00-FCD553C70E50}|Notenverwaltung.API\\Notenverwaltung.API.csproj|c:\\users\\simon\\documents\\m431\\projekt\\m431-projektarbeit\\notenverwaltung\\notenverwaltung.api\\controllers\\gradecontrollers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{557F8DE5-8110-580F-9F00-FCD553C70E50}|Notenverwaltung.API\\Notenverwaltung.API.csproj|solutionrelative:notenverwaltung.api\\controllers\\gradecontrollers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+<<<<<<< Updated upstream
       "AbsoluteMoniker": "D:0:0:{557F8DE5-8110-580F-9F00-FCD553C70E50}|Notenverwaltung.API\\Notenverwaltung.API.csproj|c:\\users\\simon\\documents\\m431\\projekt\\m431-projektarbeit\\notenverwaltung\\notenverwaltung.api\\service\\dependencyinjektion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{557F8DE5-8110-580F-9F00-FCD553C70E50}|Notenverwaltung.API\\Notenverwaltung.API.csproj|solutionrelative:notenverwaltung.api\\service\\dependencyinjektion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{557F8DE5-8110-580F-9F00-FCD553C70E50}|Notenverwaltung.API\\Notenverwaltung.API.csproj|c:\\users\\simon\\documents\\m431\\projekt\\m431-projektarbeit\\notenverwaltung\\notenverwaltung.api\\service\\services\\gradeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{557F8DE5-8110-580F-9F00-FCD553C70E50}|Notenverwaltung.API\\Notenverwaltung.API.csproj|solutionrelative:notenverwaltung.api\\service\\services\\gradeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+=======
+      "AbsoluteMoniker": "D:0:0:{D2CF5828-1C22-A53F-4FD5-C96C878DD541}|Notenverwaltung.Shared\\Notenverwaltung.Shared.csproj|c:\\users\\simon\\documents\\m431\\projekt\\m431-projektarbeit\\notenverwaltung\\notenverwaltung.shared\\dtos\\coursedtos\\coursedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D2CF5828-1C22-A53F-4FD5-C96C878DD541}|Notenverwaltung.Shared\\Notenverwaltung.Shared.csproj|solutionrelative:notenverwaltung.shared\\dtos\\coursedtos\\coursedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{557F8DE5-8110-580F-9F00-FCD553C70E50}|Notenverwaltung.API\\Notenverwaltung.API.csproj|c:\\users\\simon\\documents\\m431\\projekt\\m431-projektarbeit\\notenverwaltung\\notenverwaltung.api\\service\\dependencyinjektion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{557F8DE5-8110-580F-9F00-FCD553C70E50}|Notenverwaltung.API\\Notenverwaltung.API.csproj|solutionrelative:notenverwaltung.api\\service\\dependencyinjektion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{557F8DE5-8110-580F-9F00-FCD553C70E50}|Notenverwaltung.API\\Notenverwaltung.API.csproj|c:\\users\\simon\\documents\\m431\\projekt\\m431-projektarbeit\\notenverwaltung\\notenverwaltung.api\\service\\services\\courseservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{557F8DE5-8110-580F-9F00-FCD553C70E50}|Notenverwaltung.API\\Notenverwaltung.API.csproj|solutionrelative:notenverwaltung.api\\service\\services\\courseservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{557F8DE5-8110-580F-9F00-FCD553C70E50}|Notenverwaltung.API\\Notenverwaltung.API.csproj|c:\\users\\simon\\documents\\m431\\projekt\\m431-projektarbeit\\notenverwaltung\\notenverwaltung.api\\service\\services\\abstract\\icourseservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{557F8DE5-8110-580F-9F00-FCD553C70E50}|Notenverwaltung.API\\Notenverwaltung.API.csproj|solutionrelative:notenverwaltung.api\\service\\services\\abstract\\icourseservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{557F8DE5-8110-580F-9F00-FCD553C70E50}|Notenverwaltung.API\\Notenverwaltung.API.csproj|c:\\users\\simon\\documents\\m431\\projekt\\m431-projektarbeit\\notenverwaltung\\notenverwaltung.api\\service\\services\\gradeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{557F8DE5-8110-580F-9F00-FCD553C70E50}|Notenverwaltung.API\\Notenverwaltung.API.csproj|solutionrelative:notenverwaltung.api\\service\\services\\gradeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{557F8DE5-8110-580F-9F00-FCD553C70E50}|Notenverwaltung.API\\Notenverwaltung.API.csproj|c:\\users\\simon\\documents\\m431\\projekt\\m431-projektarbeit\\notenverwaltung\\notenverwaltung.api\\dataaccess\\repositories\\courserepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{557F8DE5-8110-580F-9F00-FCD553C70E50}|Notenverwaltung.API\\Notenverwaltung.API.csproj|solutionrelative:notenverwaltung.api\\dataaccess\\repositories\\courserepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+>>>>>>> Stashed changes
     },
     {
       "AbsoluteMoniker": "D:0:0:{557F8DE5-8110-580F-9F00-FCD553C70E50}|Notenverwaltung.API\\Notenverwaltung.API.csproj|c:\\users\\simon\\documents\\m431\\projekt\\m431-projektarbeit\\notenverwaltung\\notenverwaltung.api\\dataaccess\\repositories\\graderepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{557F8DE5-8110-580F-9F00-FCD553C70E50}|Notenverwaltung.API\\Notenverwaltung.API.csproj|solutionrelative:notenverwaltung.api\\dataaccess\\repositories\\graderepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{557F8DE5-8110-580F-9F00-FCD553C70E50}|Notenverwaltung.API\\Notenverwaltung.API.csproj|c:\\users\\simon\\documents\\m431\\projekt\\m431-projektarbeit\\notenverwaltung\\notenverwaltung.api\\dataaccess\\repositories\\abstract\\icourserepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{557F8DE5-8110-580F-9F00-FCD553C70E50}|Notenverwaltung.API\\Notenverwaltung.API.csproj|solutionrelative:notenverwaltung.api\\dataaccess\\repositories\\abstract\\icourserepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{557F8DE5-8110-580F-9F00-FCD553C70E50}|Notenverwaltung.API\\Notenverwaltung.API.csproj|c:\\users\\simon\\documents\\m431\\projekt\\m431-projektarbeit\\notenverwaltung\\notenverwaltung.api\\dataaccess\\repositories\\abstract\\igraderepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -39,6 +72,13 @@
       "RelativeMoniker": "D:0:0:{557F8DE5-8110-580F-9F00-FCD553C70E50}|Notenverwaltung.API\\Notenverwaltung.API.csproj|solutionrelative:notenverwaltung.api\\dataaccess\\dbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+<<<<<<< Updated upstream
+=======
+      "AbsoluteMoniker": "D:0:0:{557F8DE5-8110-580F-9F00-FCD553C70E50}|Notenverwaltung.API\\Notenverwaltung.API.csproj|c:\\users\\simon\\documents\\m431\\projekt\\m431-projektarbeit\\notenverwaltung\\notenverwaltung.api\\dataaccess\\models\\course.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{557F8DE5-8110-580F-9F00-FCD553C70E50}|Notenverwaltung.API\\Notenverwaltung.API.csproj|solutionrelative:notenverwaltung.api\\dataaccess\\models\\course.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+>>>>>>> Stashed changes
       "AbsoluteMoniker": "D:0:0:{557F8DE5-8110-580F-9F00-FCD553C70E50}|Notenverwaltung.API\\Notenverwaltung.API.csproj|c:\\users\\simon\\documents\\m431\\projekt\\m431-projektarbeit\\notenverwaltung\\notenverwaltung.api\\dataaccess\\models\\grade.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{557F8DE5-8110-580F-9F00-FCD553C70E50}|Notenverwaltung.API\\Notenverwaltung.API.csproj|solutionrelative:notenverwaltung.api\\dataaccess\\models\\grade.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -70,7 +110,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
+<<<<<<< Updated upstream
           "SelectedChildIndex": 2,
+=======
+          "SelectedChildIndex": 1,
+>>>>>>> Stashed changes
           "Children": [
             {
               "$type": "Bookmark",
@@ -78,7 +122,36 @@
             },
             {
               "$type": "Document",
+<<<<<<< Updated upstream
               "DocumentIndex": 2,
+=======
+              "DocumentIndex": 0,
+              "Title": "CourseController.cs",
+              "DocumentMoniker": "C:\\Users\\Simon\\Documents\\M431\\Projekt\\M431-Projektarbeit\\Notenverwaltung\\Notenverwaltung.API\\Controllers\\CourseController.cs",
+              "RelativeDocumentMoniker": "Notenverwaltung.API\\Controllers\\CourseController.cs",
+              "ToolTip": "C:\\Users\\Simon\\Documents\\M431\\Projekt\\M431-Projektarbeit\\Notenverwaltung\\Notenverwaltung.API\\Controllers\\CourseController.cs",
+              "RelativeToolTip": "Notenverwaltung.API\\Controllers\\CourseController.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAuwBIAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-20T21:38:08.383Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CourseDto.cs",
+              "DocumentMoniker": "C:\\Users\\Simon\\Documents\\M431\\Projekt\\M431-Projektarbeit\\Notenverwaltung\\Notenverwaltung.Shared\\Dtos\\CourseDtos\\CourseDto.cs",
+              "RelativeDocumentMoniker": "Notenverwaltung.Shared\\Dtos\\CourseDtos\\CourseDto.cs",
+              "ToolTip": "C:\\Users\\Simon\\Documents\\M431\\Projekt\\M431-Projektarbeit\\Notenverwaltung\\Notenverwaltung.Shared\\Dtos\\CourseDtos\\CourseDto.cs",
+              "RelativeToolTip": "Notenverwaltung.Shared\\Dtos\\CourseDtos\\CourseDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-20T21:36:47.234Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+>>>>>>> Stashed changes
               "Title": "GradeService.cs",
               "DocumentMoniker": "C:\\Users\\Simon\\Documents\\M431\\Projekt\\M431-Projektarbeit\\Notenverwaltung\\Notenverwaltung.API\\Service\\Services\\GradeService.cs",
               "RelativeDocumentMoniker": "Notenverwaltung.API\\Service\\Services\\GradeService.cs",
@@ -90,7 +163,19 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 4,
+              "Title": "CourseService.cs",
+              "DocumentMoniker": "C:\\Users\\Simon\\Documents\\M431\\Projekt\\M431-Projektarbeit\\Notenverwaltung\\Notenverwaltung.API\\Service\\Services\\CourseService.cs",
+              "RelativeDocumentMoniker": "Notenverwaltung.API\\Service\\Services\\CourseService.cs",
+              "ToolTip": "C:\\Users\\Simon\\Documents\\M431\\Projekt\\M431-Projektarbeit\\Notenverwaltung\\Notenverwaltung.API\\Service\\Services\\CourseService.cs",
+              "RelativeToolTip": "Notenverwaltung.API\\Service\\Services\\CourseService.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABUAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-20T21:33:05.18Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "GradeControllers.cs",
               "DocumentMoniker": "C:\\Users\\Simon\\Documents\\M431\\Projekt\\M431-Projektarbeit\\Notenverwaltung\\Notenverwaltung.API\\Controllers\\GradeControllers.cs",
               "RelativeDocumentMoniker": "Notenverwaltung.API\\Controllers\\GradeControllers.cs",
@@ -98,12 +183,39 @@
               "RelativeToolTip": "Notenverwaltung.API\\Controllers\\GradeControllers.cs",
               "ViewState": "AgIAACIAAAAAAAAAAAAuwC0AAAAEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-15T07:32:16.615Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-15T07:32:16.615Z"
             },
             {
               "$type": "Document",
+<<<<<<< Updated upstream
               "DocumentIndex": 1,
+=======
+              "DocumentIndex": 7,
+              "Title": "CourseRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Simon\\Documents\\M431\\Projekt\\M431-Projektarbeit\\Notenverwaltung\\Notenverwaltung.API\\DataAccess\\Repositories\\CourseRepository.cs",
+              "RelativeDocumentMoniker": "Notenverwaltung.API\\DataAccess\\Repositories\\CourseRepository.cs",
+              "ToolTip": "C:\\Users\\Simon\\Documents\\M431\\Projekt\\M431-Projektarbeit\\Notenverwaltung\\Notenverwaltung.API\\DataAccess\\Repositories\\CourseRepository.cs",
+              "RelativeToolTip": "Notenverwaltung.API\\DataAccess\\Repositories\\CourseRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-20T21:26:48.634Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ICourseService.cs",
+              "DocumentMoniker": "C:\\Users\\Simon\\Documents\\M431\\Projekt\\M431-Projektarbeit\\Notenverwaltung\\Notenverwaltung.API\\Service\\Services\\Abstract\\ICourseService.cs",
+              "RelativeDocumentMoniker": "Notenverwaltung.API\\Service\\Services\\Abstract\\ICourseService.cs",
+              "ToolTip": "C:\\Users\\Simon\\Documents\\M431\\Projekt\\M431-Projektarbeit\\Notenverwaltung\\Notenverwaltung.API\\Service\\Services\\Abstract\\ICourseService.cs",
+              "RelativeToolTip": "Notenverwaltung.API\\Service\\Services\\Abstract\\ICourseService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAQAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-20T21:32:07.803Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+>>>>>>> Stashed changes
               "Title": "DependencyInjektion.cs",
               "DocumentMoniker": "C:\\Users\\Simon\\Documents\\M431\\Projekt\\M431-Projektarbeit\\Notenverwaltung\\Notenverwaltung.API\\Service\\DependencyInjektion.cs",
               "RelativeDocumentMoniker": "Notenverwaltung.API\\Service\\DependencyInjektion.cs",
@@ -115,7 +227,11 @@
             },
             {
               "$type": "Document",
+<<<<<<< Updated upstream
               "DocumentIndex": 3,
+=======
+              "DocumentIndex": 8,
+>>>>>>> Stashed changes
               "Title": "GradeRepository.cs",
               "DocumentMoniker": "C:\\Users\\Simon\\Documents\\M431\\Projekt\\M431-Projektarbeit\\Notenverwaltung\\Notenverwaltung.API\\DataAccess\\Repositories\\GradeRepository.cs",
               "RelativeDocumentMoniker": "Notenverwaltung.API\\DataAccess\\Repositories\\GradeRepository.cs",
@@ -127,7 +243,23 @@
             },
             {
               "$type": "Document",
+<<<<<<< Updated upstream
               "DocumentIndex": 4,
+=======
+              "DocumentIndex": 9,
+              "Title": "ICourseRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Simon\\Documents\\M431\\Projekt\\M431-Projektarbeit\\Notenverwaltung\\Notenverwaltung.API\\DataAccess\\Repositories\\Abstract\\ICourseRepository.cs",
+              "RelativeDocumentMoniker": "Notenverwaltung.API\\DataAccess\\Repositories\\Abstract\\ICourseRepository.cs",
+              "ToolTip": "C:\\Users\\Simon\\Documents\\M431\\Projekt\\M431-Projektarbeit\\Notenverwaltung\\Notenverwaltung.API\\DataAccess\\Repositories\\Abstract\\ICourseRepository.cs",
+              "RelativeToolTip": "Notenverwaltung.API\\DataAccess\\Repositories\\Abstract\\ICourseRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-20T21:26:20.603Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+>>>>>>> Stashed changes
               "Title": "IGradeRepository.cs",
               "DocumentMoniker": "C:\\Users\\Simon\\Documents\\M431\\Projekt\\M431-Projektarbeit\\Notenverwaltung\\Notenverwaltung.API\\DataAccess\\Repositories\\Abstract\\IGradeRepository.cs",
               "RelativeDocumentMoniker": "Notenverwaltung.API\\DataAccess\\Repositories\\Abstract\\IGradeRepository.cs",
@@ -136,6 +268,7 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-01-15T07:22:59.386Z"
+<<<<<<< Updated upstream
             },
             {
               "$type": "Document",
@@ -152,6 +285,24 @@
             {
               "$type": "Document",
               "DocumentIndex": 6,
+=======
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "IGradeService.cs",
+              "DocumentMoniker": "C:\\Users\\Simon\\Documents\\M431\\Projekt\\M431-Projektarbeit\\Notenverwaltung\\Notenverwaltung.API\\Service\\Services\\Abstract\\IGradeService.cs",
+              "RelativeDocumentMoniker": "Notenverwaltung.API\\Service\\Services\\Abstract\\IGradeService.cs",
+              "ToolTip": "C:\\Users\\Simon\\Documents\\M431\\Projekt\\M431-Projektarbeit\\Notenverwaltung\\Notenverwaltung.API\\Service\\Services\\Abstract\\IGradeService.cs",
+              "RelativeToolTip": "Notenverwaltung.API\\Service\\Services\\Abstract\\IGradeService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-15T07:25:46.9Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+>>>>>>> Stashed changes
               "Title": "AuthService.cs",
               "DocumentMoniker": "C:\\Users\\Simon\\Documents\\M431\\Projekt\\M431-Projektarbeit\\Notenverwaltung\\Notenverwaltung.API\\Service\\Services\\AuthService.cs",
               "RelativeDocumentMoniker": "Notenverwaltung.API\\Service\\Services\\AuthService.cs",
@@ -163,7 +314,11 @@
             },
             {
               "$type": "Document",
+<<<<<<< Updated upstream
               "DocumentIndex": 7,
+=======
+              "DocumentIndex": 13,
+>>>>>>> Stashed changes
               "Title": "DataDependency.cs",
               "DocumentMoniker": "C:\\Users\\Simon\\Documents\\M431\\Projekt\\M431-Projektarbeit\\Notenverwaltung\\Notenverwaltung.API\\DataAccess\\DataDependency.cs",
               "RelativeDocumentMoniker": "Notenverwaltung.API\\DataAccess\\DataDependency.cs",
@@ -175,7 +330,11 @@
             },
             {
               "$type": "Document",
+<<<<<<< Updated upstream
               "DocumentIndex": 8,
+=======
+              "DocumentIndex": 14,
+>>>>>>> Stashed changes
               "Title": "DBContext.cs",
               "DocumentMoniker": "C:\\Users\\Simon\\Documents\\M431\\Projekt\\M431-Projektarbeit\\Notenverwaltung\\Notenverwaltung.API\\DataAccess\\DBContext.cs",
               "RelativeDocumentMoniker": "Notenverwaltung.API\\DataAccess\\DBContext.cs",
@@ -187,7 +346,23 @@
             },
             {
               "$type": "Document",
+<<<<<<< Updated upstream
               "DocumentIndex": 9,
+=======
+              "DocumentIndex": 15,
+              "Title": "Course.cs",
+              "DocumentMoniker": "C:\\Users\\Simon\\Documents\\M431\\Projekt\\M431-Projektarbeit\\Notenverwaltung\\Notenverwaltung.API\\DataAccess\\Models\\Course.cs",
+              "RelativeDocumentMoniker": "Notenverwaltung.API\\DataAccess\\Models\\Course.cs",
+              "ToolTip": "C:\\Users\\Simon\\Documents\\M431\\Projekt\\M431-Projektarbeit\\Notenverwaltung\\Notenverwaltung.API\\DataAccess\\Models\\Course.cs",
+              "RelativeToolTip": "Notenverwaltung.API\\DataAccess\\Models\\Course.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-20T21:27:39.359Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+>>>>>>> Stashed changes
               "Title": "Grade.cs",
               "DocumentMoniker": "C:\\Users\\Simon\\Documents\\M431\\Projekt\\M431-Projektarbeit\\Notenverwaltung\\Notenverwaltung.API\\DataAccess\\Models\\Grade.cs",
               "RelativeDocumentMoniker": "Notenverwaltung.API\\DataAccess\\Models\\Grade.cs",
@@ -199,7 +374,11 @@
             },
             {
               "$type": "Document",
+<<<<<<< Updated upstream
               "DocumentIndex": 11,
+=======
+              "DocumentIndex": 18,
+>>>>>>> Stashed changes
               "Title": "User.cs",
               "DocumentMoniker": "C:\\Users\\Simon\\Documents\\M431\\Projekt\\M431-Projektarbeit\\Notenverwaltung\\Notenverwaltung.API\\DataAccess\\Models\\User.cs",
               "RelativeDocumentMoniker": "Notenverwaltung.API\\DataAccess\\Models\\User.cs",
@@ -211,7 +390,11 @@
             },
             {
               "$type": "Document",
+<<<<<<< Updated upstream
               "DocumentIndex": 12,
+=======
+              "DocumentIndex": 19,
+>>>>>>> Stashed changes
               "Title": "PostGradeDto.cs",
               "DocumentMoniker": "C:\\Users\\Simon\\Documents\\M431\\Projekt\\M431-Projektarbeit\\Notenverwaltung\\Notenverwaltung.Shared\\Dtos\\GradeDtos\\PostGradeDto.cs",
               "RelativeDocumentMoniker": "Notenverwaltung.Shared\\Dtos\\GradeDtos\\PostGradeDto.cs",
@@ -220,6 +403,7 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAASAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-01-15T07:15:59.002Z"
+<<<<<<< Updated upstream
             },
             {
               "$type": "Document",
@@ -255,6 +439,43 @@
               "RelativeToolTip": "Notenverwaltung.Shared\\Dtos\\GradeDtos\\PutGradeDto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+=======
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "IUserRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Simon\\Documents\\M431\\Projekt\\M431-Projektarbeit\\Notenverwaltung\\Notenverwaltung.API\\DataAccess\\Repositories\\Abstract\\IUserRepository.cs",
+              "RelativeDocumentMoniker": "Notenverwaltung.API\\DataAccess\\Repositories\\Abstract\\IUserRepository.cs",
+              "ToolTip": "C:\\Users\\Simon\\Documents\\M431\\Projekt\\M431-Projektarbeit\\Notenverwaltung\\Notenverwaltung.API\\DataAccess\\Repositories\\Abstract\\IUserRepository.cs",
+              "RelativeToolTip": "Notenverwaltung.API\\DataAccess\\Repositories\\Abstract\\IUserRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-15T08:29:47.395Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Simon\\Documents\\M431\\Projekt\\M431-Projektarbeit\\Notenverwaltung\\Notenverwaltung.API\\appsettings.json",
+              "RelativeDocumentMoniker": "Notenverwaltung.API\\appsettings.json",
+              "ToolTip": "C:\\Users\\Simon\\Documents\\M431\\Projekt\\M431-Projektarbeit\\Notenverwaltung\\Notenverwaltung.API\\appsettings.json",
+              "RelativeToolTip": "Notenverwaltung.API\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-01-15T08:47:16.182Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "PutGradeDto.cs",
+              "DocumentMoniker": "C:\\Users\\Simon\\Documents\\M431\\Projekt\\M431-Projektarbeit\\Notenverwaltung\\Notenverwaltung.Shared\\Dtos\\GradeDtos\\PutGradeDto.cs",
+              "RelativeDocumentMoniker": "Notenverwaltung.Shared\\Dtos\\GradeDtos\\PutGradeDto.cs",
+              "ToolTip": "C:\\Users\\Simon\\Documents\\M431\\Projekt\\M431-Projektarbeit\\Notenverwaltung\\Notenverwaltung.Shared\\Dtos\\GradeDtos\\PutGradeDto.cs",
+              "RelativeToolTip": "Notenverwaltung.Shared\\Dtos\\GradeDtos\\PutGradeDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+>>>>>>> Stashed changes
               "WhenOpened": "2026-01-15T08:28:18.588Z"
             }
           ]

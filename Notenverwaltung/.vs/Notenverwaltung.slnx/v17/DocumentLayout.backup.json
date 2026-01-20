@@ -112,7 +112,11 @@
               "RelativeDocumentMoniker": "Notenverwaltung.API\\Controllers\\CourseController.cs",
               "ToolTip": "C:\\Users\\Simon\\Documents\\M431\\Projekt\\M431-Projektarbeit\\Notenverwaltung\\Notenverwaltung.API\\Controllers\\CourseController.cs",
               "RelativeToolTip": "Notenverwaltung.API\\Controllers\\CourseController.cs",
+<<<<<<< Updated upstream
               "ViewState": "AgIAAAkAAAAAAAAAAAAuwBIAAAAcAAAAAAAAAA==",
+=======
+              "ViewState": "AgIAAAkAAAAAAAAAAAAuwBsAAAAeAAAAAAAAAA==",
+>>>>>>> Stashed changes
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-01-20T21:38:08.383Z",
               "EditorCaption": ""
