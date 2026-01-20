@@ -1,0 +1,161 @@
+﻿@page "/admin/register"
+@using System.ComponentModel.DataAnnotations
+@using Notenverwaltung.Shared.Dtos.UserDtos
+@using Notenverwaltung.Web.Services.Abstract
+@inject IAuthService Auth
+@inject IJSRuntime JS
+
+<PageTitle>Admin – Benutzer registrieren</PageTitle>
+
+@if (!loaded)
+{
+    <div class="text-muted">Lade…</div>
+}
+else if (!isAdmin)
+{
+    <div class="alert alert-danger">
+        Kein Zugriff. Nur Admins dürfen neue Benutzer registrieren.
+    </div>
+}
+else
+{
+    <div class="container py-4">
+        <div class="card shadow-sm border-0">
+            <div class="card-body">
+                <h1 class="h4 mb-1">Benutzer registrieren</h1>
+                <div class="text-muted mb-4">Nur Admins können neue Benutzer anlegen.</div>
+
+                @if (!string.IsNullOrWhiteSpace(alert))
+                {
+                    <div class="alert @(isError ? "alert-danger" : "alert-success")">@alert</div>
+                }
+
+                <EditForm Model="model" OnValidSubmit="Register">
+                    <DataAnnotationsValidator />
+                    <ValidationSummary />
+
+                    <div class="row g-3">
+                        <div class="col-md-6">
+                            <label class="form-label">Vorname</label>
+                            <InputText class="form-control" @bind-Value="model.Vorname" />
+                        </div>
+
+                        <div class="col-md-6">
+                            <label class="form-label">Nachname</label>
+                            <InputText class="form-control" @bind-Value="model.Nachname" />
+                        </div>
+
+                        <div class="col-md-8">
+                            <label class="form-label">E-Mail</label>
+                            <InputText class="form-control" @bind-Value="model.Email" />
+                        </div>
+
+                        <div class="col-md-6">
+                            <label class="form-label">Passwort</label>
+                            <InputText class="form-control" type="password" @bind-Value="model.Passwort" />
+                        </div>
+
+                        <div class="col-12">
+                            <button class="btn btn-primary" type="submit">Registrieren</button>
+                        </div>
+                    </div>
+                </EditForm>
+
+            </div>
+        </div>
+    </div>
+}
+
+<div class="col-12 mt-3">
+    <NavLink href="/Verwaltung" class="btn btn-outline-secondary">
+        ← Zurück zur Verwaltung
+    </NavLink>
+</div>
+
+@code {
+    private bool loaded;
+    private bool isAdmin;
+
+    private string? alert;
+    private bool isError;
+
+    private RegisterForm model = new();
+
+    protected override async Task OnInitializedAsync()
+    {
+        // get the token from localStorage
+        var token = await JS.InvokeAsync<string>("localStorage.getItem", "jwtToken");
+
+        // print it in the browser console
+        await JS.InvokeVoidAsync("console.log", "JWT token:", token);
+
+        // existing admin check
+        isAdmin = JwtHasClaim(token, "StatusID", "1");
+
+        loaded = true;
+    }
+
+    private async Task Register()
+    {
+        try
+        {
+            alert = null;
+            isError = false;
+
+            var dto = new RegisterDto
+            {
+                Vorname = model.Vorname,
+                Nachname = model.Nachname,
+                Email = model.Email,
+                Passwort = model.Passwort
+            };
+
+            await Auth.RegisterAsync(dto);
+
+            alert = "Benutzer erfolgreich registriert.";
+            isError = false;
+            model = new();
+        }
+        catch (Exception ex)
+        {
+            alert = ex.Message;
+            isError = true;
+        }
+    }
+
+    private sealed class RegisterForm
+    {
+        [Required] public string Vorname { get; set; } = "";
+        [Required] public string Nachname { get; set; } = "";
+        [Required, EmailAddress] public string Email { get; set; } = "";
+        [Required] public string Passwort { get; set; } = "";
+    }
+
+    // UI gating only (backend must still enforce AdminOnly policy)
+    private static bool JwtHasClaim(string? jwt, string claimType, string claimValue)
+    {
+        if (string.IsNullOrWhiteSpace(jwt)) return false;
+        var parts = jwt.Split('.');
+        if (parts.Length < 2) return false;
+
+        var payload = parts[1].Replace('-', '+').Replace('_', '/');
+        switch (payload.Length % 4)
+        {
+            case 2: payload += "=="; break;
+            case 3: payload += "="; break;
+        }
+
+        try
+        {
+            var json = System.Text.Encoding.UTF8.GetString(Convert.FromBase64String(payload));
+            using var doc = System.Text.Json.JsonDocument.Parse(json);
+
+            if (!doc.RootElement.TryGetProperty(claimType, out var prop)) return false;
+            return prop.ToString() == claimValue;
+        }
+        catch
+        {
+            return false;
+        }
+    }
+}

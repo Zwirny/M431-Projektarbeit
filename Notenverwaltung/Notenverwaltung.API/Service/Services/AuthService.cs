@@ -61,11 +61,11 @@ namespace Notenverwaltung.API.Service.Services
 
             Claim[] claims = new[]
             {
-        new Claim("UserId", user.Id.ToString()),
-        new Claim("StatusId", user.StatusId.ToString()),
-        new Claim(JwtRegisteredClaimNames.Email, user.Email),
-        new Claim(JwtRegisteredClaimNames.GivenName, user.Vorname),
-    };
+                new Claim("UserId", user.Id.ToString()),
+                new Claim("StatusID", user.StatusId.ToString()),
+                new Claim(JwtRegisteredClaimNames.Email, user.Email),
+                new Claim(JwtRegisteredClaimNames.GivenName, user.Vorname),
+            };
 
             SecurityTokenDescriptor tokenDescriptor = new
                 SecurityTokenDescriptor
