@@ -1,7 +1,11 @@
 {
   "mainAssemblyName": "Notenverwaltung.Web",
   "resources": {
+<<<<<<< HEAD
     "hash": "sha256-MZKJk3s/DGdbsrDYPFfw18ycLNDR+niKzbVuMLUB8ns=",
+=======
+    "hash": "sha256-OJObslmBnQuOkZ48dNpWo1a5j6QWmsF9mQRtxVruOqw=",
+>>>>>>> dad82505a52bfd7346a805e07e3dcf7ae7683ff0
     "jsModuleNative": {
       "dotnet.native.js": "sha256-D0bzod5lwwSzPR43JC8TTCcZKw+3jIHOk8CZFCRj5is="
     },
@@ -209,12 +213,21 @@
       "mscorlib.wasm": "sha256-oV7k+vcNqj7FS6Y/lMtdhVlq3myDH55/wVxmO4QPrw4=",
       "netstandard.wasm": "sha256-XMXMB0WW//vbNNgQiFAqYo7IJ2C4yQX590aoAbOtTB4=",
       "System.Private.CoreLib.wasm": "sha256-tuhzUgbFn7ji3yhMSxyBLHAps9h0RsFnq+8pUoizHiw=",
+<<<<<<< HEAD
       "Notenverwaltung.Shared.wasm": "sha256-SlHfMYIOJ1WzRnZBre2yibgN6u8vboFcX6/+G8Xoa40=",
       "Notenverwaltung.Web.wasm": "sha256-e5Tijgrppztmc3uD2cHT3PHikNC6Ly8fcZGMRI8TfjE="
     },
     "pdb": {
       "Notenverwaltung.Shared.pdb": "sha256-Dp7YwOa4YqIJfdZGVoXwI+7Er/SIGVE3pxrj2EubqMY=",
       "Notenverwaltung.Web.pdb": "sha256-pXg2bxZeNdiVJC+JjLMf/teXR+3dBP6zzpspUnPEtpc="
+=======
+      "Notenverwaltung.Shared.wasm": "sha256-Oz1a91hEQdq5iox18pCfhK6IWznOZej/OUQOBqBQ33o=",
+      "Notenverwaltung.Web.wasm": "sha256-/TXpZGgQPlhCST+YfCSVpPU5iD4/DaH9YxTB5y1vL0Y="
+    },
+    "pdb": {
+      "Notenverwaltung.Shared.pdb": "sha256-fbZ5wrbvGwjKuJvDuKCCgbKkleDUhLSAa0EP/lIV4r4=",
+      "Notenverwaltung.Web.pdb": "sha256-xZ5F6RkLhakS2N0j9EJ3YPJwY3LVZFj8mxivsrsQDTQ="
+>>>>>>> dad82505a52bfd7346a805e07e3dcf7ae7683ff0
     }
   },
   "cacheBootResources": true,

@@ -14,7 +14,7 @@ namespace Notenverwaltung.Web.Services
 
         public async Task<AuthResponse?> RegisterAsync(RegisterDto registerModel)
         {
-            var response = await _httpClient.PostAsJsonAsync("api/Auth/register", registerModel);
+            HttpResponseMessage response = await _httpClient.PostAsJsonAsync("api/Auth/register", registerModel);
 
             if (response.IsSuccessStatusCode)
                 return await response.Content.ReadFromJsonAsync<AuthResponse>();
