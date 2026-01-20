@@ -16,6 +16,7 @@ public static class DataDependency
 
         services.AddScoped<IUserRepository, UserRepository>();
         services.AddScoped<IGradeRepository, GradeRepository>();
+        services.AddScoped<ICourseRepository, CourseRepository>();
 
     }
 }
