@@ -3,26 +3,10 @@
 <div class="d-flex justify-content-center">
     <div class="d-flex flex-column w-25 justify-content-center">
 
-        <!-- Dropdown for the class -->
+        <!-- Input for the student -->
         <div class="form-floating mb-4">
-            <select class="form-select" id="ClassDropdown" aria-label="Floating label select example">
-                <option selected>Wählen Sie eine Klasse</option>
-                <option value="1">Infa1a</option>
-                <option value="2">Infa1b</option>
-                <option value="3">Infa1p</option>
-            </select>
-            <label for="floatingSelect">Klasse</label>
-        </div>
-
-        <!-- Dropdown for the student -->
-        <div class="form-floating mb-4">
-            <select class="form-select" id="StudentDropDown" aria-label="Floating label select example">
-                <option selected>Wählen Sie einen Schüler</option>
-                <option value="1">Sandro</option>
-                <option value="2">Simon</option>
-                <option value="3">Laibah</option>
-            </select>
-            <label for="floatingSelect">Schüler</label>
+            <input type="text" class="form-control" id="StudentInput" placeholder="Max Mustermann" @bind-value="student">
+            <label for="floatingInput">Vor- & Nachname des Schülers</label>
         </div>
 
         <!-- Input for the examgrade -->
@@ -31,15 +15,20 @@
             <label for="floatingInput">Neue Prüfungsnote</label>
         </div>
 
-
-        <!-- Input for the Zeugnisnote -->
+        <!-- Input for the course -->
         <div class="form-floating mb-4">
-            <input type="number" class="form-control" id="ReportInput" placeholder="1 - 6" @bind-value="reportGrade" @bind-value:event="onchange" @bind-value:after="RoundReportGrade">
-            <label for="floatingInput">Aktualisierte Zeugnisnote</label>
+            <input type="text" class="form-control" id="CourseInput" placeholder="Deutsch" @bind-value="course">
+            <label for="floatingInput">Fach der Note</label>
+        </div>
+
+        <!-- Input for the notice -->
+        <div class="form-floating mb-4">
+            <input type="text" class="form-control" id="CourseInput" placeholder="War sehr gut" @bind-value="notice">
+            <label for="floatingInput">Bemerkung</label>
         </div>
 
         <!-- Submit-Button -->
-        <button class="btn btn-dark w-50 mx-auto d-block">Mail senden</button>
+        <button class="btn btn-dark w-50 mx-auto d-block" @onclick="SendGrade">Mail senden</button>
     </div>
 
 </div>

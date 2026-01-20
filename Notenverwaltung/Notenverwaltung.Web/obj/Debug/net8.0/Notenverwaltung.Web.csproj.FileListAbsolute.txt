@@ -1044,6 +1044,6 @@ C:\Users\SandroZwyer\OneDrive - bits ag\Dokumente\.Schule\GIBZ\Informatik\M431\M
 C:\Users\SandroZwyer\OneDrive - bits ag\Dokumente\.Schule\GIBZ\Informatik\M431\M431-Projektarbeit\Notenverwaltung\Notenverwaltung.Web\obj\Debug\net8.0\refint\Notenverwaltung.Web.dll
 C:\Users\SandroZwyer\OneDrive - bits ag\Dokumente\.Schule\GIBZ\Informatik\M431\M431-Projektarbeit\Notenverwaltung\Notenverwaltung.Web\obj\Debug\net8.0\Notenverwaltung.Web.pdb
 C:\Users\SandroZwyer\OneDrive - bits ag\Dokumente\.Schule\GIBZ\Informatik\M431\M431-Projektarbeit\Notenverwaltung\Notenverwaltung.Web\obj\Debug\net8.0\ref\Notenverwaltung.Web.dll
-C:\Users\SandroZwyer\OneDrive - bits ag\Dokumente\.Schule\GIBZ\Informatik\M431\M431-Projektarbeit\Notenverwaltung\Notenverwaltung.Web\obj\Debug\net8.0\compressed\uw883miayv-{0}-2wy2cdwvb7-2wy2cdwvb7.gz
-C:\Users\SandroZwyer\OneDrive - bits ag\Dokumente\.Schule\GIBZ\Informatik\M431\M431-Projektarbeit\Notenverwaltung\Notenverwaltung.Web\obj\Debug\net8.0\compressed\ia81yp1hz6-{0}-6x09u1ug1v-6x09u1ug1v.gz
-C:\Users\SandroZwyer\OneDrive - bits ag\Dokumente\.Schule\GIBZ\Informatik\M431\M431-Projektarbeit\Notenverwaltung\Notenverwaltung.Web\obj\Debug\net8.0\compressed\nrwcugzp0b-{0}-jo1ovaouyc-jo1ovaouyc.gz
+C:\Users\SandroZwyer\OneDrive - bits ag\Dokumente\.Schule\GIBZ\Informatik\M431\M431-Projektarbeit\Notenverwaltung\Notenverwaltung.Web\obj\Debug\net8.0\compressed\uw883miayv-{0}-99rcddqglu-99rcddqglu.gz
+C:\Users\SandroZwyer\OneDrive - bits ag\Dokumente\.Schule\GIBZ\Informatik\M431\M431-Projektarbeit\Notenverwaltung\Notenverwaltung.Web\obj\Debug\net8.0\compressed\ia81yp1hz6-{0}-t26wklz230-t26wklz230.gz
+C:\Users\SandroZwyer\OneDrive - bits ag\Dokumente\.Schule\GIBZ\Informatik\M431\M431-Projektarbeit\Notenverwaltung\Notenverwaltung.Web\obj\Debug\net8.0\compressed\nrwcugzp0b-{0}-7trkz0faba-7trkz0faba.gz
