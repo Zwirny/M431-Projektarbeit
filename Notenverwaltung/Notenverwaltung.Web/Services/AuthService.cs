@@ -17,11 +17,13 @@ namespace Notenverwaltung.Web.Services
             var response = await _httpClient.PostAsJsonAsync("api/Auth/register", registerModel);
 
             if (response.IsSuccessStatusCode)
-            {
-                return await
-                     response.Content.ReadFromJsonAsync<AuthResponse>();
-            }
-            return null;
+                return await response.Content.ReadFromJsonAsync<AuthResponse>();
+
+            // Optional: throw a helpful error (recommended)
+            var msg = await response.Content.ReadAsStringAsync();
+            throw new Exception(string.IsNullOrWhiteSpace(msg)
+                ? $"Register failed ({(int)response.StatusCode})"
+                : msg);
         }
         public async Task<AuthResponse?> LoginAsync(LoginDto loginModel)
         {

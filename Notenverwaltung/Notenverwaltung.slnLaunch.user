@@ -4,7 +4,7 @@
     "Projects": [
       {
         "Path": "Notenverwaltung.API\\Notenverwaltung.API.csproj",
-        "Action": "StartWithoutDebugging"
+        "Action": "Start"
       },
       {
         "Path": "Notenverwaltung.Web\\Notenverwaltung.Web.csproj",

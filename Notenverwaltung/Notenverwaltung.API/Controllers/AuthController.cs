@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Mvc;
 using Notenverwaltung.API.Service.Services.Abstract;
 using Notenverwaltung.Shared.Dtos.UserDtos;
 
@@ -26,8 +27,9 @@ namespace Notenverwaltung.API.Controllers
             }
             return Ok(authDto);
         }
-        [HttpPost("register")]
 
+        [HttpPost("register")]
+        [Authorize(Policy = "AdminOnly")]
         public ActionResult<AuthReciveDto> register([FromBody] RegisterDto dto)
         {
             AuthReciveDto authDto = _authService.Register(dto);

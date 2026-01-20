@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\SandroZwyer\\OneDrive - bits ag\\Dokumente\\.Schule\\GIBZ\\Informatik\\M431\\M431-Projektarbeit\\Notenverwaltung\\Notenverwaltung.Shared\\Notenverwaltung.Shared.csproj": {}
+    "C:\\GIBZ\\Informatik\\M431\\Projektarbeit\\M431-Projektarbeit\\Notenverwaltung\\Notenverwaltung.Shared\\Notenverwaltung.Shared.csproj": {}
   },
   "projects": {
-    "C:\\Users\\SandroZwyer\\OneDrive - bits ag\\Dokumente\\.Schule\\GIBZ\\Informatik\\M431\\M431-Projektarbeit\\Notenverwaltung\\Notenverwaltung.Shared\\Notenverwaltung.Shared.csproj": {
+    "C:\\GIBZ\\Informatik\\M431\\Projektarbeit\\M431-Projektarbeit\\Notenverwaltung\\Notenverwaltung.Shared\\Notenverwaltung.Shared.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\SandroZwyer\\OneDrive - bits ag\\Dokumente\\.Schule\\GIBZ\\Informatik\\M431\\M431-Projektarbeit\\Notenverwaltung\\Notenverwaltung.Shared\\Notenverwaltung.Shared.csproj",
+        "projectUniqueName": "C:\\GIBZ\\Informatik\\M431\\Projektarbeit\\M431-Projektarbeit\\Notenverwaltung\\Notenverwaltung.Shared\\Notenverwaltung.Shared.csproj",
         "projectName": "Notenverwaltung.Shared",
-        "projectPath": "C:\\Users\\SandroZwyer\\OneDrive - bits ag\\Dokumente\\.Schule\\GIBZ\\Informatik\\M431\\M431-Projektarbeit\\Notenverwaltung\\Notenverwaltung.Shared\\Notenverwaltung.Shared.csproj",
-        "packagesPath": "C:\\Users\\SandroZwyer\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\SandroZwyer\\OneDrive - bits ag\\Dokumente\\.Schule\\GIBZ\\Informatik\\M431\\M431-Projektarbeit\\Notenverwaltung\\Notenverwaltung.Shared\\obj\\",
+        "projectPath": "C:\\GIBZ\\Informatik\\M431\\Projektarbeit\\M431-Projektarbeit\\Notenverwaltung\\Notenverwaltung.Shared\\Notenverwaltung.Shared.csproj",
+        "packagesPath": "C:\\Users\\abbasl\\.nuget\\packages\\",
+        "outputPath": "C:\\GIBZ\\Informatik\\M431\\Projektarbeit\\M431-Projektarbeit\\Notenverwaltung\\Notenverwaltung.Shared\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\SandroZwyer\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\abbasl\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -45,7 +45,7 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "10.0.100"
+        "SdkAnalysisLevel": "9.0.300"
       },
       "frameworks": {
         "net8.0": {
@@ -61,26 +61,12 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.AspNetCore.App.Ref",
-              "version": "[8.0.23, 8.0.23]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Ref",
-              "version": "[8.0.23, 8.0.23]"
-            },
-            {
-              "name": "Microsoft.WindowsDesktop.App.Ref",
-              "version": "[8.0.23, 8.0.23]"
-            }
-          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.102/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.305/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
