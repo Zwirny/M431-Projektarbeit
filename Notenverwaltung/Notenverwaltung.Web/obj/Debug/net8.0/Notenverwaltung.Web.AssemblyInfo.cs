@@ -15,10 +15,14 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
 <<<<<<< HEAD
+<<<<<<< HEAD
 [assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2b5b7a1efc658163b38a7dfc79fab3f58eba9dd8")]
 =======
 [assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0427ce9d5f6befb0ded98877a89e9085072c16a5")]
 >>>>>>> dad82505a52bfd7346a805e07e3dcf7ae7683ff0
+=======
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+dad82505a52bfd7346a805e07e3dcf7ae7683ff0")]
+>>>>>>> 19178bd235f3531c255ebcc86375e84cd324f02f
 [assembly: System.Reflection.AssemblyProductAttribute("Notenverwaltung.Web")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Notenverwaltung.Web")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
