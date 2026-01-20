@@ -4,7 +4,7 @@
     <!-- Container fluid = fills out whole width of the screen -->
     <div class="container-fluid">
         <a href="#">
-            <img src="Assets/NotenverwaltungLogo.png" class="d-inline-block align-top w-50 m-3" alt="Fent Store Logo">
+            <img src="Assets/NotenverwaltungLogo.png" class="d-inline-block align-top w-50 m-3" alt="Notenverwaltung Logo">
         </a>
         <!--Der Button ist nur sichtbar, wenn der Bildschirm genug klein ist-->
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
@@ -13,10 +13,11 @@
         <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
             <div class="nav">
                 
-                @if (!IsLoginPage)
+                @if (!string.IsNullOrEmpty(Nav.ToBaseRelativePath(Nav.Uri)))
                 {
                     <button class="btn btn-dark ms-3">Log out</button>
                 }
+
             </div>
         </div>
     </div>
@@ -24,6 +25,3 @@
 
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
-@code{
-    private bool IsLoginPage => Nav.Uri.Equals("/", StringComparison.OrdinalIgnoreCase);
-}

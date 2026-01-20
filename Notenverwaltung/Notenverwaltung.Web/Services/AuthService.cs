@@ -25,7 +25,7 @@ namespace Notenverwaltung.Web.Services
         }
         public async Task<AuthResponse?> LoginAsync(LoginDto loginModel)
         {
-            var response = await _httpClient.PostAsJsonAsync("api/Auth/login", loginModel);
+            HttpResponseMessage response = await _httpClient.PostAsJsonAsync("api/Auth/login", loginModel);
 
             if (response.IsSuccessStatusCode)
             {
