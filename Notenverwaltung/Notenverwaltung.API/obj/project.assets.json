@@ -1592,6 +1592,7 @@
         "assetTargetFallback": true,
         "warn": true,
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 <<<<<<< HEAD
 =======
         "downloadDependencies": [
@@ -1615,6 +1616,8 @@
 >>>>>>> 2b5b7a1efc658163b38a7dfc79fab3f58eba9dd8
 =======
 >>>>>>> Stashed changes
+=======
+>>>>>>> Stashed changes
         "frameworkReferences": {
           "Microsoft.AspNetCore.App": {
             "privateAssets": "none"
@@ -1625,9 +1628,12 @@
         },
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.305/PortableRuntimeIdentifierGraph.json"
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 =======
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.102/PortableRuntimeIdentifierGraph.json"
 >>>>>>> 2b5b7a1efc658163b38a7dfc79fab3f58eba9dd8
+=======
+>>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
       }

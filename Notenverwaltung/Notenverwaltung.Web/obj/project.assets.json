@@ -422,11 +422,15 @@
         }
       },
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 <<<<<<< HEAD
       "Microsoft.NET.ILLink.Tasks/8.0.20": {
 =======
       "Microsoft.NET.ILLink.Tasks/8.0.23": {
 >>>>>>> 2b5b7a1efc658163b38a7dfc79fab3f58eba9dd8
+=======
+      "Microsoft.NET.ILLink.Tasks/8.0.20": {
+>>>>>>> Stashed changes
 =======
       "Microsoft.NET.ILLink.Tasks/8.0.20": {
 >>>>>>> Stashed changes
@@ -437,9 +441,12 @@
       },
       "Microsoft.NET.Sdk.WebAssembly.Pack/9.0.9": {
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 =======
       "Microsoft.NET.Sdk.WebAssembly.Pack/10.0.2": {
 >>>>>>> 2b5b7a1efc658163b38a7dfc79fab3f58eba9dd8
+=======
+>>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
         "type": "package",
@@ -896,11 +903,15 @@
         }
       },
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 <<<<<<< HEAD
       "Microsoft.NET.ILLink.Tasks/8.0.20": {
 =======
       "Microsoft.NET.ILLink.Tasks/8.0.23": {
 >>>>>>> 2b5b7a1efc658163b38a7dfc79fab3f58eba9dd8
+=======
+      "Microsoft.NET.ILLink.Tasks/8.0.20": {
+>>>>>>> Stashed changes
 =======
       "Microsoft.NET.ILLink.Tasks/8.0.20": {
 >>>>>>> Stashed changes
@@ -911,9 +922,12 @@
       },
       "Microsoft.NET.Sdk.WebAssembly.Pack/9.0.9": {
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 =======
       "Microsoft.NET.Sdk.WebAssembly.Pack/10.0.2": {
 >>>>>>> 2b5b7a1efc658163b38a7dfc79fab3f58eba9dd8
+=======
+>>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
         "type": "package",
@@ -1762,7 +1776,10 @@
       ]
     },
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 <<<<<<< HEAD
+=======
+>>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
     "Microsoft.NET.ILLink.Tasks/8.0.20": {
@@ -1770,12 +1787,15 @@
       "type": "package",
       "path": "microsoft.net.illink.tasks/8.0.20",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 =======
     "Microsoft.NET.ILLink.Tasks/8.0.23": {
       "sha512": "GqHiB1HbbODWPbY/lc5xLQH8siEEhNA0ptpJCC6X6adtAYNEzu5ZlqV3YHA3Gh7fuEwgA8XqVwMtH2KNtuQM1Q==",
       "type": "package",
       "path": "microsoft.net.illink.tasks/8.0.23",
 >>>>>>> 2b5b7a1efc658163b38a7dfc79fab3f58eba9dd8
+=======
+>>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
       "hasTools": true,
@@ -1792,11 +1812,15 @@
         "build/Microsoft.NET.ILLink.Tasks.props",
         "build/Microsoft.NET.ILLink.targets",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 <<<<<<< HEAD
         "microsoft.net.illink.tasks.8.0.20.nupkg.sha512",
 =======
         "microsoft.net.illink.tasks.8.0.23.nupkg.sha512",
 >>>>>>> 2b5b7a1efc658163b38a7dfc79fab3f58eba9dd8
+=======
+        "microsoft.net.illink.tasks.8.0.20.nupkg.sha512",
+>>>>>>> Stashed changes
 =======
         "microsoft.net.illink.tasks.8.0.20.nupkg.sha512",
 >>>>>>> Stashed changes
@@ -1834,7 +1858,10 @@
       ]
     },
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 <<<<<<< HEAD
+=======
+>>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
     "Microsoft.NET.Sdk.WebAssembly.Pack/9.0.9": {
@@ -1842,12 +1869,15 @@
       "type": "package",
       "path": "microsoft.net.sdk.webassembly.pack/9.0.9",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 =======
     "Microsoft.NET.Sdk.WebAssembly.Pack/10.0.2": {
       "sha512": "ZDAtI9V2EQajyccTZ67JtJWMCIpK3ZFgwqNHyfMieossRdB90WJ+IbYVKObLOLIv9Vkc3eJcrJD2CeffsF/nUA==",
       "type": "package",
       "path": "microsoft.net.sdk.webassembly.pack/10.0.2",
 >>>>>>> 2b5b7a1efc658163b38a7dfc79fab3f58eba9dd8
+=======
+>>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
       "hasTools": true,
@@ -1881,9 +1911,12 @@
         "build/browser.runtimeconfig.template.json",
         "microsoft.net.sdk.webassembly.pack.9.0.9.nupkg.sha512",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 =======
         "microsoft.net.sdk.webassembly.pack.10.0.2.nupkg.sha512",
 >>>>>>> 2b5b7a1efc658163b38a7dfc79fab3f58eba9dd8
+=======
+>>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
         "microsoft.net.sdk.webassembly.pack.nuspec",
@@ -1935,10 +1968,13 @@
       "Microsoft.NET.ILLink.Tasks >= 8.0.20",
       "Microsoft.NET.Sdk.WebAssembly.Pack >= 9.0.9",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 =======
       "Microsoft.NET.ILLink.Tasks >= 8.0.23",
       "Microsoft.NET.Sdk.WebAssembly.Pack >= 10.0.2",
 >>>>>>> 2b5b7a1efc658163b38a7dfc79fab3f58eba9dd8
+=======
+>>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
       "Notenverwaltung.Shared >= 1.0.0"
@@ -2012,11 +2048,15 @@
             "suppressParent": "All",
             "target": "Package",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 <<<<<<< HEAD
             "version": "[8.0.20, )",
 =======
             "version": "[8.0.23, )",
 >>>>>>> 2b5b7a1efc658163b38a7dfc79fab3f58eba9dd8
+=======
+            "version": "[8.0.20, )",
+>>>>>>> Stashed changes
 =======
             "version": "[8.0.20, )",
 >>>>>>> Stashed changes
@@ -2027,9 +2067,12 @@
             "target": "Package",
             "version": "[9.0.9, )",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 =======
             "version": "[10.0.2, )",
 >>>>>>> 2b5b7a1efc658163b38a7dfc79fab3f58eba9dd8
+=======
+>>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
             "autoReferenced": true
@@ -2048,6 +2091,7 @@
         "warn": true,
         "downloadDependencies": [
           {
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
 <<<<<<< HEAD
             "name": "Microsoft.NETCore.App.Runtime.Mono.browser-wasm",
@@ -2072,6 +2116,10 @@
             "name": "Microsoft.NETCore.App.Runtime.Mono.browser-wasm",
             "version": "[8.0.20, 8.0.20]"
 >>>>>>> Stashed changes
+=======
+            "name": "Microsoft.NETCore.App.Runtime.Mono.browser-wasm",
+            "version": "[8.0.20, 8.0.20]"
+>>>>>>> Stashed changes
           }
         ],
         "frameworkReferences": {
@@ -2081,9 +2129,12 @@
         },
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.305/PortableRuntimeIdentifierGraph.json"
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 =======
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.102/PortableRuntimeIdentifierGraph.json"
 >>>>>>> 2b5b7a1efc658163b38a7dfc79fab3f58eba9dd8
+=======
+>>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
       }

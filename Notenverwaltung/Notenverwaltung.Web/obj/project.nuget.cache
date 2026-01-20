@@ -2,9 +2,12 @@
   "version": 2,
   "dgSpecHash": "Uw505/Fna3c=",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 =======
   "dgSpecHash": "HsLb5slIU6Y=",
 >>>>>>> 2b5b7a1efc658163b38a7dfc79fab3f58eba9dd8
+=======
+>>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
   "success": true,
@@ -40,6 +43,7 @@
     "C:\\Users\\Simon\\.nuget\\packages\\system.io.pipelines\\8.0.0\\system.io.pipelines.8.0.0.nupkg.sha512",
     "C:\\Users\\Simon\\.nuget\\packages\\microsoft.netcore.app.runtime.mono.browser-wasm\\8.0.20\\microsoft.netcore.app.runtime.mono.browser-wasm.8.0.20.nupkg.sha512"
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 =======
     "C:\\Users\\SandroZwyer\\.nuget\\packages\\microsoft.aspnetcore.authorization\\8.0.20\\microsoft.aspnetcore.authorization.8.0.20.nupkg.sha512",
     "C:\\Users\\SandroZwyer\\.nuget\\packages\\microsoft.aspnetcore.components\\8.0.20\\microsoft.aspnetcore.components.8.0.20.nupkg.sha512",
@@ -73,6 +77,8 @@
     "C:\\Users\\SandroZwyer\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\8.0.23\\microsoft.aspnetcore.app.ref.8.0.23.nupkg.sha512",
     "C:\\Users\\SandroZwyer\\.nuget\\packages\\microsoft.netcore.app.runtime.mono.browser-wasm\\8.0.23\\microsoft.netcore.app.runtime.mono.browser-wasm.8.0.23.nupkg.sha512"
 >>>>>>> 2b5b7a1efc658163b38a7dfc79fab3f58eba9dd8
+=======
+>>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
   ],
