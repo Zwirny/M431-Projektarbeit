@@ -16,5 +16,10 @@ namespace Notenverwaltung.API.DataAccess.Repositories
             Course result = _db.Courses.Find(id);
             return result;
         }
+
+        public IEnumerable<Course> GetCourses()
+        {
+            return _db.Courses;
+        }
     }
 }

@@ -52,6 +52,32 @@
     ]
   },
   {
+    "ContainingType": "Notenverwaltung.API.Controllers.CourseController",
+    "Method": "GetById",
+    "RelativePath": "api/Course/getById",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Notenverwaltung.API.Controllers.CourseController",
+    "Method": "GetCourses",
+    "RelativePath": "api/Course/getCourses",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "Notenverwaltung.API.Controllers.GradeControllers",
     "Method": "DeleteById",
     "RelativePath": "api/GradeControllers/deleteById",

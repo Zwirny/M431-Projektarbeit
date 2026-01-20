@@ -22,5 +22,15 @@ namespace Notenverwaltung.API.Service.Services
             
             return course;
         }
+
+        public List<Course> GetCourses()
+        {
+            var result = _courseRepository.GetCourses().ToList();
+            if (result == null)
+            {
+                return null;
+            }
+            return result;
+        }
     }
 }

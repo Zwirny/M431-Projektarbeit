@@ -27,6 +27,17 @@ namespace Notenverwaltung.API.Controllers
             }
             return Ok(result);
         }
+        [HttpGet("getCourses")]
+        [Authorize]
+        public IActionResult GetCourses()
+        {
+            var result = _courseService.GetCourses();
+            if (result == null)
+            {
+                return NotFound();
+            }
+            return Ok(result);
+        }
 
     }
 }
