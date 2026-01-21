@@ -277,15 +277,20 @@
         "additionalProperties": false
       },
       "LoginDto": {
+        "required": [
+          "email",
+          "passwort"
+        ],
         "type": "object",
         "properties": {
           "email": {
+            "minLength": 1,
             "type": "string",
-            "nullable": true
+            "format": "email"
           },
           "passwort": {
-            "type": "string",
-            "nullable": true
+            "minLength": 1,
+            "type": "string"
           }
         },
         "additionalProperties": false

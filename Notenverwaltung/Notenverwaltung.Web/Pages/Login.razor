@@ -3,27 +3,30 @@
 <PageTitle>Login</PageTitle>
 
 <div class="d-flex flex-column align-items-center">
-    @if (!string.IsNullOrWhiteSpace(errorMessage))
-    {
-        <div class="alert alert-danger mt-1 w-100" role="alert">
-            @errorMessage
-        </div>
-    }
+	@if (!string.IsNullOrWhiteSpace(errorMessage))
+	{
+		<div class="alert alert-danger mt-1 w-100" role="alert">
+			@errorMessage
+		</div>
+	}
 
-    <h1 class="mb-4">Login</h1>
+	<h1 class="mb-4">Login</h1>
 
-    <!-- Email and password input -->
-    <EditForm Model="@loginModel" OnValidSubmit="HandleLogin" class="d-flex flex-column">
-        <div class="mb-3">
-            <label for="emailInput" class="form-label">Email</label>
-            <InputText id="emailInput" class="form-control" @bind-Value="loginModel.Email" />
-        </div>
+	<!-- Email and password input -->
+	<EditForm Model="@loginModel" OnValidSubmit="HandleLogin" class="d-flex flex-column">
+		<DataAnnotationsValidator />
 
-        <div class="mb-4">
-            <label for="passwordInput" class="form-label">Passwort</label>
-            <InputText id="passwordInput" type="password" class="form-control" @bind-Value="loginModel.Passwort" />
-        </div>
-        <ValidationSummary />
-        <button type="submit" class="btn btn-dark ms-3">Login</button>
-    </EditForm>
+		<div class="mb-3">
+			<label for="emailInput" class="form-label">Email</label>
+			<InputText id="emailInput" class="form-control" @bind-Value="loginModel.Email" />
+			<ValidationMessage For="@(() => loginModel.Email)" />
+		</div>
+
+		<div class="mb-4">
+			<label for="passwordInput" class="form-label">Passwort</label>
+			<InputText id="passwordInput" type="password" class="form-control" @bind-Value="loginModel.Passwort" />
+			<ValidationMessage For="@(() => loginModel.Passwort)" />
+		</div>
+		<button type="submit" class="btn btn-dark ms-3">Login</button>
+	</EditForm>
 </div>
