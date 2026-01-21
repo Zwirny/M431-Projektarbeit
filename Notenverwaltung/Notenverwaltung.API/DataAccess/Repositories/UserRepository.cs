@@ -15,7 +15,12 @@ namespace Notenverwaltung.API.DataAccess.Repositories
 
         public User Login(LoginDto dto)
         {
-            return _db.Users.FirstOrDefault(u => u.Email == dto.Email && u.Passwort == u.Passwort);
+            User user = _db.Users.FirstOrDefault(u => u.Email == dto.Email && dto.Passwort == u.Passwort);
+            if (user == null)
+            {
+                return null;
+            }
+            return user;
         }
 
         public void Register(User user)
