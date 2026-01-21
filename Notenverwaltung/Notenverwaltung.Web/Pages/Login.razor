@@ -3,6 +3,13 @@
 <PageTitle>Login</PageTitle>
 
 <div class="d-flex flex-column align-items-center">
+    @if (!string.IsNullOrWhiteSpace(errorMessage))
+    {
+        <div class="alert alert-danger mt-1 w-100" role="alert">
+            @errorMessage
+        </div>
+    }
+
     <h1 class="mb-4">Login</h1>
 
     <!-- Email and password input -->
@@ -16,6 +23,7 @@
             <label for="passwordInput" class="form-label">Passwort</label>
             <InputText id="passwordInput" type="password" class="form-control" @bind-Value="loginModel.Passwort" />
         </div>
+        <ValidationSummary />
         <button type="submit" class="btn btn-dark ms-3">Login</button>
     </EditForm>
 </div>
