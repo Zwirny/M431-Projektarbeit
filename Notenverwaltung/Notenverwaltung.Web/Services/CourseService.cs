@@ -1,9 +1,10 @@
 ﻿using Notenverwaltung.Shared.Dtos.CourseDtos;
+using Notenverwaltung.Web.Services.Abstract;
 using System.Net.Http.Json;
 
 namespace Notenverwaltung.Web.Services;
 
-public class CourseService
+public class CourseService : ICourseService
 {
     private readonly HttpClient _httpClient;
     public CourseService(HttpClient httpClient)
@@ -11,9 +12,9 @@ public class CourseService
         _httpClient = httpClient;
     }
 
-    public async Task<HttpResponseMessage> GetCoursesAsync()
+    public async Task<List<CourseDto>> GetCoursesAsync()
     {
-        HttpResponseMessage response = await _httpClient.GetAsync("api/Course/getCourses");
+        List<CourseDto> response = await _httpClient.GetFromJsonAsync<List<CourseDto>>("api/Course/getCourses");
         return response;
     }
 }

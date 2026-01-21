@@ -1,4 +1,5 @@
 ﻿@page "/Verwaltung"
+@using Notenverwaltung.Shared.Dtos.CourseDtos
 
 <div class="d-flex justify-content-center m-4">
     <h2>Noten Verwaltung</h2>
@@ -36,12 +37,16 @@
 
         <!-- Fach -->
         <div class="form-floating mb-4">
-            <InputNumber class="form-control" id="Course"
-                         @bind-Value="gradeModel.CourseId"
-                       placeholder="Deutsch" />
-            <label for="Course">Fach der Note</label>
-            <ValidationMessage For="@(() => gradeModel.CourseId)" />
+            <select class="form-select" id="CourseId" @bind="courseId">
+                @foreach (CourseDto course in courses)
+                {
+                    <option value="@course.Id">@course.KursName</option>
+                }
+            </select>
+            <label for="CourseId">Fach</label>
         </div>
+
+
 
         <!-- Bemerkung -->
         <div class="form-floating mb-4">
@@ -56,7 +61,7 @@
         <button type="submit" class="btn btn-dark w-50 mx-auto">
             Mail senden
         </button>
-                
+
     </EditForm>
 
 </div>

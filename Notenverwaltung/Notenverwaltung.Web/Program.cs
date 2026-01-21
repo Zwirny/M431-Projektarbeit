@@ -36,6 +36,7 @@ public class Program
 
         builder.Services.AddScoped<IAuthService, AuthService>();
         builder.Services.AddScoped<IGradeService, GradeService>();
+        builder.Services.AddScoped<ICourseService, CourseService>();
 
         builder.Services.AddScoped(sp =>
         {

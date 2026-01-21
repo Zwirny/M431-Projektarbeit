@@ -1,15 +1,15 @@
 {
   "mainAssemblyName": "Notenverwaltung.Web",
   "resources": {
-    "hash": "sha256-t5a34Yqhu1Og8F9Byd6p0QFdreSf0GKAOCHXZE6J75g=",
+    "hash": "sha256-RCzVdHJuWEzsphB/Gpsu+OMyC6g3UHLkxPOmm6cB2y0=",
     "jsModuleNative": {
-      "dotnet.native.js": "sha256-D0bzod5lwwSzPR43JC8TTCcZKw+3jIHOk8CZFCRj5is="
+      "dotnet.native.js": "sha256-NljIbpK/1KCj0+knpX8U77Rbl5kTtfFIuFjK7AuczEw="
     },
     "jsModuleRuntime": {
-      "dotnet.runtime.js": "sha256-OH8zlJkheyf8H9oAbu0wu1oQm9FKy/BKjDk4Bj/va3s="
+      "dotnet.runtime.js": "sha256-TGUqQm2/C+r+yZ5BCjd72qyLw9wv0KPFKzKXk/giiyY="
     },
     "wasmNative": {
-      "dotnet.native.wasm": "sha256-1FiXHTP4dewtkVEvJ/s93FNwgKHgjajc/MAN3sofq6Q="
+      "dotnet.native.wasm": "sha256-2oXTIgIF6CRtacZxLfjueiJhJBKftH3jQkQwHv69Hjo="
     },
     "icu": {
       "icudt_CJK.dat": "sha256-SZLtQnRc0JkwqHab0VUVP7T3uBPSeYzxzDnpxPpUnHk=",
@@ -209,12 +209,12 @@
       "mscorlib.wasm": "sha256-oV7k+vcNqj7FS6Y/lMtdhVlq3myDH55/wVxmO4QPrw4=",
       "netstandard.wasm": "sha256-XMXMB0WW//vbNNgQiFAqYo7IJ2C4yQX590aoAbOtTB4=",
       "System.Private.CoreLib.wasm": "sha256-tuhzUgbFn7ji3yhMSxyBLHAps9h0RsFnq+8pUoizHiw=",
-      "Notenverwaltung.Shared.wasm": "sha256-QnUNY8axAUCrcz5467ai1hWrtBf+U3Cb23qKKloFI2Q=",
-      "Notenverwaltung.Web.wasm": "sha256-NJu+oEqpesh/chc3Z5g40cF7/hj7LP1NDfZglk3qo6A="
+      "Notenverwaltung.Shared.wasm": "sha256-qjgzf8ElNrVz032LvEpP4zD3mgipNU+ZYN2mWzZt58E=",
+      "Notenverwaltung.Web.wasm": "sha256-/TI9RArG34/jJHNQ3whW7SFpm+j7lEr2gZj3gTI3kRw="
     },
     "pdb": {
-      "Notenverwaltung.Shared.pdb": "sha256-MCEn8+JVB1643WFnxFf7btJ6V+JoSBkdLWgRJv0eT5o=",
-      "Notenverwaltung.Web.pdb": "sha256-PVDtYqN6v2oFjvll0iI96+LwJvhOTFYPYqWzPu9BEFc="
+      "Notenverwaltung.Shared.pdb": "sha256-2nYeapG+mVILw8p9fGh3FEKMUfGEnkDVOGjWpOcCAso=",
+      "Notenverwaltung.Web.pdb": "sha256-xkKmoMF8cEg6J6iyA0F6tIyatO84j5+Gv0zxqkGuRsQ="
     }
   },
   "cacheBootResources": true,

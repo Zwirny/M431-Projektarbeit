@@ -13,6 +13,7 @@ namespace Notenverwaltung.API.Service
 
             services.AddScoped<IAuthService, AuthService>();
             services.AddScoped<IGradeService, GradeService>();
+            services.AddScoped<ICourseService, CourseService>();
 
         }
     }
