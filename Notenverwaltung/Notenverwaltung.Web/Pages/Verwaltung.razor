@@ -1,38 +1,84 @@
 ﻿@page "/Verwaltung"
 
+<div class="d-flex justify-content-center m-4">
+    <h2>Noten Verwaltung</h2>
+</div>
+
 <div class="d-flex justify-content-center">
-    <div class="d-flex flex-column w-25 justify-content-center">
-
-        <!-- Input for the student -->
+    <EditForm Model="@gradeModel" OnValidSubmit="SendGrade" class="d-flex flex-column w-25">
+        <DataAnnotationsValidator />
+        <!-- Vorname -->
         <div class="form-floating mb-4">
-            <input type="text" class="form-control" id="StudentInput" placeholder="Max Mustermann" @bind-value="student">
-            <label for="floatingInput">Vor- & Nachname des Schülers</label>
+            <InputText class="form-control" id="FirstName"
+                       @bind-Value="gradeModel.StudentFirstName"
+                       placeholder="Max" />
+            <label for="FirstName">Vorname des Schülers</label>
+            <ValidationMessage For="@(() => gradeModel.StudentFirstName)" />
         </div>
 
-        <!-- Input for the examgrade -->
+        <!-- Nachname -->
         <div class="form-floating mb-4">
-            <input type="number" class="form-control" id="ExamInput" placeholder="1 - 6" @bind-value="examGrade">
-            <label for="floatingInput">Neue Prüfungsnote</label>
+            <InputText class="form-control" id="LastName"
+                       @bind-Value="gradeModel.StudentLastName"
+                       placeholder="Mustermann" />
+            <label for="LastName">Nachname des Schülers</label>
+            <ValidationMessage For="@(() => gradeModel.StudentLastName)" />
         </div>
 
-        <!-- Input for the course -->
+        <!-- Note -->
         <div class="form-floating mb-4">
-            <input type="text" class="form-control" id="CourseInput" placeholder="Deutsch" @bind-value="course">
-            <label for="floatingInput">Fach der Note</label>
+            <InputNumber class="form-control" id="ExamGrade"
+                         @bind-Value="gradeModel.Grade"
+                         placeholder="1 - 6" />
+            <label for="ExamGrade">Neue Prüfungsnote</label>
+            <ValidationMessage For="@(() => gradeModel.Grade)" />
         </div>
 
-        <!-- Input for the notice -->
+        <!-- Fach -->
         <div class="form-floating mb-4">
-            <input type="text" class="form-control" id="CourseInput" placeholder="War sehr gut" @bind-value="notice">
-            <label for="floatingInput">Bemerkung</label>
+            <InputNumber class="form-control" id="Course"
+                         @bind-Value="gradeModel.CourseId"
+                       placeholder="Deutsch" />
+            <label for="Course">Fach der Note</label>
+            <ValidationMessage For="@(() => gradeModel.CourseId)" />
         </div>
 
-        <!-- Submit-Button -->
-        <button class="btn btn-dark w-50 mx-auto d-block" @onclick="SendGrade">Mail senden</button>
-    </div>
+        <!-- Bemerkung -->
+        <div class="form-floating mb-4">
+            <InputText class="form-control" id="Notice"
+                       @bind-Value="gradeModel.Notice"
+                       placeholder="War sehr gut" />
+            <label for="Notice">Bemerkung</label>
+        </div>
 
-    <NavLink href="/admin/register" class="btn btn-primary">
+        <ValidationSummary />
+
+        <button type="submit" class="btn btn-dark w-50 mx-auto">
+            Mail senden
+        </button>
+                
+    </EditForm>
+
+</div>
+
+<div class="d-flex justify-content-center m-2">
+    @if (isSuccess == 1)
+    {
+        <div class="alert alert-success mt-3" role="alert">
+            Die Note wurde erfolgreich gesendet!
+        </div>
+    }
+    @if (isSuccess == 2)
+    {
+        <div class="alert alert-danger mt-3" role="alert">
+            Beim Senden der Note ist ein Fehler aufgetreten. Bitte versuchen Sie es später erneut.
+        </div>
+    }
+</div>
+
+
+<div class="d-flex justify-content-center m-2">
+    <NavLink href="/admin/register" class="btn btn-primary ms-3">
         Benutzer registrieren
     </NavLink>
-
 </div>

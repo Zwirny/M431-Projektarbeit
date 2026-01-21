@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Components;
+﻿using System.ComponentModel.DataAnnotations;
+using Microsoft.AspNetCore.Components;
 using Microsoft.JSInterop;
 using Notenverwaltung.Shared.Dtos.GradeDtos;
 using Notenverwaltung.Web.Services.Abstract;
@@ -7,11 +8,12 @@ namespace Notenverwaltung.Web.Pages;
 
 public partial class Verwaltung
 {
+
+    PostGradeDto gradeModel = new();
+
     PostGradeDto postGradeModel = new PostGradeDto();
-    public string student;
-    public float examGrade;
-    public string course;
-    public string notice;
+
+    public int isSuccess;
 
     [Inject]
     public IJSRuntime JSRuntime { get; set; } = default!;
@@ -21,12 +23,19 @@ public partial class Verwaltung
 
     public async Task SendGrade()
     {
-        string[] studentName = student.Split(" ");
-        postGradeModel.StudentFirstName = studentName[0];
-        postGradeModel.StudentLastName = studentName[1];
-        postGradeModel.Grade = examGrade;
+        postGradeModel = gradeModel;   
         postGradeModel.CourseId = 1;
-        postGradeModel.Notice = notice;
+
         var response = await _gradeService.PostGradeAsync(postGradeModel);
+
+        if (response.IsSuccessStatusCode)
+        {
+            isSuccess = 1;
+            gradeModel = new PostGradeDto();
+        }
+        else
+        {
+            isSuccess = 2;
+        }
     }
 }

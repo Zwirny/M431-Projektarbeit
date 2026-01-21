@@ -9,15 +9,19 @@ namespace Notenverwaltung.Shared.Dtos.GradeDtos
 {
     public class PostGradeDto
     {
-        [Required]
-        public string StudentFirstName { get; set; }
-        [Required]
-        public string StudentLastName { get; set; }
-        [Required]
+        [Required(ErrorMessage = "Vorname ist erforderlich")]
+        public string StudentFirstName { get; set; } = string.Empty;
+
+        [Required(ErrorMessage = "Nachname ist erforderlich")]
+        public string StudentLastName { get; set; } = string.Empty;
+
+        [Required(ErrorMessage = "Fach ist erforderlich")]
         public int CourseId { get; set; }
-        [Required]
-        [Range(1, 6)]
+
+        [Required(ErrorMessage = "Note ist erforderlich")]
+        [Range(1, 6, ErrorMessage = "Die Note muss zwischen 1 und 6 liegen")]
         public float Grade { get; set; }
-        public string Notice { get; set; }
+
+        public string? Notice { get; set; }
     }
 }
