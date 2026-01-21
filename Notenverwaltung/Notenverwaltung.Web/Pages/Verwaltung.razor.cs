@@ -25,6 +25,9 @@ public partial class Verwaltung
     public IJSRuntime JSRuntime { get; set; } = default!;
 
     [Inject]
+    NavigationManager Navigation { get; set; } = default!;
+
+    [Inject]
     IGradeService _gradeService { get; set; } = default!;
 
     [Inject]
@@ -32,6 +35,11 @@ public partial class Verwaltung
 
     protected override async Task OnInitializedAsync()
     {
+        var token = await JSRuntime.InvokeAsync<string>("localStorage.getItem", "jwtToken");
+        if (string.IsNullOrEmpty(token))
+        {
+            Navigation.NavigateTo("/");
+        }
         courses = await _courseService.GetCoursesAsync();
     }
 

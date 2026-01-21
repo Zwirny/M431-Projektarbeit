@@ -1,4 +1,6 @@
 ﻿@inject NavigationManager Nav
+@inject IJSRuntime JSRuntime
+
 
 <nav class="navbar navbar-expand-lg navbar-light border-bottom">
 	<!-- Container fluid = fills out whole width of the screen -->
@@ -15,7 +17,7 @@
 
 				<AuthorizeView>
 					<Authorized>
-						<button class="btn btn-dark ms-3">Log out</button>
+						<button class="btn btn-dark ms-3" @onclick="HandleLogout">Log out</button>
 					</Authorized>
 				</AuthorizeView>
 
@@ -26,3 +28,11 @@
 
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+@code{
+	private async Task HandleLogout()
+	{
+		await JSRuntime.InvokeVoidAsync("localStorage.removeItem", "jwtToken");
+		Nav.NavigateTo("/");
+	}
+}
