@@ -100,7 +100,7 @@
               "RelativeDocumentMoniker": "Notenverwaltung.Web\\Pages\\Login.razor.cs",
               "ToolTip": "C:\\Users\\SandroZwyer\\OneDrive - bits ag\\Dokumente\\.Schule\\GIBZ\\Informatik\\M431\\Projekt\\M431-Projektarbeit\\Notenverwaltung\\Notenverwaltung.Web\\Pages\\Login.razor.cs",
               "RelativeToolTip": "Notenverwaltung.Web\\Pages\\Login.razor.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAQwCEAAABJAAAAAAAAAA==",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAQwBQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-01-21T12:22:14.304Z",
               "EditorCaption": ""
@@ -115,8 +115,7 @@
               "RelativeToolTip": "Notenverwaltung.Web\\Pages\\Login.razor",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAUAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-01-21T12:19:22.793Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-21T12:19:22.793Z"
             },
             {
               "$type": "Document",
@@ -128,8 +127,7 @@
               "RelativeToolTip": "Notenverwaltung.Shared\\DTOs\\UserDtos\\LoginDto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAA+AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-21T12:18:32.598Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-21T12:18:32.598Z"
             },
             {
               "$type": "Document",
@@ -141,8 +139,7 @@
               "RelativeToolTip": "Notenverwaltung.Web\\Layout\\NavMenu.razor",
               "ViewState": "AgIAABgAAAAAAAAAAAAYwCUAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-01-21T12:12:20.899Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-21T12:12:20.899Z"
             },
             {
               "$type": "Document",
@@ -154,8 +151,7 @@
               "RelativeToolTip": "Notenverwaltung.Web\\Pages\\AdminUsers.razor",
               "ViewState": "AgIAAEMAAAAAAAAAAAAuwFYAAABVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-01-21T12:03:36.655Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-21T12:03:36.655Z"
             },
             {
               "$type": "Document",
@@ -167,8 +163,7 @@
               "RelativeToolTip": "Notenverwaltung.API\\appsettings.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAABDAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2026-01-21T12:01:52.559Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-21T12:01:52.559Z"
             },
             {
               "$type": "Document",
@@ -180,8 +175,7 @@
               "RelativeToolTip": "Notenverwaltung.API\\Service\\DependencyInjektion.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAABAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-21T12:00:58.679Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-21T12:00:58.679Z"
             },
             {
               "$type": "Document",
@@ -193,8 +187,7 @@
               "RelativeToolTip": "Notenverwaltung.API\\DataAccess\\DataDependency.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-21T12:00:45.124Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-21T12:00:45.124Z"
             },
             {
               "$type": "Document",
@@ -206,8 +199,7 @@
               "RelativeToolTip": "Notenverwaltung.Web\\Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAADkAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-21T12:00:30.157Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-21T12:00:30.157Z"
             },
             {
               "$type": "Document",
@@ -219,8 +211,7 @@
               "RelativeToolTip": "Notenverwaltung.Web\\Services\\Abstract\\ICourseService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-21T11:59:47.55Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-21T11:59:47.55Z"
             },
             {
               "$type": "Document",
@@ -232,8 +223,7 @@
               "RelativeToolTip": "Notenverwaltung.Web\\Pages\\Verwaltung.razor.cs",
               "ViewState": "AgIAABQAAAAAAAAAAAAgwCgAAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-21T11:59:24.446Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-21T11:59:24.446Z"
             },
             {
               "$type": "Document",
@@ -245,8 +235,7 @@
               "RelativeToolTip": "Notenverwaltung.Web\\Pages\\Verwaltung.razor",
               "ViewState": "AgIAABsAAAAAAAAAAAAAAD0AAAASAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-01-21T11:58:57.837Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-21T11:58:57.837Z"
             },
             {
               "$type": "Document",
@@ -258,8 +247,7 @@
               "RelativeToolTip": "Notenverwaltung.Web\\Services\\CourseService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-20T22:40:51.059Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-20T22:40:51.059Z"
             },
             {
               "$type": "Document",
