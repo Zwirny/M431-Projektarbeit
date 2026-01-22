@@ -1,3 +1,5 @@
+CREATE DATABASE  IF NOT EXISTS `schulverwaltung` /*!40100 DEFAULT CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci */ /*!80016 DEFAULT ENCRYPTION='N' */;
+USE `schulverwaltung`;
 -- MySQL dump 10.13  Distrib 8.0.43, for Win64 (x86_64)
 --
 -- Host: localhost    Database: schulverwaltung
@@ -16,61 +18,6 @@
 /*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;
 
 --
--- Table structure for table `klasse`
---
-
-DROP DATABASE IF EXISTS `schulverwaltung`;
-CREATE DATABASE `schulverwaltung`;
-USE `schulverwaltung`;
-
-DROP TABLE IF EXISTS `klasse`;
-/*!40101 SET @saved_cs_client     = @@character_set_client */;
-/*!50503 SET character_set_client = utf8mb4 */;
-CREATE TABLE `klasse` (
-  `Id` int NOT NULL AUTO_INCREMENT,
-  `Kuerzel` varchar(50) COLLATE utf8mb4_unicode_ci NOT NULL,
-  PRIMARY KEY (`Id`)
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
-/*!40101 SET character_set_client = @saved_cs_client */;
-
---
--- Dumping data for table `klasse`
---
-
-LOCK TABLES `klasse` WRITE;
-/*!40000 ALTER TABLE `klasse` DISABLE KEYS */;
-/*!40000 ALTER TABLE `klasse` ENABLE KEYS */;
-UNLOCK TABLES;
-
---
--- Table structure for table `klassenteilnehmer`
---
-
-DROP TABLE IF EXISTS `klassenteilnehmer`;
-/*!40101 SET @saved_cs_client     = @@character_set_client */;
-/*!50503 SET character_set_client = utf8mb4 */;
-CREATE TABLE `klassenteilnehmer` (
-  `Id` int NOT NULL AUTO_INCREMENT,
-  `KlasseID` int NOT NULL,
-  `SchuelerID` int NOT NULL,
-  PRIMARY KEY (`Id`),
-  KEY `FK_KlassenTeilnehmer_Klasse` (`KlasseID`),
-  KEY `FK_KlassenTeilnehmer_Schueler` (`SchuelerID`),
-  CONSTRAINT `FK_KlassenTeilnehmer_Klasse` FOREIGN KEY (`KlasseID`) REFERENCES `klasse` (`Id`) ON DELETE CASCADE ON UPDATE CASCADE,
-  CONSTRAINT `FK_KlassenTeilnehmer_Schueler` FOREIGN KEY (`SchuelerID`) REFERENCES `schueler` (`Id`) ON DELETE CASCADE ON UPDATE CASCADE
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
-/*!40101 SET character_set_client = @saved_cs_client */;
-
---
--- Dumping data for table `klassenteilnehmer`
---
-
-LOCK TABLES `klassenteilnehmer` WRITE;
-/*!40000 ALTER TABLE `klassenteilnehmer` DISABLE KEYS */;
-/*!40000 ALTER TABLE `klassenteilnehmer` ENABLE KEYS */;
-UNLOCK TABLES;
-
---
 -- Table structure for table `kurs`
 --
 
@@ -82,7 +29,7 @@ CREATE TABLE `kurs` (
   `KursName` varchar(100) COLLATE utf8mb4_unicode_ci NOT NULL,
   `Beschreibung` varchar(100) COLLATE utf8mb4_unicode_ci DEFAULT NULL,
   PRIMARY KEY (`Id`)
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
+) ENGINE=InnoDB AUTO_INCREMENT=4 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -91,38 +38,8 @@ CREATE TABLE `kurs` (
 
 LOCK TABLES `kurs` WRITE;
 /*!40000 ALTER TABLE `kurs` DISABLE KEYS */;
+INSERT INTO `kurs` VALUES (1,'Mathematik','Grundlagen'),(2,'Informatik','Programmieren'),(3,'Datenbanken','SQL Basics');
 /*!40000 ALTER TABLE `kurs` ENABLE KEYS */;
-UNLOCK TABLES;
-
---
--- Table structure for table `kursteilnahme`
---
-
-DROP TABLE IF EXISTS `kursteilnahme`;
-/*!40101 SET @saved_cs_client     = @@character_set_client */;
-/*!50503 SET character_set_client = utf8mb4 */;
-CREATE TABLE `kursteilnahme` (
-  `Id` int NOT NULL AUTO_INCREMENT,
-  `KlasseID` int NOT NULL,
-  `KursID` int NOT NULL,
-  `LehrpersonID` int NOT NULL,
-  PRIMARY KEY (`Id`),
-  KEY `FK_Kursteilnahme_Klasse` (`KlasseID`),
-  KEY `FK_Kursteilnahme_Kurs` (`KursID`),
-  KEY `FK_Kursteilnahme_Lehrperson` (`LehrpersonID`),
-  CONSTRAINT `FK_Kursteilnahme_Klasse` FOREIGN KEY (`KlasseID`) REFERENCES `klasse` (`Id`) ON DELETE CASCADE ON UPDATE CASCADE,
-  CONSTRAINT `FK_Kursteilnahme_Kurs` FOREIGN KEY (`KursID`) REFERENCES `kurs` (`Id`) ON DELETE CASCADE ON UPDATE CASCADE,
-  CONSTRAINT `FK_Kursteilnahme_Lehrperson` FOREIGN KEY (`LehrpersonID`) REFERENCES `user` (`Id`) ON DELETE RESTRICT ON UPDATE CASCADE
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
-/*!40101 SET character_set_client = @saved_cs_client */;
-
---
--- Dumping data for table `kursteilnahme`
---
-
-LOCK TABLES `kursteilnahme` WRITE;
-/*!40000 ALTER TABLE `kursteilnahme` DISABLE KEYS */;
-/*!40000 ALTER TABLE `kursteilnahme` ENABLE KEYS */;
 UNLOCK TABLES;
 
 --
@@ -135,18 +52,17 @@ DROP TABLE IF EXISTS `noten`;
 CREATE TABLE `noten` (
   `Id` int NOT NULL AUTO_INCREMENT,
   `KursID` int NOT NULL,
-  `SchuelerID` int NOT NULL,
   `LehrpersonID` int NOT NULL,
   `Note` decimal(3,1) NOT NULL,
-  `Bemerkung` varchar(255) COLLATE utf8mb4_unicode_ci DEFAULT NULL,
+  `Bemerkung` varchar(255) CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci DEFAULT NULL,
+  `SchuelerVorname` varchar(100) COLLATE utf8mb4_unicode_ci NOT NULL,
+  `SchuelerNachname` varchar(100) COLLATE utf8mb4_unicode_ci NOT NULL,
   PRIMARY KEY (`Id`),
   KEY `FK_Noten_Kurs` (`KursID`),
-  KEY `FK_Noten_Schueler` (`SchuelerID`),
   KEY `FK_Noten_Lehrperson` (`LehrpersonID`),
   CONSTRAINT `FK_Noten_Kurs` FOREIGN KEY (`KursID`) REFERENCES `kurs` (`Id`) ON DELETE CASCADE ON UPDATE CASCADE,
-  CONSTRAINT `FK_Noten_Lehrperson` FOREIGN KEY (`LehrpersonID`) REFERENCES `user` (`Id`) ON DELETE RESTRICT ON UPDATE CASCADE,
-  CONSTRAINT `FK_Noten_Schueler` FOREIGN KEY (`SchuelerID`) REFERENCES `schueler` (`Id`) ON DELETE CASCADE ON UPDATE CASCADE
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
+  CONSTRAINT `FK_Noten_Lehrperson` FOREIGN KEY (`LehrpersonID`) REFERENCES `user` (`Id`) ON DELETE RESTRICT ON UPDATE CASCADE
+) ENGINE=InnoDB AUTO_INCREMENT=12 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -155,34 +71,8 @@ CREATE TABLE `noten` (
 
 LOCK TABLES `noten` WRITE;
 /*!40000 ALTER TABLE `noten` DISABLE KEYS */;
+INSERT INTO `noten` VALUES (1,2,4,6.0,'string','string','string'),(2,2,4,6.0,'string','string','string'),(3,2,4,6.0,'string','string','string'),(4,2,4,6.0,'string','string','string'),(5,3,4,3.0,'wrong grade lil bro','stringing','stringign'),(6,2,4,6.0,'string','string','string'),(7,1,1,4.5,'Test123','Test123','Test123'),(8,1,1,6.0,'Test1234','Test1234','Test1234'),(9,1,1,1.0,'Test12345','Test12345','Test12345'),(10,1,1,5.0,'Test123','Test123','Test123'),(11,1,1,6.0,'Test123','fewf','Test12345');
 /*!40000 ALTER TABLE `noten` ENABLE KEYS */;
-UNLOCK TABLES;
-
---
--- Table structure for table `schueler`
---
-
-DROP TABLE IF EXISTS `schueler`;
-/*!40101 SET @saved_cs_client     = @@character_set_client */;
-/*!50503 SET character_set_client = utf8mb4 */;
-CREATE TABLE `schueler` (
-  `Id` int NOT NULL AUTO_INCREMENT,
-  `HauptLehrpersonId` int DEFAULT NULL,
-  `Vorname` varchar(100) COLLATE utf8mb4_unicode_ci NOT NULL,
-  `Nachname` varchar(100) COLLATE utf8mb4_unicode_ci NOT NULL,
-  PRIMARY KEY (`Id`),
-  KEY `FK_Schueler_Lehrperson` (`HauptLehrpersonId`),
-  CONSTRAINT `FK_Schueler_Lehrperson` FOREIGN KEY (`HauptLehrpersonId`) REFERENCES `user` (`Id`) ON DELETE SET NULL ON UPDATE CASCADE
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
-/*!40101 SET character_set_client = @saved_cs_client */;
-
---
--- Dumping data for table `schueler`
---
-
-LOCK TABLES `schueler` WRITE;
-/*!40000 ALTER TABLE `schueler` DISABLE KEYS */;
-/*!40000 ALTER TABLE `schueler` ENABLE KEYS */;
 UNLOCK TABLES;
 
 --
@@ -196,7 +86,7 @@ CREATE TABLE `status` (
   `Id` int NOT NULL AUTO_INCREMENT,
   `Status` varchar(50) COLLATE utf8mb4_unicode_ci NOT NULL,
   PRIMARY KEY (`Id`)
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
+) ENGINE=InnoDB AUTO_INCREMENT=3 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -205,6 +95,7 @@ CREATE TABLE `status` (
 
 LOCK TABLES `status` WRITE;
 /*!40000 ALTER TABLE `status` DISABLE KEYS */;
+INSERT INTO `status` VALUES (1,'Admin'),(2,'Lehrer/in');
 /*!40000 ALTER TABLE `status` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -225,7 +116,7 @@ CREATE TABLE `user` (
   PRIMARY KEY (`Id`),
   KEY `FK_User_Status` (`StatusID`),
   CONSTRAINT `FK_User_Status` FOREIGN KEY (`StatusID`) REFERENCES `status` (`Id`) ON DELETE RESTRICT ON UPDATE CASCADE
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
+) ENGINE=InnoDB AUTO_INCREMENT=5 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -234,6 +125,7 @@ CREATE TABLE `user` (
 
 LOCK TABLES `user` WRITE;
 /*!40000 ALTER TABLE `user` DISABLE KEYS */;
+INSERT INTO `user` VALUES (1,1,'Admin','Admin','Admin@admin.com','1234567890'),(2,2,'test2','test2','testtest@test.com','123456789'),(3,2,'test','test','test@test.com','testtest'),(4,2,'string','string','string@string.com','string');
 /*!40000 ALTER TABLE `user` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
@@ -246,4 +138,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2025-12-04  8:22:32
+-- Dump completed on 2026-01-22  8:00:56
